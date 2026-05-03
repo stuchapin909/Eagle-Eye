@@ -592817,22 +592817,6 @@
     "auth": false
   },
   {
-    "id": "za-50-2",
-    "name": "GP CCTV N1 613A",
-    "url": "https://www.i-traffic.co.za/map/Cctv/50--2",
-    "city": "City Of Johannesburg",
-    "country": "ZA",
-    "location": "N1, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -26.07431,
-      "lng": 27.97245
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
     "id": "za-50-3",
     "name": "N2-CCTV-018",
     "url": "https://www.i-traffic.co.za/map/Cctv/50--3",
