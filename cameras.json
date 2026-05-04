@@ -46080,22 +46080,6 @@
     }
   },
   {
-    "category": "highway",
-    "city": "Washington",
-    "country": "US",
-    "id": "wa-lapush-344e61",
-    "location": "LaPush, Washington, USA",
-    "name": "LaPush",
-    "timezone": "America/Los_Angeles",
-    "url": "https://webcam.forkswa.com/webcam1/netcam.jpg",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 47.9087,
-      "lng": -124.6366
-    }
-  },
-  {
     "category": "port",
     "city": "Seattle",
     "country": "US",
@@ -414256,22 +414240,6 @@
     }
   },
   {
-    "id": "ga-13016-i-20w",
-    "name": "GDOT-0350: I-20 W at CapitolAve MM 57.2 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20426",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.744277,
-      "lng": -84.387547
-    }
-  },
-  {
     "id": "ga-13017-i-20e",
     "name": "GDOT-0353: I-20 E past CherokeeAve MM 58.1 (Fulton)",
     "url": "https://511ga.org/map/Cctv/20427",
@@ -433680,22 +433648,6 @@
     }
   },
   {
-    "id": "ga-14277-sml-els",
-    "name": "GDOT-0769: SML_EL/I-675 S past US23 MM 2.3 (Clayton)",
-    "url": "https://511ga.org/map/Cctv/21687",
-    "category": "highway",
-    "location": "Clayton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Clayton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.572702,
-      "lng": -84.275862
-    }
-  },
-  {
     "id": "ga-14278-sml-eln",
     "name": "GDOT-0772: SML_EL/I-675 N before SR138 MM 0.8 (Clayton)",
     "url": "https://511ga.org/map/Cctv/21688",
@@ -435520,22 +435472,6 @@
     }
   },
   {
-    "id": "ga-14397-i-75s",
-    "name": "GDOT-1204: I-75 S at US411 MM 293.2 (Bartow)",
-    "url": "https://511ga.org/map/Cctv/21807",
-    "category": "highway",
-    "location": "Bartow, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Bartow",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.244921,
-      "lng": -84.773135
-    }
-  },
-  {
     "id": "ga-14398-i-75n",
     "name": "GDOT-1209: I-75 N at SR225 MM 317 (Gordon)",
     "url": "https://511ga.org/map/Cctv/21808",
@@ -435885,22 +435821,6 @@
     "coordinates": {
       "lat": 34.446163,
       "lng": -84.445458
-    }
-  },
-  {
-    "id": "ga-14424-i-675n",
-    "name": "GDOT-1299: I-675 N past SR138 MM 1.2 (Clayton)",
-    "url": "https://511ga.org/map/Cctv/21834",
-    "category": "highway",
-    "location": "Clayton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Clayton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.55739,
-      "lng": -84.269886
     }
   },
   {
@@ -586529,22 +586449,6 @@
     "auth": false
   },
   {
-    "id": "za-206-2",
-    "name": "GP CCTV N1 021A",
-    "url": "https://www.i-traffic.co.za/map/Cctv/206--2",
-    "city": "City Of Johannesburg",
-    "country": "ZA",
-    "location": "N1, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -25.95442,
-      "lng": 28.13466
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
     "id": "za-206-3",
     "name": "N3-CCTV-120B",
     "url": "https://www.i-traffic.co.za/map/Cctv/206--3",
@@ -593100,22 +593004,6 @@
     "coordinates": {
       "lat": -34.08404,
       "lng": 18.82838
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
-    "id": "za-58-2",
-    "name": "GP CCTV N1 047",
-    "url": "https://www.i-traffic.co.za/map/Cctv/58--2",
-    "city": "City Of Johannesburg",
-    "country": "ZA",
-    "location": "N3, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -26.04513,
-      "lng": 28.09293
     },
     "verified": false,
     "auth": false
@@ -622020,22 +621908,6 @@
     "city": "At Sea",
     "category": "ferry",
     "location": "Norwegian Jade Bridge",
-    "timezone": "UTC",
-    "coordinates": {
-      "lat": 0,
-      "lng": 0
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "ncl-jewel-bridge",
-    "name": "Norwegian Jewel Bridge Cam",
-    "url": "http://www.ncl.com/shipcams/jewelcam/fullsize.jpg",
-    "country": "US",
-    "city": "At Sea",
-    "category": "ferry",
-    "location": "Norwegian Jewel Bridge",
     "timezone": "UTC",
     "coordinates": {
       "lat": 0,
