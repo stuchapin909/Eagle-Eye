@@ -422992,22 +422992,6 @@
     }
   },
   {
-    "id": "ga-13589-i-575s",
-    "name": "GDOT-0907: I-575 S at SR140 MM 16.8 (Cherokee)",
-    "url": "https://511ga.org/map/Cctv/20999",
-    "category": "highway",
-    "location": "Cherokee, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cherokee",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.218317,
-      "lng": -84.49005
-    }
-  },
-  {
     "id": "ga-13590-i-575n",
     "name": "GDOT-0910: I-575 N before SR20 MM 18.4 (Cherokee)",
     "url": "https://511ga.org/map/Cctv/21000",
@@ -435789,22 +435773,6 @@
     "coordinates": {
       "lat": 31.207147,
       "lng": -82.336697
-    }
-  },
-  {
-    "id": "ga-14422-sr23n",
-    "name": "GDOT-1292: SR23/US23 N at US76 MM 11.3 (Rabun)",
-    "url": "https://511ga.org/map/Cctv/21832",
-    "category": "highway",
-    "location": "Rabun, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Rabun",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.874201,
-      "lng": -83.398374
     }
   },
   {
@@ -567160,24 +567128,6 @@
     "coordinates": {
       "lat": 44.951658,
       "lng": -93.125551
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C30248",
-    "name": "Hudson Rd WB @ 4th St",
-    "url": "https://public.carsprogram.org/cameras/MN/C30248",
-    "city": "Maplewood",
-    "country": "US",
-    "location": "I-94, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.949819,
-      "lng": -93.001986
     },
     "verified": true,
     "auth": {
