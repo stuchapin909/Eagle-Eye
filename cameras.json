@@ -430624,22 +430624,6 @@
     }
   },
   {
-    "id": "ga-14080-i-75n",
-    "name": "GDOT-0090: I-75/I-85 N before UniversityAve MM 244.6 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21490",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.720756,
-      "lng": -84.395375
-    }
-  },
-  {
     "id": "ga-14081-i-85s",
     "name": "GDOT-0093: I-85 S before ShallowfordRd MM 93.2 (DeKalb)",
     "url": "https://511ga.org/map/Cctv/21491",
@@ -432784,22 +432768,6 @@
     }
   },
   {
-    "id": "ga-14222-nwc-eln",
-    "name": "GDOT-0558: NWC_EL/I-575 N at TowneLakePkwy MM 8.2 (Cherokee)",
-    "url": "https://511ga.org/map/Cctv/21632",
-    "category": "highway",
-    "location": "Cherokee, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cherokee",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.1021,
-      "lng": -84.53052
-    }
-  },
-  {
     "id": "ga-14223-nwc-eln",
     "name": "GDOT-0561: NWC_EL/I-575 N before RidgewalkPkwy MM 9.4 (Cherokee)",
     "url": "https://511ga.org/map/Cctv/21633",
@@ -432957,22 +432925,6 @@
     "coordinates": {
       "lat": 33.957912,
       "lng": -84.231142
-    }
-  },
-  {
-    "id": "ga-14234-sr141s",
-    "name": "GDOT-0594: SR141 S at SR140 MM 1.7 (Gwinnett)",
-    "url": "https://511ga.org/map/Cctv/21644",
-    "category": "highway",
-    "location": "Gwinnett, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Gwinnett",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.943979,
-      "lng": -84.240872
     }
   },
   {
@@ -434064,22 +434016,6 @@
     }
   },
   {
-    "id": "ga-14306-i-85n",
-    "name": "GDOT-0875: I-85 N before US129/SR11 MM 135.4 (Jackson)",
-    "url": "https://511ga.org/map/Cctv/21716",
-    "category": "highway",
-    "location": "Jackson, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Jackson",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.1418,
-      "lng": -83.66235
-    }
-  },
-  {
     "id": "ga-14307-i-575s",
     "name": "GDOT-0900: I-575 S at MarbleQuarryRd MM 13.2 (Cherokee)",
     "url": "https://511ga.org/map/Cctv/21717",
@@ -434205,22 +434141,6 @@
     "coordinates": {
       "lat": 33.621422,
       "lng": -84.488342
-    }
-  },
-  {
-    "id": "ga-14316-i-285u",
-    "name": "GDOT-0933: I-285 CW at WashingtonRd MM 3 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21726",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.638839,
-      "lng": -84.493978
     }
   },
   {
@@ -434493,22 +434413,6 @@
     "coordinates": {
       "lat": 34.281397,
       "lng": -83.808597
-    }
-  },
-  {
-    "id": "ga-14337-i-985s",
-    "name": "GDOT-0997: I-985 S past OldCorneliaHwy MM 23.2 (Hall)",
-    "url": "https://511ga.org/map/Cctv/21747",
-    "category": "highway",
-    "location": "Hall, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Hall",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.306109,
-      "lng": -83.791304
     }
   },
   {
@@ -435008,22 +434912,6 @@
     }
   },
   {
-    "id": "ga-14369-i-16w",
-    "name": "GDOT-1115: I-16 W at AshBranchChurchRd MM 131.4 (Bulloch)",
-    "url": "https://511ga.org/map/Cctv/21779",
-    "category": "highway",
-    "location": "Bulloch, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Bulloch",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.230403,
-      "lng": -81.62353
-    }
-  },
-  {
     "id": "ga-14370-i-16w",
     "name": "GDOT-1118: I-16 W past TarCityRd MM 144 (Bryan)",
     "url": "https://511ga.org/map/Cctv/21780",
@@ -435424,38 +435312,6 @@
     }
   },
   {
-    "id": "ga-14395-i-75n",
-    "name": "GDOT-1197: I-75 N at BethlehemRd MM 213.7 (Henry)",
-    "url": "https://511ga.org/map/Cctv/21805",
-    "category": "highway",
-    "location": "Henry, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Henry",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.377823,
-      "lng": -84.138706
-    }
-  },
-  {
-    "id": "ga-14396-i-75s",
-    "name": "GDOT-1200: I-75 S at OldAllatoonaRd MM 283.2 (Bartow)",
-    "url": "https://511ga.org/map/Cctv/21806",
-    "category": "highway",
-    "location": "Bartow, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Bartow",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.118406,
-      "lng": -84.739617
-    }
-  },
-  {
     "id": "ga-14398-i-75n",
     "name": "GDOT-1209: I-75 N at SR225 MM 317 (Gordon)",
     "url": "https://511ga.org/map/Cctv/21808",
@@ -435792,22 +435648,6 @@
     }
   },
   {
-    "id": "ga-14425-i-75s",
-    "name": "GDOT-1302: I-75 S past HudsonBridgeRd MM 223.9 (Henry)",
-    "url": "https://511ga.org/map/Cctv/21835",
-    "category": "highway",
-    "location": "Henry, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Henry",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.502278,
-      "lng": -84.227819
-    }
-  },
-  {
     "id": "ga-14426-sr316e",
     "name": "GDOT-1306: SR316/US29 E at SR81 MM 4.9 (Barrow)",
     "url": "https://511ga.org/map/Cctv/21836",
@@ -436032,22 +435872,6 @@
     }
   },
   {
-    "id": "ga-14443-i-475s",
-    "name": "GDOT-1366: I-475 S past US80 MM 3.8 (Bibb)",
-    "url": "https://511ga.org/map/Cctv/21853",
-    "category": "highway",
-    "location": "Bibb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Bibb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.8063,
-      "lng": -83.72426
-    }
-  },
-  {
     "id": "ga-14444-sr74w",
     "name": "GDOT-1369: SR74 W past LogCabinRd MM 10.9 (Bibb)",
     "url": "https://511ga.org/map/Cctv/21854",
@@ -436189,22 +436013,6 @@
     "coordinates": {
       "lat": 32.112778,
       "lng": -81.237397
-    }
-  },
-  {
-    "id": "ga-14454-i-16e",
-    "name": "GDOT-1399: I-16 E at WGwinnettSt MM 166.5 (Chatham)",
-    "url": "https://511ga.org/map/Cctv/21864",
-    "category": "highway",
-    "location": "Chatham, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Chatham",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.069511,
-      "lng": -81.107531
     }
   },
   {
@@ -549614,24 +549422,6 @@
     "coordinates": {
       "lat": 45.10543,
       "lng": -93.393604
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C30100",
-    "name": "T.H.55 EB @ Pleasant Dr NB",
-    "url": "https://public.carsprogram.org/cameras/MN/C30100",
-    "city": "Hastings",
-    "country": "US",
-    "location": "MN 55, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.73821,
-      "lng": -92.882522
     },
     "verified": true,
     "auth": {
