@@ -248048,22 +248048,6 @@
     }
   },
   {
-    "id": "nc-1860-us1-wall-rd",
-    "name": "US1 @ Wall Rd",
-    "url": "https://cfss.services.ncdot.gov/snapshots/chan-6322_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 36.01365011752056,
-      "lng": -78.51718543925726
-    }
-  },
-  {
     "id": "nc-1861-us1-holden-rd",
     "name": "US1 @ Holden Rd",
     "url": "https://cfss.services.ncdot.gov/snapshots/chan-6323_h.jpg",
@@ -343104,22 +343088,6 @@
     }
   },
   {
-    "id": "ut-122062",
-    "name": "US-6 @ Milepost 182.39, UT",
-    "url": "https://udottraffic.utah.gov/map/Cctv/122062",
-    "category": "highway",
-    "location": "Utah, Utah, USA",
-    "timezone": "America/Denver",
-    "country": "US",
-    "city": "Utah",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.03837,
-      "lng": -111.53465
-    }
-  },
-  {
     "id": "ut-122064",
     "name": "State St / SR-9 @ Center St, LVR",
     "url": "https://udottraffic.utah.gov/map/Cctv/122064",
@@ -431680,22 +431648,6 @@
     }
   },
   {
-    "id": "ga-14154-i-20e",
-    "name": "GDOT-0334: I-20 E before AndersonAve MM 53.2 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21564",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.75089,
-      "lng": -84.453239
-    }
-  },
-  {
     "id": "ga-14155-i-20e",
     "name": "GDOT-0338: I-20 E before LanghornSt MM 54.4 (Fulton)",
     "url": "https://511ga.org/map/Cctv/21565",
@@ -434928,22 +434880,6 @@
     }
   },
   {
-    "id": "ga-14373-i-20e",
-    "name": "GDOT-1129: I-20 E at PostRd MM 30 (Douglas)",
-    "url": "https://511ga.org/map/Cctv/21783",
-    "category": "highway",
-    "location": "Douglas, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Douglas",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.718845,
-      "lng": -84.833195
-    }
-  },
-  {
     "id": "ga-14374-i-20e",
     "name": "GDOT-1132: I-20 E past LeeRd MM 41.8 (Douglas)",
     "url": "https://511ga.org/map/Cctv/21784",
@@ -435261,22 +435197,6 @@
     "coordinates": {
       "lat": 33.285786,
       "lng": -84.108817
-    }
-  },
-  {
-    "id": "ga-14398-i-75n",
-    "name": "GDOT-1209: I-75 N at SR225 MM 317 (Gordon)",
-    "url": "https://511ga.org/map/Cctv/21808",
-    "category": "highway",
-    "location": "Gordon, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Gordon",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.541512,
-      "lng": -84.921398
     }
   },
   {
