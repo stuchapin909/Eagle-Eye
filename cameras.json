@@ -242080,22 +242080,6 @@
     }
   },
   {
-    "id": "nc-1152-i-40-mm-4-2",
-    "name": "I-40 @ MM 4.2",
-    "url": "https://cfss.services.ncdot.gov/snapshots/chan-6122_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 35.754375,
-      "lng": -83.043217
-    }
-  },
-  {
     "id": "nc-1156-i-40-mm-27",
     "name": "I-40 @ mm 27",
     "url": "https://eapps.ncdot.gov/services/traffic-prod/v1/cameras/images?filename=I40_mm27.jpg",
@@ -421184,22 +421168,6 @@
     }
   },
   {
-    "id": "ga-13473-nwc-els",
-    "name": "GDOT-0466: NWC_EL/I-75 S before WindyHillRd MM 259.8 (Cobb)",
-    "url": "https://511ga.org/map/Cctv/20883",
-    "category": "highway",
-    "location": "Cobb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cobb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.90472,
-      "lng": -84.47575
-    }
-  },
-  {
     "id": "ga-13474-nwc-els",
     "name": "GDOT-0469: NWC_EL/I-75 S before WindyHillRd MM 260.4 (Cobb)",
     "url": "https://511ga.org/map/Cctv/20884",
@@ -434784,22 +434752,6 @@
     }
   },
   {
-    "id": "ga-14366-sr34e",
-    "name": "GDOT-1103: SR34 E at SR34 MM 14.2 (Coweta)",
-    "url": "https://511ga.org/map/Cctv/21776",
-    "category": "highway",
-    "location": "Coweta, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Coweta",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.395265,
-      "lng": -84.761166
-    }
-  },
-  {
     "id": "ga-14367-sml-eln",
     "name": "GDOT-1108: SML_EL/I-75 N at JonesboroRd MM 220.9 (Henry)",
     "url": "https://511ga.org/map/Cctv/21777",
@@ -435968,22 +435920,6 @@
     }
   },
   {
-    "id": "ga-14463-i-185s",
-    "name": "GDOT-1444: I-185 S at AirportThruway MM 8.2 (Muscogee)",
-    "url": "https://511ga.org/map/Cctv/21873",
-    "category": "highway",
-    "location": "Muscogee, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Muscogee",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.51943,
-      "lng": -84.95366
-    }
-  },
-  {
     "id": "ga-14464-i-185n",
     "name": "GDOT-1447: I-185 N before SmithRd MM 14.2 (Muscogee)",
     "url": "https://511ga.org/map/Cctv/21874",
@@ -436045,22 +435981,6 @@
     "coordinates": {
       "lat": 33.483723,
       "lng": -82.124669
-    }
-  },
-  {
-    "id": "ga-14468-i-520s",
-    "name": "GDOT-1507: I-520 S at WrightsboroRd MM 2.3 (Richmond)",
-    "url": "https://511ga.org/map/Cctv/21878",
-    "category": "highway",
-    "location": "Richmond, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Richmond",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.460894,
-      "lng": -82.080813
     }
   },
   {
