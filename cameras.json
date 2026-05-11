@@ -546815,24 +546815,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C30337-v4",
-    "name": "U.S.63 (Le Roy - MP 0.5) View 4",
-    "url": "https://public.carsprogram.org/cameras/MN/C30337-v4",
-    "city": "12 miles south of Spring Valley",
-    "country": "US",
-    "location": "US 63, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 43.508397,
-      "lng": -92.369334
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C8221",
     "name": "I-94 WB @ Dowling Ave",
     "url": "https://public.carsprogram.org/cameras/MN/C8221",
