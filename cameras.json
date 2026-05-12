@@ -6803,22 +6803,6 @@
     "category": "city",
     "city": "New York",
     "country": "US",
-    "id": "nyc-mhb-23-manh-lrdwy-at-twr",
-    "location": "Manhattan, New York, USA",
-    "name": "MHB-23 Manh LRDWY @ Twr",
-    "timezone": "America/New_York",
-    "url": "https://nyctmc.org/api/cameras/097a7d75-1c6f-4817-aa34-1de4bb9202f4/image",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.708814,
-      "lng": -73.991511
-    }
-  },
-  {
-    "category": "city",
-    "city": "New York",
-    "country": "US",
     "id": "nyc-cpw-at-110-st",
     "location": "Manhattan, New York, USA",
     "name": "CPW @ 110 St",
