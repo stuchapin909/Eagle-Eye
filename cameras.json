@@ -7235,22 +7235,6 @@
     "category": "city",
     "city": "New York",
     "country": "US",
-    "id": "nyc-c2-bqe-30b-w-at-stewart-ave",
-    "location": "Brooklyn, New York, USA",
-    "name": "C2-BQE-30B_W_at_Stewart Ave",
-    "timezone": "America/New_York",
-    "url": "https://nyctmc.org/api/cameras/42e78c2b-3c70-47dc-8685-f1b5eca3deb5/image",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.725102,
-      "lng": -73.933022
-    }
-  },
-  {
-    "category": "city",
-    "city": "New York",
-    "country": "US",
     "id": "nyc-mhb-33-bklyn-lrw-at-ex-ramp",
     "location": "Brooklyn, New York, USA",
     "name": "MHB-33 Bklyn LRW @ Ex Ramp",
