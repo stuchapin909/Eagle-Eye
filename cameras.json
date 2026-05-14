@@ -547737,24 +547737,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C389",
-    "name": "T.H.212 EB @ Dell Rd SB",
-    "url": "https://public.carsprogram.org/cameras/MN/C389",
-    "city": "Eden Prairie",
-    "country": "US",
-    "location": "US 212, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.849179,
-      "lng": -93.504416
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C5111",
     "name": "T.H.77 SB S of Killebrew Dr",
     "url": "https://public.carsprogram.org/cameras/MN/C5111",
@@ -548270,24 +548252,6 @@
     "coordinates": {
       "lat": 45.104318,
       "lng": -93.459959
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-D6-C015",
-    "name": "U.S.14 EB @ C.S.A.H.22 (W Circle Dr)",
-    "url": "https://public.carsprogram.org/cameras/MN/D6-C015",
-    "city": "Rochester",
-    "country": "US",
-    "location": "US 14, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.036703,
-      "lng": -92.517606
     },
     "verified": true,
     "auth": {
@@ -558357,24 +558321,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C75-02",
-    "name": "T.H.75 SB @ I-94",
-    "url": "https://public.carsprogram.org/cameras/MN/C75-02",
-    "city": "Moorhead",
-    "country": "US",
-    "location": "US 75, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 46.84577,
-      "lng": -96.768015
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30134",
     "name": "T.H.52 NB @ T.H.55 (MP 117.4)",
     "url": "https://public.carsprogram.org/cameras/MN/C30134",
@@ -558566,24 +558512,6 @@
     "coordinates": {
       "lat": 44.861762,
       "lng": -93.459565
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C30701",
-    "name": "Cliff Rd E-W @ Nicollet Ave (Temp Signal)",
-    "url": "https://public.carsprogram.org/cameras/MN/C30701",
-    "city": "Burnsville",
-    "country": "US",
-    "location": "MN 13, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.780305,
-      "lng": -93.271715
     },
     "verified": true,
     "auth": {
@@ -562904,24 +562832,6 @@
     "coordinates": {
       "lat": 44.961467,
       "lng": -93.090323
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C30636",
-    "name": "I-35 NB @ Rush Point Dr (Co Rd 7 - MP 159.1)",
-    "url": "https://public.carsprogram.org/cameras/MN/C30636",
-    "city": "1 mile south of Rush City",
-    "country": "US",
-    "location": "I-35, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.67193,
-      "lng": -92.992141
     },
     "verified": true,
     "auth": {
@@ -567303,24 +567213,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C715",
-    "name": "I-694 EB @ T.H.61",
-    "url": "https://public.carsprogram.org/cameras/MN/C715",
-    "city": "Vadnais Heights",
-    "country": "US",
-    "location": "I-694, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.037408,
-      "lng": -93.043022
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C3062",
     "name": "Robert St SB @ Bernard St",
     "url": "https://public.carsprogram.org/cameras/MN/C3062",
@@ -568142,24 +568034,6 @@
     "coordinates": {
       "lat": 44.862033,
       "lng": -93.308859
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C661",
-    "name": "T.H.10 WB @ U.S.169 WB (Ferry St)",
-    "url": "https://public.carsprogram.org/cameras/MN/C661",
-    "city": "Anoka",
-    "country": "US",
-    "location": "MN 47, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.205204,
-      "lng": -93.38975
     },
     "verified": true,
     "auth": {
@@ -573218,24 +573092,6 @@
     "coordinates": {
       "lat": 45.397261,
       "lng": -92.994766
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C791",
-    "name": "I-94 WB E of Co Rd 18 (MP 197)",
-    "url": "https://public.carsprogram.org/cameras/MN/C791",
-    "city": "1 mile east of Monticello",
-    "country": "US",
-    "location": "I-94, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.274175,
-      "lng": -93.734255
     },
     "verified": true,
     "auth": {
@@ -579723,24 +579579,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C30567",
-    "name": "U.S.169 @ Excelsior Blvd (E Ramp)",
-    "url": "https://public.carsprogram.org/cameras/MN/C30567",
-    "city": "Hopkins",
-    "country": "US",
-    "location": "US 169, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.924599,
-      "lng": -93.401265
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30451-v1",
     "name": "T.H.19 (New Prague - MP 149) View 1",
     "url": "https://public.carsprogram.org/cameras/MN/C30451-v1",
@@ -581756,22 +581594,6 @@
     "coordinates": {
       "lat": -29.651253,
       "lng": 31.104756
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
-    "id": "za-128-4",
-    "name": "WC CCTV N2 911",
-    "url": "https://www.i-traffic.co.za/map/Cctv/128--4",
-    "city": "City Of Cape Town",
-    "country": "ZA",
-    "location": "N2, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -34.08976,
-      "lng": 18.84019
     },
     "verified": false,
     "auth": false
@@ -586721,22 +586543,6 @@
     "auth": false
   },
   {
-    "id": "za-229-4",
-    "name": "WC CCTV N1 104C",
-    "url": "https://www.i-traffic.co.za/map/Cctv/229--4",
-    "city": "City Of Cape Town",
-    "country": "ZA",
-    "location": "N1, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -33.88862,
-      "lng": 18.52246
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
     "id": "za-23-3",
     "name": "N2-CCTV-007A",
     "url": "https://www.i-traffic.co.za/map/Cctv/23--3",
@@ -589345,22 +589151,6 @@
     "auth": false
   },
   {
-    "id": "za-30-4",
-    "name": "WC CCTV R300 309",
-    "url": "https://www.i-traffic.co.za/map/Cctv/30--4",
-    "city": "City Of Cape Town",
-    "country": "ZA",
-    "location": "R300, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -33.927205,
-      "lng": 18.662816
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
     "id": "za-300-3",
     "name": "N3-CCTV-205A_NB",
     "url": "https://www.i-traffic.co.za/map/Cctv/300--3",
@@ -591649,22 +591439,6 @@
     "auth": false
   },
   {
-    "id": "za-41-4",
-    "name": "WC CCTV N2 230",
-    "url": "https://www.i-traffic.co.za/map/Cctv/41--4",
-    "city": "City Of Cape Town",
-    "country": "ZA",
-    "location": "N2, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -34.05691,
-      "lng": 18.77091
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
     "id": "za-410-3",
     "name": "N2-CCTV-054A",
     "url": "https://www.i-traffic.co.za/map/Cctv/410--3",
@@ -592204,22 +591978,6 @@
     "coordinates": {
       "lat": -29.858458,
       "lng": 30.950683
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
-    "id": "za-53-4",
-    "name": "WC CCTV N2 408",
-    "url": "https://www.i-traffic.co.za/map/Cctv/53--4",
-    "city": "City Of Cape Town",
-    "country": "ZA",
-    "location": "N2, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -33.942998,
-      "lng": 18.463699
     },
     "verified": false,
     "auth": false
