@@ -430192,22 +430192,6 @@
     }
   },
   {
-    "id": "ga-14059-i-75s",
-    "name": "GDOT-0024: I-75 S at US41/NorthsideDr MM 251.4 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21469",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.802247,
-      "lng": -84.407292
-    }
-  },
-  {
     "id": "ga-14060-i-75n",
     "name": "GDOT-0027: I-75 N past MooresMillRd MM 254.1 (Fulton)",
     "url": "https://511ga.org/map/Cctv/21470",
