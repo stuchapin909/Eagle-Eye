@@ -422272,22 +422272,6 @@
     }
   },
   {
-    "id": "ga-13547-sml-eln",
-    "name": "GDOT-0735: SML_EL/I-75 N past WaltStephensRd MM 226.4 (Henry)",
-    "url": "https://511ga.org/map/Cctv/20957",
-    "category": "highway",
-    "location": "Henry, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Henry",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.529906,
-      "lng": -84.257233
-    }
-  },
-  {
     "id": "ga-13548-sml-eln",
     "name": "GDOT-0739: SML_EL/I-75 N before FlippenRd MM 225.1 (Henry)",
     "url": "https://511ga.org/map/Cctv/20958",
@@ -422605,22 +422589,6 @@
     "coordinates": {
       "lat": 33.840376,
       "lng": -84.359644
-    }
-  },
-  {
-    "id": "ga-13569-sr400n",
-    "name": "GDOT-0812: SR400/US19 N before SR141 MM 2 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20979",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.845564,
-      "lng": -84.365511
     }
   },
   {
@@ -570671,24 +570639,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C104",
-    "name": "T.H.62 EB @ T.H.55",
-    "url": "https://public.carsprogram.org/cameras/MN/C104",
-    "city": "Mendota Heights",
-    "country": "US",
-    "location": "MN 62, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.882327,
-      "lng": -93.165069
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30591",
     "name": "T.H.10 WB @ T.H.47 N-S (U.S. 169/Ferry St)",
     "url": "https://public.carsprogram.org/cameras/MN/C30591",
@@ -621090,22 +621040,6 @@
     "city": "At Sea",
     "category": "ferry",
     "location": "Norwegian Escape Bridge",
-    "timezone": "UTC",
-    "coordinates": {
-      "lat": 0,
-      "lng": 0
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "ncl-getaway-bridge",
-    "name": "Norwegian Getaway Bridge Cam",
-    "url": "https://www.ncl.com/shipcams/getawaycam/fullsize.jpg",
-    "country": "US",
-    "city": "At Sea",
-    "category": "ferry",
-    "location": "Norwegian Getaway Bridge",
     "timezone": "UTC",
     "coordinates": {
       "lat": 0,
