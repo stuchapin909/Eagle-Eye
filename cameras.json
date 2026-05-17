@@ -105106,22 +105106,6 @@
   {
     "auth": false,
     "category": "highway",
-    "city": "Santa Ana",
-    "country": "US",
-    "id": "ca-caltrans-d12-sr-55-22-warner-avenue",
-    "location": "Santa Ana, CA, USA",
-    "name": "SR-55 : (22) Warner Avenue",
-    "timezone": "America/Los_Angeles",
-    "url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr5522warneravenue/sr5522warneravenue.jpg",
-    "verified": true,
-    "coordinates": {
-      "lat": 33.71537,
-      "lng": -117.84464
-    }
-  },
-  {
-    "auth": false,
-    "category": "highway",
     "city": "Irvine",
     "country": "US",
     "id": "ca-caltrans-d12-sr-55-23-macarthur",
@@ -236589,22 +236573,6 @@
     "coordinates": {
       "lat": 35.163073,
       "lng": -80.890017
-    }
-  },
-  {
-    "id": "nc-106-nc-16-belhaven-blvd",
-    "name": "NC-16 - Belhaven Blvd",
-    "url": "https://cfms.services.ncdot.gov/snapshots/chan-5185_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 35.259199,
-      "lng": -80.874074
     }
   },
   {
@@ -420704,22 +420672,6 @@
     }
   },
   {
-    "id": "ga-13445-i-20w",
-    "name": "GDOT-0370: I-20 W at SR155 MM 65.3 (DeKalb)",
-    "url": "https://511ga.org/map/Cctv/20855",
-    "category": "highway",
-    "location": "DeKalb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "DeKalb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.71388,
-      "lng": -84.27204
-    }
-  },
-  {
     "id": "ga-13446-i-20w",
     "name": "GDOT-0373: I-20 W at I-285 MM 67 (DeKalb)",
     "url": "https://511ga.org/map/Cctv/20856",
@@ -548805,24 +548757,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C1311",
-    "name": "T.H.13 WB @ Portland Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C1311",
-    "city": "Burnsville",
-    "country": "US",
-    "location": "MN 13, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.781768,
-      "lng": -93.267366
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30552",
     "name": "I-94 EB @ Rush Creek Blvd",
     "url": "https://public.carsprogram.org/cameras/MN/C30552",
@@ -570506,24 +570440,6 @@
     "coordinates": {
       "lat": 44.933971,
       "lng": -93.274537
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C30028",
-    "name": "I-94 EB (Lake Latoka Rest Area 1)",
-    "url": "https://public.carsprogram.org/cameras/MN/C30028",
-    "city": "3 miles west of Alexandria",
-    "country": "US",
-    "location": "I-94, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.869043,
-      "lng": -95.449905
     },
     "verified": true,
     "auth": {
