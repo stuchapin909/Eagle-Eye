@@ -248240,22 +248240,6 @@
     }
   },
   {
-    "id": "nc-1884-cctv08-us74-306w-us74bus",
-    "name": "CCTV08-US74-306W_US74BUS",
-    "url": "https://cfss.services.ncdot.gov/snapshots/chan-6383_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.947571354672455,
-      "lng": -79.85094287142815
-    }
-  },
-  {
     "id": "nc-1885-cctv08-us74-305w-pee-dee-east",
     "name": "CCTV08-US74-305W_PEE-DEE-EAST",
     "url": "https://cfss.services.ncdot.gov/snapshots/chan-6384_h.jpg",
@@ -434800,22 +434784,6 @@
     }
   },
   {
-    "id": "ga-14381-i-20w",
-    "name": "GDOT-1154: I-20 W before FearsRd MM 108.2 (Morgan)",
-    "url": "https://511ga.org/map/Cctv/21791",
-    "category": "highway",
-    "location": "Morgan, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Morgan",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.579536,
-      "lng": -83.575762
-    }
-  },
-  {
     "id": "ga-14382-i-20e",
     "name": "GDOT-1157: I-20 E at SR44 MM 130.3 (Greene)",
     "url": "https://511ga.org/map/Cctv/21792",
@@ -560961,24 +560929,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C2521",
-    "name": "T.H.252 SB @ 66th Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C2521",
-    "city": "Brooklyn Center",
-    "country": "US",
-    "location": "MN 252, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.074424,
-      "lng": -93.286525
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30139",
     "name": "T.H.14 WB @ C.S.A.H.45 SB",
     "url": "https://public.carsprogram.org/cameras/MN/C30139",
@@ -566840,24 +566790,6 @@
     "coordinates": {
       "lat": 44.83559,
       "lng": -93.239782
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C1497",
-    "name": "T.H.65 NB @ Bunker Lake Blvd",
-    "url": "https://public.carsprogram.org/cameras/MN/C1497",
-    "city": "Ham Lake",
-    "country": "US",
-    "location": "MN 65, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.21916,
-      "lng": -93.234421
     },
     "verified": true,
     "auth": {
