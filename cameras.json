@@ -419104,22 +419104,6 @@
     }
   },
   {
-    "id": "ga-13338-i-75s",
-    "name": "GDOT-0022: I-75/I-85 S at I-85 MM 250.4 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20748",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.795836,
-      "lng": -84.393951
-    }
-  },
-  {
     "id": "ga-13339-i-75s",
     "name": "GDOT-0025: I-75 S past CollierRd MM 252.2 (Fulton)",
     "url": "https://511ga.org/map/Cctv/20749",
@@ -421693,22 +421677,6 @@
     "coordinates": {
       "lat": 33.948977,
       "lng": -84.235519
-    }
-  },
-  {
-    "id": "ga-13514-sr141s",
-    "name": "GDOT-0595: SR141 S at PeachtreeCornersCir MM 1.1 (Gwinnett)",
-    "url": "https://511ga.org/map/Cctv/20924",
-    "category": "highway",
-    "location": "Gwinnett, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Gwinnett",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.939558,
-      "lng": -84.248504
     }
   },
   {
@@ -430672,22 +430640,6 @@
     }
   },
   {
-    "id": "ga-14099-i-85s",
-    "name": "GDOT-0152: I-85 S past SugarloafPkwy MM 107.6 (Gwinnett)",
-    "url": "https://511ga.org/map/Cctv/21509",
-    "category": "highway",
-    "location": "Gwinnett, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Gwinnett",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.985851,
-      "lng": -84.085361
-    }
-  },
-  {
     "id": "ga-14100-i-85s",
     "name": "GDOT-0155: I-85 S past McGinnisFerryRd MM 110.3 (Gwinnett)",
     "url": "https://511ga.org/map/Cctv/21510",
@@ -431501,22 +431453,6 @@
     "coordinates": {
       "lat": 33.74324,
       "lng": -84.42396
-    }
-  },
-  {
-    "id": "ga-14157-i-20w",
-    "name": "GDOT-0344: I-20 W at US29 MM 55.7 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21567",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.741566,
-      "lng": -84.412062
     }
   },
   {
@@ -432416,22 +432352,6 @@
     }
   },
   {
-    "id": "ga-14215-i-75s",
-    "name": "GDOT-0536: I-75 S past SR92 MM 276.4 (Cherokee)",
-    "url": "https://511ga.org/map/Cctv/21625",
-    "category": "highway",
-    "location": "Cherokee, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cherokee",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.078771,
-      "lng": -84.646425
-    }
-  },
-  {
     "id": "ga-14216-nwc-eln",
     "name": "GDOT-0540: NWC_EL/I-575 N past BarrettPkwy MM 1.9 (Cobb)",
     "url": "https://511ga.org/map/Cctv/21626",
@@ -432717,22 +432637,6 @@
     "coordinates": {
       "lat": 33.544482,
       "lng": -84.270507
-    }
-  },
-  {
-    "id": "ga-14237-i-675n",
-    "name": "GDOT-0604: I-675 N before US23 MM 2.5 (Clayton)",
-    "url": "https://511ga.org/map/Cctv/21647",
-    "category": "highway",
-    "location": "Clayton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Clayton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.574897,
-      "lng": -84.276516
     }
   },
   {
@@ -433405,22 +433309,6 @@
     "coordinates": {
       "lat": 33.82554,
       "lng": -84.23321
-    }
-  },
-  {
-    "id": "ga-14282-sr410w",
-    "name": "GDOT-0784: SR410/US78 W at MtIndustrialBlvd MM 4.8 (DeKalb)",
-    "url": "https://511ga.org/map/Cctv/21692",
-    "category": "highway",
-    "location": "DeKalb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "DeKalb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.835179,
-      "lng": -84.200055
     }
   },
   {
@@ -434976,22 +434864,6 @@
     }
   },
   {
-    "id": "ga-14394-i-75n",
-    "name": "GDOT-1194: I-75 N at SR22 MM 207 (Spalding)",
-    "url": "https://511ga.org/map/Cctv/21804",
-    "category": "highway",
-    "location": "Spalding, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Spalding",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.285786,
-      "lng": -84.108817
-    }
-  },
-  {
     "id": "ga-14399-i-75n",
     "name": "GDOT-1212: I-75 N at SR136 MM 319.9 (Gordon)",
     "url": "https://511ga.org/map/Cctv/21809",
@@ -435152,22 +435024,6 @@
     }
   },
   {
-    "id": "ga-14411-i-95s",
-    "name": "GDOT-1256: I-95 S before SR21 MM 111.2 (Effingham)",
-    "url": "https://511ga.org/map/Cctv/21821",
-    "category": "highway",
-    "location": "Effingham, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Effingham",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.230637,
-      "lng": -81.158746
-    }
-  },
-  {
     "id": "ga-14413-sr219s",
     "name": "GDOT-1262: SR219 S at PegasusPkwy MM 9 (Troup)",
     "url": "https://511ga.org/map/Cctv/21823",
@@ -435261,22 +435117,6 @@
     "coordinates": {
       "lat": 33.726228,
       "lng": -84.354899
-    }
-  },
-  {
-    "id": "ga-14421-sr520w",
-    "name": "GDOT-1288: SR520/US82 W at SR4 MM 23.6 (Ware)",
-    "url": "https://511ga.org/map/Cctv/21831",
-    "category": "highway",
-    "location": "Ware, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Ware",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 31.207147,
-      "lng": -82.336697
     }
   },
   {
@@ -435389,22 +435229,6 @@
     "coordinates": {
       "lat": 33.975734,
       "lng": -83.383968
-    }
-  },
-  {
-    "id": "ga-14433-sr10lpu",
-    "name": "GDOT-1329: SR10Lp CW at SR15 MM 13.7 (Clarke)",
-    "url": "https://511ga.org/map/Cctv/21843",
-    "category": "highway",
-    "location": "Clarke, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Clarke",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.970802,
-      "lng": -83.406503
     }
   },
   {
@@ -435680,22 +435504,6 @@
     }
   },
   {
-    "id": "ga-14456-i-95n",
-    "name": "GDOT-1405: I-95 N at SR251 MM 49 (McIntosh)",
-    "url": "https://511ga.org/map/Cctv/21866",
-    "category": "highway",
-    "location": "McIntosh, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "McIntosh",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 31.396342,
-      "lng": -81.448314
-    }
-  },
-  {
     "id": "ga-14458-sr-40w",
     "name": "GDOT-1411: SR40 W at SR110 MM .9 (Camden)",
     "url": "https://511ga.org/map/Cctv/21868",
@@ -435725,22 +435533,6 @@
     "coordinates": {
       "lat": 31.809404,
       "lng": -81.365584
-    }
-  },
-  {
-    "id": "ga-14461-i-95s",
-    "name": "GDOT-1420: I-95 S before PoolerPkwy MM 104.3 (Chatham)",
-    "url": "https://511ga.org/map/Cctv/21871",
-    "category": "highway",
-    "location": "Chatham, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Chatham",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.146543,
-      "lng": -81.240829
     }
   },
   {
@@ -574116,24 +573908,6 @@
     "coordinates": {
       "lat": 45.086982,
       "lng": -93.417419
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C280",
-    "name": "T.H.280 SB @ University Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C280",
-    "city": "Saint Paul",
-    "country": "US",
-    "location": "MN 280, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.965686,
-      "lng": -93.201826
     },
     "verified": true,
     "auth": {
