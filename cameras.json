@@ -434864,22 +434864,6 @@
     }
   },
   {
-    "id": "ga-14399-i-75n",
-    "name": "GDOT-1212: I-75 N at SR136 MM 319.9 (Gordon)",
-    "url": "https://511ga.org/map/Cctv/21809",
-    "category": "highway",
-    "location": "Gordon, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Gordon",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.57723,
-      "lng": -84.949854
-    }
-  },
-  {
     "id": "ga-14400-i-75n",
     "name": "GDOT-1217: I-75 N at US41 MM 335.5 (Whitfield)",
     "url": "https://511ga.org/map/Cctv/21810",
@@ -435085,22 +435069,6 @@
     "coordinates": {
       "lat": 32.545145,
       "lng": -84.959955
-    }
-  },
-  {
-    "id": "ga-14418-sr22e",
-    "name": "GDOT-1277: SR22/US80 E before SR85 MM 8.9 (Muscogee)",
-    "url": "https://511ga.org/map/Cctv/21828",
-    "category": "highway",
-    "location": "Muscogee, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Muscogee",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.55225,
-      "lng": -84.87767
     }
   },
   {
@@ -475475,23 +475443,6 @@
     "coordinates": {
       "lat": 37.214061,
       "lng": -89.543841
-    }
-  },
-  {
-    "id": "us-mo-modot-008",
-    "name": "I-70 @ Providence Columbia",
-    "url": "https://traveler.modot.org/traffic_camera_snapshots/I-70@Providence_Columbia/I-70@Providence_Columbia.jpg",
-    "category": "highway",
-    "location": "Columbia, Missouri, USA",
-    "timezone": "America/Chicago",
-    "country": "US",
-    "city": "Columbia",
-    "verified": true,
-    "auth": false,
-    "source": "missouri-modot",
-    "coordinates": {
-      "lat": 38.969359,
-      "lng": -92.333564
     }
   },
   {
@@ -552945,24 +552896,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C30279",
-    "name": "I-35W SB @ 24th St",
-    "url": "https://public.carsprogram.org/cameras/MN/C30279",
-    "city": "Minneapolis",
-    "country": "US",
-    "location": "I-35W, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.96027,
-      "lng": -93.269318
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30494",
     "name": "U.S.169 SB W of Marschall Rd (MP 110.5)",
     "url": "https://public.carsprogram.org/cameras/MN/C30494",
@@ -586110,22 +586043,6 @@
     "coordinates": {
       "lat": -29.934767,
       "lng": 30.952222
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
-    "id": "za-23-4",
-    "name": "WC CCTV N2 406",
-    "url": "https://www.i-traffic.co.za/map/Cctv/23--4",
-    "city": "City Of Cape Town",
-    "country": "ZA",
-    "location": "N2, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -33.94107,
-      "lng": 18.45762
     },
     "verified": false,
     "auth": false
