@@ -7203,22 +7203,6 @@
     "category": "city",
     "city": "New York",
     "country": "US",
-    "id": "nyc-henry-hudson-at-137-st",
-    "location": "Manhattan, New York, USA",
-    "name": "Henry Hudson @ 137 St",
-    "timezone": "America/New_York",
-    "url": "https://nyctmc.org/api/cameras/0ad90cca-a6b0-4968-abdd-ca81ae497848/image",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.8219936715493,
-      "lng": -73.9572572708129
-    }
-  },
-  {
-    "category": "city",
-    "city": "New York",
-    "country": "US",
     "id": "nyc-madison-ave-at-46-st-manhattan",
     "location": "Manhattan, New York, USA",
     "name": "Madison Ave @ 46 St - Manhattan",
@@ -82333,22 +82317,6 @@
     "coordinates": {
       "lat": 33.87423,
       "lng": -118.34286
-    }
-  },
-  {
-    "auth": false,
-    "category": "highway",
-    "city": "Inglewood",
-    "country": "US",
-    "id": "ca-caltrans-d7-i-405-354-south-of-lennox",
-    "location": "Inglewood, CA, USA",
-    "name": "I-405 : (354) South of Lennox",
-    "timezone": "America/Los_Angeles",
-    "url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i405354southoflennox/i405354southoflennox.jpg",
-    "verified": true,
-    "coordinates": {
-      "lat": 33.93312,
-      "lng": -118.36811
     }
   },
   {
@@ -353376,22 +353344,6 @@
     }
   },
   {
-    "id": "ut-122756",
-    "name": "I-80 RWIS @ Wahsatch Hill / MP 191.2, SU",
-    "url": "https://udottraffic.utah.gov/map/Cctv/122756",
-    "category": "city",
-    "location": "Syracuse, Utah, USA",
-    "timezone": "America/Denver",
-    "country": "US",
-    "city": "Syracuse",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 41.19522,
-      "lng": -111.11397
-    }
-  },
-  {
     "id": "ut-122757",
     "name": "Little Cottonwood Rd / SR-210 RWIS EB @ Powerhouse / MP 5.67, SL",
     "url": "https://udottraffic.utah.gov/map/Cctv/122757",
@@ -431360,22 +431312,6 @@
     }
   },
   {
-    "id": "ga-14150-i-20w",
-    "name": "GDOT-0320: I-20 W before SixFlagsPkwy MM 47.8 (Cobb)",
-    "url": "https://511ga.org/map/Cctv/21560",
-    "category": "highway",
-    "location": "Cobb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cobb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.770309,
-      "lng": -84.540304
-    }
-  },
-  {
     "id": "ga-14151-i-20e",
     "name": "GDOT-0325: I-20 E at I-285 MM 50.4 (Fulton)",
     "url": "https://511ga.org/map/Cctv/21561",
@@ -432605,22 +432541,6 @@
     "coordinates": {
       "lat": 33.957912,
       "lng": -84.231142
-    }
-  },
-  {
-    "id": "ga-14235-sr141s",
-    "name": "GDOT-0597: SR141 S at WintersChapelRd MM 7.3 (DeKalb)",
-    "url": "https://511ga.org/map/Cctv/21645",
-    "category": "highway",
-    "location": "DeKalb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "DeKalb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.931024,
-      "lng": -84.265121
     }
   },
   {
@@ -584699,22 +584619,6 @@
     "coordinates": {
       "lat": -26.257498,
       "lng": 28.178825
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
-    "id": "za-199-3",
-    "name": "N3-CCTV-118",
-    "url": "https://www.i-traffic.co.za/map/Cctv/199--3",
-    "city": "",
-    "country": "ZA",
-    "location": "N3, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -29.833478,
-      "lng": 30.85139
     },
     "verified": false,
     "auth": false
