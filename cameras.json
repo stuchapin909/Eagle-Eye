@@ -420448,22 +420448,6 @@
     }
   },
   {
-    "id": "ga-13434-i-20w",
-    "name": "GDOT-0335: I-20 W at AndersonAve MM 53.6 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20844",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.751625,
-      "lng": -84.446458
-    }
-  },
-  {
     "id": "ga-13435-i-20w",
     "name": "GDOT-0339: I-20 W at LanghornSt MM 54.7 (Fulton)",
     "url": "https://511ga.org/map/Cctv/20845",
@@ -435181,22 +435165,6 @@
     "coordinates": {
       "lat": 33.690431,
       "lng": -84.492174
-    }
-  },
-  {
-    "id": "ga-14439-i-16w",
-    "name": "GDOT-1347: I-16 W past MarionRd MM 7.9 (Bibb)",
-    "url": "https://511ga.org/map/Cctv/21849",
-    "category": "highway",
-    "location": "Bibb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Bibb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.774662,
-      "lng": -83.55771
     }
   },
   {
@@ -518186,22 +518154,6 @@
     "auth": false
   },
   {
-    "id": "es-dgt-1401",
-    "name": "Ma-19 km 9.6 (-)",
-    "url": "https://infocar.dgt.es/etraffic/data/camaras/1401.jpg",
-    "city": "Palma de Mallorca",
-    "country": "ES",
-    "location": "Ma-19, Balearic Islands, Spain",
-    "category": "highway",
-    "timezone": "Europe/Madrid",
-    "coordinates": {
-      "lat": 39.534,
-      "lng": 2.73533
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
     "id": "es-dgt-1493",
     "name": "A-381 km 74.0 (-)",
     "url": "https://infocar.dgt.es/etraffic/data/camaras/1493.jpg",
@@ -546804,24 +546756,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C30004",
-    "name": "T.H.210 EB @ T.H.25 NB",
-    "url": "https://public.carsprogram.org/cameras/MN/C30004",
-    "city": "Brainerd",
-    "country": "US",
-    "location": "MN 210, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 46.362202,
-      "lng": -94.177018
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30506",
     "name": "U.S.14 EB @ 210th Ave",
     "url": "https://public.carsprogram.org/cameras/MN/C30506",
@@ -574589,24 +574523,6 @@
     "coordinates": {
       "lat": 45.367817,
       "lng": -93.973722
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C284",
-    "name": "T.H.280 NB @ T.H.36",
-    "url": "https://public.carsprogram.org/cameras/MN/C284",
-    "city": "Roseville",
-    "country": "US",
-    "location": "I-35W, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.007751,
-      "lng": -93.204361
     },
     "verified": true,
     "auth": {
