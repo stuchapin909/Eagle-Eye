@@ -56179,22 +56179,6 @@
     "category": "airport",
     "city": "Washington",
     "country": "US",
-    "id": "wa-southwest-washington-regional-airport-sse-82c9e0",
-    "location": "Southwest Washington Regional Airport SSE, Washington, USA",
-    "name": "Southwest Washington Regional Airport SSE",
-    "timezone": "America/Los_Angeles",
-    "url": "https://images.wsdot.wa.gov/airports/kelsosse.jpg",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 46.117777,
-      "lng": -122.898334
-    }
-  },
-  {
-    "category": "airport",
-    "city": "Washington",
-    "country": "US",
     "id": "wa-southwest-washington-regional-airport-southwest-63da2c",
     "location": "Southwest Washington Regional Airport Southwest, Washington, USA",
     "name": "Southwest Washington Regional Airport Southwest",
@@ -266080,22 +266064,6 @@
     }
   },
   {
-    "id": "pa-turnpike-i-76-westbound-4819",
-    "name": "I-76 @ MP 246.8, Susquehanna River Bridge",
-    "url": "https://www.511pa.com/map/Cctv/4819",
-    "category": "highway",
-    "location": "Turnpike (I-76), Pennsylvania, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Turnpike (I-76)",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.213049,
-      "lng": -76.796991
-    }
-  },
-  {
     "id": "pa-turnpike-i-76-i-276-eastbound-4820",
     "name": "I-76 @ MP 245.5, Susquehanna River Bridge",
     "url": "https://www.511pa.com/map/Cctv/4820",
@@ -423136,22 +423104,6 @@
     }
   },
   {
-    "id": "ga-13620-i-475s",
-    "name": "GDOT-1017: I-475 S before I-75 MM 1.5 (Bibb)",
-    "url": "https://511ga.org/map/Cctv/21030",
-    "category": "highway",
-    "location": "Bibb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Bibb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.775697,
-      "lng": -83.712886
-    }
-  },
-  {
     "id": "ga-13621-i-475s",
     "name": "GDOT-1022: I-475 S at SR22 MM 4.1 (Bibb)",
     "url": "https://511ga.org/map/Cctv/21031",
@@ -423472,22 +423424,6 @@
     }
   },
   {
-    "id": "ga-13644-sr1s",
-    "name": "GDOT-1095: SR1/US27 S at WhitesvilleRd MM 12.5 (Muscogee)",
-    "url": "https://511ga.org/map/Cctv/21054",
-    "category": "highway",
-    "location": "Muscogee, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Muscogee",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.525939,
-      "lng": -84.961926
-    }
-  },
-  {
     "id": "ga-13646-sr34e",
     "name": "GDOT-1104: SR34 E at US29 MM 3.8 (Coweta)",
     "url": "https://511ga.org/map/Cctv/21056",
@@ -423789,22 +423725,6 @@
     "coordinates": {
       "lat": 33.487391,
       "lng": -82.10832
-    }
-  },
-  {
-    "id": "ga-13665-i-20w",
-    "name": "GDOT-1168: I-20 W before SR104 MM 200.9 (Richmond)",
-    "url": "https://511ga.org/map/Cctv/21075",
-    "category": "highway",
-    "location": "Richmond, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Richmond",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.527514,
-      "lng": -82.019858
     }
   },
   {
@@ -430032,22 +429952,6 @@
     }
   },
   {
-    "id": "ga-14063-i-85s",
-    "name": "GDOT-0037: I-85 S before SR400 MM 87.2 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21473",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.817119,
-      "lng": -84.363142
-    }
-  },
-  {
     "id": "ga-14064-i-85s",
     "name": "GDOT-0040: I-85 S past US23/ClarimontRd MM 90 (DeKalb)",
     "url": "https://511ga.org/map/Cctv/21474",
@@ -430125,38 +430029,6 @@
     "coordinates": {
       "lat": 33.697489,
       "lng": -84.464839
-    }
-  },
-  {
-    "id": "ga-14069-sr154w",
-    "name": "GDOT-0055: SR154 W before StantonRd MM 26 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21479",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.699734,
-      "lng": -84.442013
-    }
-  },
-  {
-    "id": "ga-14070-sr166w",
-    "name": "GDOT-0058: SR166 W at SylvanRd MM 13.7 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21480",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.697794,
-      "lng": -84.41869
     }
   },
   {
@@ -430253,22 +430125,6 @@
     "coordinates": {
       "lat": 33.670338,
       "lng": -84.398157
-    }
-  },
-  {
-    "id": "ga-14078-i-285u",
-    "name": "GDOT-0083: I-285 CCW at I-75 MM 59 (Clayton)",
-    "url": "https://511ga.org/map/Cctv/21488",
-    "category": "highway",
-    "location": "Clayton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Clayton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.632849,
-      "lng": -84.401579
     }
   },
   {
@@ -432256,22 +432112,6 @@
     }
   },
   {
-    "id": "ga-14216-nwc-eln",
-    "name": "GDOT-0540: NWC_EL/I-575 N past BarrettPkwy MM 1.9 (Cobb)",
-    "url": "https://511ga.org/map/Cctv/21626",
-    "category": "highway",
-    "location": "Cobb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cobb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.02208,
-      "lng": -84.559312
-    }
-  },
-  {
     "id": "ga-14217-nwc-els",
     "name": "GDOT-0543: NWC_EL/I-575 S before BoothRd MM 3.6 (Cobb)",
     "url": "https://511ga.org/map/Cctv/21627",
@@ -432528,22 +432368,6 @@
     }
   },
   {
-    "id": "ga-14239-i-675n",
-    "name": "GDOT-0610: I-675 N at ForestPkwy MM 5.3 (Clayton)",
-    "url": "https://511ga.org/map/Cctv/21649",
-    "category": "highway",
-    "location": "Clayton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Clayton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.611971,
-      "lng": -84.296293
-    }
-  },
-  {
     "id": "ga-14240-i-675n",
     "name": "GDOT-0614: I-675 N at GrantRd MM 7.8 (Clayton)",
     "url": "https://511ga.org/map/Cctv/21650",
@@ -432701,22 +432525,6 @@
     "coordinates": {
       "lat": 33.619598,
       "lng": -84.43224
-    }
-  },
-  {
-    "id": "ga-14250-i-285u",
-    "name": "GDOT-0656: I-285 CW at 5thRunwayTunnel MM 60.9 (Clayton)",
-    "url": "https://511ga.org/map/Cctv/21660",
-    "category": "highway",
-    "location": "Clayton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Clayton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.620143,
-      "lng": -84.430627
     }
   },
   {
@@ -433536,22 +433344,6 @@
     }
   },
   {
-    "id": "ga-14307-i-575s",
-    "name": "GDOT-0900: I-575 S at MarbleQuarryRd MM 13.2 (Cherokee)",
-    "url": "https://511ga.org/map/Cctv/21717",
-    "category": "highway",
-    "location": "Cherokee, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cherokee",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.170494,
-      "lng": -84.513325
-    }
-  },
-  {
     "id": "ga-14308-i-575n",
     "name": "GDOT-0903: I-575 N past HollySpringsPkwy MM 15.2 (Cherokee)",
     "url": "https://511ga.org/map/Cctv/21718",
@@ -433904,22 +433696,6 @@
     }
   },
   {
-    "id": "ga-14336-i-985s",
-    "name": "GDOT-0994: I-985 S past US129 MM 21.2 (Hall)",
-    "url": "https://511ga.org/map/Cctv/21746",
-    "category": "highway",
-    "location": "Hall, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Hall",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.281397,
-      "lng": -83.808597
-    }
-  },
-  {
     "id": "ga-14338-sr20e",
     "name": "GDOT-1009: SR20 E at SR3 MM 19.3 (Henry)",
     "url": "https://511ga.org/map/Cctv/21748",
@@ -434000,22 +433776,6 @@
     }
   },
   {
-    "id": "ga-14343-i-475s",
-    "name": "GDOT-1027: I-475 S before SR74 MM 6.3 (Bibb)",
-    "url": "https://511ga.org/map/Cctv/21753",
-    "category": "highway",
-    "location": "Bibb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Bibb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.840572,
-      "lng": -83.736996
-    }
-  },
-  {
     "id": "ga-14344-i-475n",
     "name": "GDOT-1030: I-475 N before PeakeRd MM 8.2 (Bibb)",
     "url": "https://511ga.org/map/Cctv/21754",
@@ -434077,22 +433837,6 @@
     "coordinates": {
       "lat": 32.934988,
       "lng": -83.807403
-    }
-  },
-  {
-    "id": "ga-14348-i-75n",
-    "name": "GDOT-1043: I-75 N before SardisChurchRd MM 152.2 (Bibb)",
-    "url": "https://511ga.org/map/Cctv/21758",
-    "category": "highway",
-    "location": "Bibb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Bibb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.700239,
-      "lng": -83.735209
     }
   },
   {
@@ -434429,22 +434173,6 @@
     "coordinates": {
       "lat": 33.689669,
       "lng": -85.188481
-    }
-  },
-  {
-    "id": "ga-14372-i-20e",
-    "name": "GDOT-1126: I-20 E at SR113 MM 18.7 (Carroll)",
-    "url": "https://511ga.org/map/Cctv/21782",
-    "category": "highway",
-    "location": "Carroll, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Carroll",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.716358,
-      "lng": -85.027241
     }
   },
   {
@@ -435232,22 +434960,6 @@
     }
   },
   {
-    "id": "ga-14448-i-16w",
-    "name": "GDOT-1381: I-16 W at SR67 MM 125.8 (Bulloch)",
-    "url": "https://511ga.org/map/Cctv/21858",
-    "category": "highway",
-    "location": "Bulloch, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Bulloch",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.25642,
-      "lng": -81.713116
-    }
-  },
-  {
     "id": "ga-14449-i-75n",
     "name": "GDOT-1384: I-75 N past SR156 MM 315.1 (Gordon)",
     "url": "https://511ga.org/map/Cctv/21859",
@@ -435293,54 +435005,6 @@
     "coordinates": {
       "lat": 32.130075,
       "lng": -81.539906
-    }
-  },
-  {
-    "id": "ga-14453-i-95n",
-    "name": "GDOT-1396: I-95 N at SR26/US80 MM 102 (Chatham)",
-    "url": "https://511ga.org/map/Cctv/21863",
-    "category": "highway",
-    "location": "Chatham, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Chatham",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.112778,
-      "lng": -81.237397
-    }
-  },
-  {
-    "id": "ga-14455-i-95n",
-    "name": "GDOT-1402: I-95 N at SR57 MM 58 (McIntosh)",
-    "url": "https://511ga.org/map/Cctv/21865",
-    "category": "highway",
-    "location": "McIntosh, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "McIntosh",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 31.531794,
-      "lng": -81.444664
-    }
-  },
-  {
-    "id": "ga-14458-sr-40w",
-    "name": "GDOT-1411: SR40 W at SR110 MM .9 (Camden)",
-    "url": "https://511ga.org/map/Cctv/21868",
-    "category": "highway",
-    "location": "Camden, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Camden",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 30.835819,
-      "lng": -81.889386
     }
   },
   {
@@ -435392,22 +435056,6 @@
     }
   },
   {
-    "id": "ga-14465-i-185s",
-    "name": "GDOT-1450: I-185 S before HopewellChurchRd MM 30.1 (Harris)",
-    "url": "https://511ga.org/map/Cctv/21875",
-    "category": "highway",
-    "location": "Harris, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Harris",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.8139,
-      "lng": -85.02155
-    }
-  },
-  {
     "id": "ga-14466-i-185s",
     "name": "GDOT-1453: I-185 S past US27 MM 42 (Troup)",
     "url": "https://511ga.org/map/Cctv/21876",
@@ -435424,22 +435072,6 @@
     }
   },
   {
-    "id": "ga-14467-i-20e",
-    "name": "GDOT-1504: I-20 E at JimmieDyessPkwy MM 194.1 (Columbia)",
-    "url": "https://511ga.org/map/Cctv/21877",
-    "category": "highway",
-    "location": "Columbia, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Columbia",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.483723,
-      "lng": -82.124669
-    }
-  },
-  {
     "id": "ga-14469-i-520n",
     "name": "GDOT-1510: I-520 N at SR520 MM 15.1 (Richmond)",
     "url": "https://511ga.org/map/Cctv/21879",
@@ -435453,22 +435085,6 @@
     "coordinates": {
       "lat": 33.457816,
       "lng": -81.928178
-    }
-  },
-  {
-    "id": "ga-14470-us-27-victory-drs",
-    "name": "GDOT-1513: US27/VictoryDr S before I-185 MM 5.5 (Muscogee)",
-    "url": "https://511ga.org/map/Cctv/21880",
-    "category": "highway",
-    "location": "Muscogee, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Muscogee",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.40508,
-      "lng": -84.93027
     }
   },
   {
@@ -473149,22 +472765,6 @@
     "coordinates": {
       "lat": 40.871376,
       "lng": -73.426226
-    }
-  },
-  {
-    "id": "ny-3938",
-    "name": "NY25A at Woodbury Road",
-    "url": "https://511ny.org/map/Cctv/7179",
-    "category": "highway",
-    "location": "NY25A Southbound, New York, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Riverhead",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.870757,
-      "lng": -73.43089
     }
   },
   {
