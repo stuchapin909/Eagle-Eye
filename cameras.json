@@ -447936,22 +447936,6 @@
     }
   },
   {
-    "id": "ny-396",
-    "name": "NY878 at Burnside Avenue",
-    "url": "https://511ny.org/map/Cctv/4574",
-    "category": "highway",
-    "location": "27, New York, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Riverhead",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.624078,
-      "lng": -73.73529
-    }
-  },
-  {
     "id": "ny-397",
     "name": "NY878 at Bayview Avenue",
     "url": "https://511ny.org/map/Cctv/4575",
@@ -535143,24 +535127,6 @@
     "coordinates": {
       "lat": 45.028115,
       "lng": -93.046378
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C1629",
-    "name": "I-35W NB @ University Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C1629",
-    "city": "Minneapolis",
-    "country": "US",
-    "location": "I-35W, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.981977,
-      "lng": -93.243425
     },
     "verified": true,
     "auth": {
