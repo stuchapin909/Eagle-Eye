@@ -245136,22 +245136,6 @@
     }
   },
   {
-    "id": "nc-1552-i-85-graham-st",
-    "name": "I-85 @ Graham St",
-    "url": "https://cfms.services.ncdot.gov/snapshots/chan-5162_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 35.277284,
-      "lng": -80.811021
-    }
-  },
-  {
     "id": "nc-1553-nc11-byp-us-264",
     "name": "NC11 Byp @ US-264",
     "url": "https://eapps.ncdot.gov/services/traffic-prod/v1/cameras/images?filename=NC11Byp_US264.jpg",
@@ -415200,22 +415184,6 @@
     }
   },
   {
-    "id": "ga-13092-sr141s",
-    "name": "GDOT-0596: SR141 S before WintersChapelRd MM 0.6 (Gwinnett)",
-    "url": "https://511ga.org/map/Cctv/20502",
-    "category": "highway",
-    "location": "Gwinnett, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Gwinnett",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.935137,
-      "lng": -84.256115
-    }
-  },
-  {
     "id": "ga-13093-sr141s",
     "name": "GDOT-0599: SR141 S at TillyMillRd MM 6.2 (DeKalb)",
     "url": "https://511ga.org/map/Cctv/20503",
@@ -468973,22 +468941,6 @@
     "coordinates": {
       "lat": 42.893849,
       "lng": -78.862224
-    }
-  },
-  {
-    "id": "ny-2942",
-    "name": "NY 33 at Jefferson Avenue",
-    "url": "https://511ny.org/map/Cctv/5859",
-    "category": "highway",
-    "location": "NY 33 Eastbound, New York, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Buffalo",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 42.897261,
-      "lng": -78.85385
     }
   },
   {
