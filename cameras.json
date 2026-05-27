@@ -419152,22 +419152,6 @@
     }
   },
   {
-    "id": "ga-13350-sr166w",
-    "name": "GDOT-0059: SR166 W before SylvanRd MM 13.8 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20760",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.69758,
-      "lng": -84.416045
-    }
-  },
-  {
     "id": "ga-13351-i-75s",
     "name": "GDOT-0062: I-75 S past SR331/ForestPkwy MM 236.9 (Clayton)",
     "url": "https://511ga.org/map/Cctv/20761",
@@ -419197,22 +419181,6 @@
     "coordinates": {
       "lat": 33.771423,
       "lng": -84.390373
-    }
-  },
-  {
-    "id": "ga-13354-i-85s",
-    "name": "GDOT-0072: I-85 S before SylvanRd MM 74.8 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20764",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.668827,
-      "lng": -84.415811
     }
   },
   {
@@ -420349,22 +420317,6 @@
     "coordinates": {
       "lat": 33.76462,
       "lng": -84.49242
-    }
-  },
-  {
-    "id": "ga-13433-i-20e",
-    "name": "GDOT-0332: I-20 E past SR280 MM 52.5 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20843",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.753953,
-      "lng": -84.465199
     }
   },
   {
@@ -422189,22 +422141,6 @@
     "coordinates": {
       "lat": 33.568421,
       "lng": -84.274346
-    }
-  },
-  {
-    "id": "ga-13558-sml-eln",
-    "name": "GDOT-0773: SML_EL/I-675 N past I-75 MM 0.4 (Henry)",
-    "url": "https://511ga.org/map/Cctv/20968",
-    "category": "highway",
-    "location": "Henry, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Henry",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.546597,
-      "lng": -84.268922
     }
   },
   {
@@ -424685,22 +424621,6 @@
     "coordinates": {
       "lat": 32.09284,
       "lng": -81.19656
-    }
-  },
-  {
-    "id": "ga-13734-i-16w",
-    "name": "GDOT-1400: I-16 W at MLKJrBlvd MM 167 (Chatham)",
-    "url": "https://511ga.org/map/Cctv/21144",
-    "category": "highway",
-    "location": "Chatham, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Chatham",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.072301,
-      "lng": -81.101009
     }
   },
   {
@@ -429776,22 +429696,6 @@
     }
   },
   {
-    "id": "ga-14052-i-75s",
-    "name": "GDOT-0003: I-75/I-85 S at SR166 MM 243 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21462",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.698911,
-      "lng": -84.404988
-    }
-  },
-  {
     "id": "ga-14053-i-75s",
     "name": "GDOT-0006: I-75/I-85 S at PryorRd MM 245.2 (Fulton)",
     "url": "https://511ga.org/map/Cctv/21463",
@@ -429805,22 +429709,6 @@
     "coordinates": {
       "lat": 33.730025,
       "lng": -84.393014
-    }
-  },
-  {
-    "id": "ga-14054-i-75s",
-    "name": "GDOT-0009: I-75/I-85 S at MLKJrDr MM 246.7 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21464",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.74834,
-      "lng": -84.385606
     }
   },
   {
@@ -429853,22 +429741,6 @@
     "coordinates": {
       "lat": 33.780517,
       "lng": -84.391407
-    }
-  },
-  {
-    "id": "ga-14058-i-75n",
-    "name": "GDOT-0021: I-75/I-85 N at I-85 MM 250.4 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21468",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.795893,
-      "lng": -84.392508
     }
   },
   {
@@ -430352,22 +430224,6 @@
     }
   },
   {
-    "id": "ga-14097-sr316w",
-    "name": "GDOT-0146: SR316/US29 W past CollinsHillRd MM 6.2 (Gwinnett)",
-    "url": "https://511ga.org/map/Cctv/21507",
-    "category": "highway",
-    "location": "Gwinnett, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Gwinnett",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.97644,
-      "lng": -84.001984
-    }
-  },
-  {
     "id": "ga-14098-sr316e",
     "name": "GDOT-0149: SR316 E past SR20 MM 7.5 (Gwinnett)",
     "url": "https://511ga.org/map/Cctv/21508",
@@ -430445,22 +430301,6 @@
     "coordinates": {
       "lat": 34.051339,
       "lng": -84.018769
-    }
-  },
-  {
-    "id": "ga-14104-i-85s",
-    "name": "GDOT-0168: I-85 S at SR20 MM 115.1 (Gwinnett)",
-    "url": "https://511ga.org/map/Cctv/21514",
-    "category": "highway",
-    "location": "Gwinnett, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Gwinnett",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.057339,
-      "lng": -83.994207
     }
   },
   {
@@ -430992,22 +430832,6 @@
     }
   },
   {
-    "id": "ga-14141-i-285u",
-    "name": "GDOT-0283: I-285 CCW at US278 MM 44.7 (DeKalb)",
-    "url": "https://511ga.org/map/Cctv/21551",
-    "category": "highway",
-    "location": "DeKalb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "DeKalb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.753429,
-      "lng": -84.231624
-    }
-  },
-  {
     "id": "ga-14142-i-20w",
     "name": "GDOT-0295: I-20 W past ChapelHillRd MM 35.1 (Douglas)",
     "url": "https://511ga.org/map/Cctv/21552",
@@ -431021,22 +430845,6 @@
     "coordinates": {
       "lat": 33.73081,
       "lng": -84.74737
-    }
-  },
-  {
-    "id": "ga-14143-i-285u",
-    "name": "GDOT-0299: I-285 CCW at PowersFerryRd MM 22.5 (Cobb)",
-    "url": "https://511ga.org/map/Cctv/21553",
-    "category": "highway",
-    "location": "Cobb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cobb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.899892,
-      "lng": -84.447819
     }
   },
   {
@@ -431120,22 +430928,6 @@
     }
   },
   {
-    "id": "ga-14152-i-20e",
-    "name": "GDOT-0328: I-20 E before LinkwoodRd MM 51.2 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21562",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.760055,
-      "lng": -84.485238
-    }
-  },
-  {
     "id": "ga-14153-i-20w",
     "name": "GDOT-0331: I-20 W past SR280 MM 52 (Fulton)",
     "url": "https://511ga.org/map/Cctv/21563",
@@ -431165,22 +430957,6 @@
     "coordinates": {
       "lat": 33.746792,
       "lng": -84.433896
-    }
-  },
-  {
-    "id": "ga-14156-i-20e",
-    "name": "GDOT-0341: I-20 E at LawtonSt MM 55 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21566",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.74324,
-      "lng": -84.42396
     }
   },
   {
@@ -591485,22 +591261,6 @@
     "city": "At Sea",
     "category": "ferry",
     "location": "Norwegian Escape Bridge",
-    "timezone": "UTC",
-    "coordinates": {
-      "lat": 0,
-      "lng": 0
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "ncl-joy-bridge",
-    "name": "Norwegian Joy Bridge Cam",
-    "url": "https://www.ncl.com/shipcams/joycam/fullsize.jpg",
-    "country": "US",
-    "city": "At Sea",
-    "category": "ferry",
-    "location": "Norwegian Joy Bridge",
     "timezone": "UTC",
     "coordinates": {
       "lat": 0,
