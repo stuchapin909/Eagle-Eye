@@ -364832,22 +364832,6 @@
     }
   },
   {
-    "id": "ut-123555",
-    "name": "SR-150 RWIS EB @ Bald Mountain Pass / MP 29.2, SU",
-    "url": "https://udottraffic.utah.gov/map/Cctv/123555",
-    "category": "city",
-    "location": "Syracuse, Utah, USA",
-    "timezone": "America/Denver",
-    "country": "US",
-    "city": "Syracuse",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.68686,
-      "lng": -110.90301
-    }
-  },
-  {
     "id": "ut-123560",
     "name": "SR-30 RWIS WB @ Curlew Junction / MP 72.36, BE",
     "url": "https://udottraffic.utah.gov/map/Cctv/123560",
@@ -487098,22 +487082,6 @@
     }
   },
   {
-    "id": "oh-i-75-at-n-of-towne-st",
-    "name": "I-75 at N of Towne St",
-    "url": "https://itscameras.dot.state.oh.us/images/artimis/CCTV011a.jpg",
-    "category": "highway",
-    "location": "Cincinnati, Ohio, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cincinnati",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 39.18907,
-      "lng": -84.48168
-    }
-  },
-  {
     "id": "oh-i-75-at-sr-562-norwood-lateral",
     "name": "I-75 at SR-562 (Norwood Lateral)",
     "url": "https://itscameras.dot.state.oh.us/images/artimis/I-75_at_SR-562.jpg",
@@ -488007,22 +487975,6 @@
     "coordinates": {
       "lat": 39.9595,
       "lng": -82.995754
-    }
-  },
-  {
-    "id": "oh-i-71-at-cooke-rd",
-    "name": "I-71 at Cooke Rd",
-    "url": "https://itscameras.dot.state.oh.us/images/CMH/I-71_at_Cooke_Rd.jpg",
-    "category": "highway",
-    "location": "Columbus, Ohio, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Columbus",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.04648,
-      "lng": -82.99767
     }
   },
   {
@@ -498805,22 +498757,6 @@
     "coordinates": {
       "lat": 39.64,
       "lng": -105.951
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "co-copper-village",
-    "name": "Copper Mountain Village",
-    "url": "https://img.hdrelay.com/frames/fb469125-f1f3-459f-aeb4-98cb674e395f/default/last.jpg",
-    "country": "US",
-    "city": "Frisco",
-    "category": "ski_resort",
-    "location": "Copper Mountain Resort, Colorado, USA",
-    "timezone": "America/Denver",
-    "coordinates": {
-      "lat": 39.5022,
-      "lng": -106.1497
     },
     "verified": true,
     "auth": false
@@ -585101,22 +585037,6 @@
     "city": "Georgia",
     "category": "aurora",
     "location": "SkyShack Observatory, Deerlick Astronomy Village",
-    "timezone": "America/New_York",
-    "coordinates": {
-      "lat": 0,
-      "lng": 0
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "us-gatlinburg-all-sky-camera",
-    "name": "Gatlinburg All-Sky Camera",
-    "url": "https://elelink.org/allsky/image.jpg",
-    "country": "US",
-    "city": "Gatlinburg",
-    "category": "aurora",
-    "location": "Gatlinburg All-Sky Camera",
     "timezone": "America/New_York",
     "coordinates": {
       "lat": 0,
