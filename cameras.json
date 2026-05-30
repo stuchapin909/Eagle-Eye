@@ -206144,22 +206144,6 @@
     }
   },
   {
-    "id": "fl-3288-tpke-mm-189-9",
-    "name": "Tpke MM 189.9",
-    "url": "https://www.fl511.com/map/Cctv/3288",
-    "category": "highway",
-    "location": "Indian River, Florida, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Indian River",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 27.659696,
-      "lng": -80.86774
-    }
-  },
-  {
     "id": "fl-3289-tpke-mm-309-3-sb",
     "name": "Tpke MM 309.3 SB",
     "url": "https://www.fl511.com/map/Cctv/3289",
@@ -392784,22 +392768,6 @@
     }
   },
   {
-    "id": "ga-12348-sr-3-bear-creek-blvds",
-    "name": "AMS-0111: SR 3/Bear Creek Blvd at Oak St/AMS Main Gate (Henry)",
-    "url": "https://511ga.org/map/Cctv/19758",
-    "category": "highway",
-    "location": "Henry, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Henry",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.389217,
-      "lng": -84.307785
-    }
-  },
-  {
     "id": "ga-12349-sr-4e",
     "name": "APPL-0001: SR 4 at SR 15 (Appling)",
     "url": "https://511ga.org/map/Cctv/19759",
@@ -520694,24 +520662,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C283",
-    "name": "T.H.280 SB @ Broadway St",
-    "url": "https://public.carsprogram.org/cameras/MN/C283",
-    "city": "Lauderdale",
-    "country": "US",
-    "location": "MN 280, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.999594,
-      "lng": -93.205926
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C666",
     "name": "T.H.10 EB @ Hanson Blvd",
     "url": "https://public.carsprogram.org/cameras/MN/C666",
@@ -573886,22 +573836,6 @@
     "category": "aurora",
     "location": "Kjell Henriksen Observatory, Svalbard",
     "timezone": "Arctic/Longyearbyen",
-    "coordinates": {
-      "lat": 0,
-      "lng": 0
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "no-nordkapp-finnmark",
-    "name": "Nordkapp, Finnmark",
-    "url": "https://live-image.panomax.com/cams/5067/recent_reduced.jpg",
-    "country": "NO",
-    "city": "Nordkapp",
-    "category": "aurora",
-    "location": "Nordkapp, Finnmark",
-    "timezone": "Europe/Oslo",
     "coordinates": {
       "lat": 0,
       "lng": 0
