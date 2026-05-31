@@ -54627,22 +54627,6 @@
     "category": "highway",
     "city": "Washington",
     "country": "US",
-    "id": "wa-sr7-at-mp-0-45-morton-sr508-b75ae6",
-    "location": "SR7 at MP 0.45: Morton (SR508), Washington, USA",
-    "name": "SR7 at MP 0.45: Morton (SR508)",
-    "timezone": "America/Los_Angeles",
-    "url": "https://home.lewiscounty.com/~mortonwebcam/fullsize.jpg",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 46.558534,
-      "lng": -122.275289
-    }
-  },
-  {
-    "category": "highway",
-    "city": "Washington",
-    "country": "US",
     "id": "wa-sr-7-at-mp-1-2-north-morton-183209",
     "location": "SR 7 at MP 1.2: North Morton, Washington, USA",
     "name": "SR 7 at MP 1.2: North Morton",
@@ -410768,22 +410752,6 @@
     }
   },
   {
-    "id": "ga-13517-i-675n",
-    "name": "GDOT-0605: I-675 N at US23 MM 2.7 (Clayton)",
-    "url": "https://511ga.org/map/Cctv/20927",
-    "category": "highway",
-    "location": "Clayton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Clayton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.578151,
-      "lng": -84.278174
-    }
-  },
-  {
     "id": "ga-13518-i-675n",
     "name": "GDOT-0608: I-675 N at DoubleBridgeRd MM 4.4 (Clayton)",
     "url": "https://511ga.org/map/Cctv/20928",
@@ -411808,22 +411776,6 @@
     }
   },
   {
-    "id": "ga-13591-i-575n",
-    "name": "GDOT-0913: I-575 N past RiverstonePkwy MM 20.4 (Cherokee)",
-    "url": "https://511ga.org/map/Cctv/21001",
-    "category": "highway",
-    "location": "Cherokee, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cherokee",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.258016,
-      "lng": -84.466755
-    }
-  },
-  {
     "id": "ga-13592-i-575n",
     "name": "GDOT-0916: I-575 N at FateConnRd MM 22.3 (Cherokee)",
     "url": "https://511ga.org/map/Cctv/21002",
@@ -412237,22 +412189,6 @@
     "coordinates": {
       "lat": 33.379502,
       "lng": -84.285866
-    }
-  },
-  {
-    "id": "ga-13619-i-475n",
-    "name": "GDOT-1013: I-475 N past I-75 MM 0.8 (Bibb)",
-    "url": "https://511ga.org/map/Cctv/21029",
-    "category": "highway",
-    "location": "Bibb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Bibb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.766141,
-      "lng": -83.710302
     }
   },
   {
