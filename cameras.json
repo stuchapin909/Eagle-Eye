@@ -452368,22 +452368,6 @@
     }
   },
   {
-    "id": "ny-1804",
-    "name": "I-495 at 138th Street",
-    "url": "https://511ny.org/map/Cctv/5741",
-    "category": "highway",
-    "location": "Long Island Expressway (I-495) Eastbound, New York, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Queens",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.74287,
-      "lng": -73.82789
-    }
-  },
-  {
     "id": "ny-1806",
     "name": "I-495 at 146th Street",
     "url": "https://511ny.org/map/Cctv/5743",
@@ -463694,23 +463678,6 @@
     "coordinates": {
       "lat": 36.758706,
       "lng": -90.407865
-    }
-  },
-  {
-    "id": "us-mo-modot-002",
-    "name": "US-169 @ US-36 St Joseph",
-    "url": "https://traveler.modot.org/traffic_camera_snapshots/US-169@US-36_StJoseph/US-169@US-36_StJoseph.jpg",
-    "category": "highway",
-    "location": "St. Joseph, Missouri, USA",
-    "timezone": "America/Chicago",
-    "country": "US",
-    "city": "St. Joseph",
-    "verified": true,
-    "auth": false,
-    "source": "missouri-modot",
-    "coordinates": {
-      "lat": 39.746647,
-      "lng": -94.80192
     }
   },
   {
@@ -530318,24 +530285,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C1514",
-    "name": "T.H.25 NB @ Co Rd 75",
-    "url": "https://public.carsprogram.org/cameras/MN/C1514",
-    "city": "Monticello",
-    "country": "US",
-    "location": "MN 25, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.305733,
-      "lng": -93.794193
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30400-v1",
     "name": "T.H.1 (Goodridge - MP 71.8) View 1",
     "url": "https://public.carsprogram.org/cameras/MN/C30400-v1",
@@ -537943,24 +537892,6 @@
     "coordinates": {
       "lat": 44.023107,
       "lng": -92.763877
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C30029",
-    "name": "I-94 EB (Lake Latoka Rest Area 2)",
-    "url": "https://public.carsprogram.org/cameras/MN/C30029",
-    "city": "3 miles west of Alexandria",
-    "country": "US",
-    "location": "I-94, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.86891,
-      "lng": -95.449455
     },
     "verified": true,
     "auth": {
@@ -577391,22 +577322,6 @@
     "coordinates": {
       "lat": 47.4661,
       "lng": -87.8941
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "fr-minichate-allsky",
-    "name": "Obs Minichate AllSky Camera",
-    "url": "https://obs.minichate.com/current/tmp/image.jpg",
-    "country": "FR",
-    "city": "Minihy-Tréguier",
-    "category": "aurora",
-    "location": "Observatoire de Minichate, Minihy-Tréguier, France",
-    "timezone": "Europe/Paris",
-    "coordinates": {
-      "lat": 48.7833,
-      "lng": -3.1667
     },
     "verified": true,
     "auth": false
