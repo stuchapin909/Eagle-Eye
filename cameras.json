@@ -94562,22 +94562,6 @@
   {
     "auth": false,
     "category": "highway",
-    "city": "Hesperia",
-    "country": "US",
-    "id": "ca-caltrans-d8-i-15-594-so-route-395",
-    "location": "Hesperia, CA, USA",
-    "name": "I-15 : (594) s/o Route 395",
-    "timezone": "America/Los_Angeles",
-    "url": "https://cwwp2.dot.ca.gov/data/d8/cctv/image/i15594soroute395/i15594soroute395.jpg",
-    "verified": true,
-    "coordinates": {
-      "lat": 34.39113,
-      "lng": -117.40841
-    }
-  },
-  {
-    "auth": false,
-    "category": "highway",
     "city": "Victorville",
     "country": "US",
     "id": "ca-caltrans-d8-i-15-600-palmdale-rd",
@@ -384480,22 +384464,6 @@
     }
   },
   {
-    "id": "ga-12167-sr-81w",
-    "name": "HNRY-0102: SR 81 at North Ola Rd (Henry)",
-    "url": "https://511ga.org/map/Cctv/19577",
-    "category": "highway",
-    "location": "Henry, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Henry",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.43597,
-      "lng": -84.041336
-    }
-  },
-  {
     "id": "ga-12168-sr-138-n-henry-blvde",
     "name": "HNRY-0110: SR 138 / N Henry Blvd at E Atlanta Rd (Henry)",
     "url": "https://511ga.org/map/Cctv/19578",
@@ -384637,22 +384605,6 @@
     "coordinates": {
       "lat": 31.869728,
       "lng": -82.59478
-    }
-  },
-  {
-    "id": "ga-12177-us-25n",
-    "name": "JEN-0001: US 25 at SR 21 (Jenkins)",
-    "url": "https://511ga.org/map/Cctv/19587",
-    "category": "highway",
-    "location": "Jenkins, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Jenkins",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.82591,
-      "lng": -81.94721
     }
   },
   {
@@ -413533,22 +413485,6 @@
     "coordinates": {
       "lat": 33.89616,
       "lng": -84.465709
-    }
-  },
-  {
-    "id": "ga-14064-i-85s",
-    "name": "GDOT-0040: I-85 S past US23/ClarimontRd MM 90 (DeKalb)",
-    "url": "https://511ga.org/map/Cctv/21474",
-    "category": "highway",
-    "location": "DeKalb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "DeKalb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.838546,
-      "lng": -84.32255
     }
   },
   {
