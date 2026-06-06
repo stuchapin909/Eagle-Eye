@@ -24307,22 +24307,6 @@
     "category": "highway",
     "city": "Calgary",
     "country": "CA",
-    "id": "ab-airport-trail-barlow-trail-ne-2",
-    "location": "Airport Trail /  Barlow Trail NE, Alberta, Canada",
-    "name": "Airport Trail /  Barlow Trail NE",
-    "timezone": "America/Edmonton",
-    "url": "https://511.alberta.ca/map/Cctv/2",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 51.139352,
-      "lng": -114.001451
-    }
-  },
-  {
-    "category": "highway",
-    "city": "Calgary",
-    "country": "CA",
     "id": "ab-8-ave-12-street-se-3",
     "location": "8 Ave / 12 Street SE, Alberta, Canada",
     "name": "8 Ave / 12 Street SE",
@@ -24413,22 +24397,6 @@
     "coordinates": {
       "lat": 50.947162,
       "lng": -113.919801
-    }
-  },
-  {
-    "category": "highway",
-    "city": "Calgary",
-    "country": "CA",
-    "id": "ab-fish-creek-bv-stoney-trail-sw-9",
-    "location": "Fish Creek Bv & Stoney Trail SW, Alberta, Canada",
-    "name": "Fish Creek Bv & Stoney Trail SW",
-    "timezone": "America/Edmonton",
-    "url": "https://511.alberta.ca/map/Cctv/9",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 50.919277,
-      "lng": -114.134181
     }
   },
   {
@@ -413440,22 +413408,6 @@
     }
   },
   {
-    "id": "ga-14060-i-75n",
-    "name": "GDOT-0027: I-75 N past MooresMillRd MM 254.1 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21470",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.834768,
-      "lng": -84.427576
-    }
-  },
-  {
     "id": "ga-14061-i-75n",
     "name": "GDOT-0030: I-75 N at MtParanRd MM 256.2 (Fulton)",
     "url": "https://511ga.org/map/Cctv/21471",
@@ -538890,22 +538842,6 @@
     "coordinates": {
       "lat": 0,
       "lng": 0
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "us-glacier-dark-sky",
-    "name": "Glacier National Park Dark Sky",
-    "url": "https://glacier.org/webcam/dark_sky_nps.jpg",
-    "country": "US",
-    "city": "West Glacier",
-    "category": "aurora",
-    "location": "Glacier National Park, West Glacier, Montana, USA",
-    "timezone": "America/Denver",
-    "coordinates": {
-      "lat": 48.7596,
-      "lng": -113.787
     },
     "verified": true,
     "auth": false
