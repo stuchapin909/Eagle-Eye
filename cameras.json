@@ -475575,24 +475575,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C30007",
-    "name": "T.H.371 SB @ Co Rd 77 WB (CR77 West/CR13 East)",
-    "url": "https://public.carsprogram.org/cameras/MN/C30007",
-    "city": "Nisswa",
-    "country": "US",
-    "location": "MN 371, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 46.500095,
-      "lng": -94.298007
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C848",
     "name": "I-94 EB @ Western Ave",
     "url": "https://public.carsprogram.org/cameras/MN/C848",
@@ -484082,24 +484064,6 @@
     "coordinates": {
       "lat": 44.789735,
       "lng": -93.405743
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C221",
-    "name": "T.H.100 NB @ 36th Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C221",
-    "city": "Robbinsdale",
-    "country": "US",
-    "location": "MN 100, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.021963,
-      "lng": -93.348286
     },
     "verified": true,
     "auth": {
