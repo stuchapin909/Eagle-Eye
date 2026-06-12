@@ -393856,22 +393856,6 @@
     }
   },
   {
-    "id": "ga-13146-sr400s",
-    "name": "GDOT-0810: SR400/US19 S past SR141 MM 1.9 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20556",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.842897,
-      "lng": -84.362234
-    }
-  },
-  {
     "id": "ga-13147-sr400s",
     "name": "GDOT-0813: SR400/US19 S past LenoxRd MM 2 (Fulton)",
     "url": "https://511ga.org/map/Cctv/20557",
@@ -476331,24 +476315,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C1312",
-    "name": "T.H.13 EB @ Nicollet Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C1312",
-    "city": "Burnsville",
-    "country": "US",
-    "location": "MN 13, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.777067,
-      "lng": -93.277666
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C5150",
     "name": "T.H.51 SB @ Midway Pkwy",
     "url": "https://public.carsprogram.org/cameras/MN/C5150",
@@ -480338,24 +480304,6 @@
     "coordinates": {
       "lat": 45.282881,
       "lng": -95.911478
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C30173",
-    "name": "U.S.14 EB @ Co Rd 3",
-    "url": "https://public.carsprogram.org/cameras/MN/C30173",
-    "city": "1 mile east of Byron",
-    "country": "US",
-    "location": "US 14, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.029006,
-      "lng": -92.608572
     },
     "verified": true,
     "auth": {
