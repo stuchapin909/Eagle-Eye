@@ -51794,22 +51794,6 @@
   {
     "auth": false,
     "category": "highway",
-    "city": "Arcata",
-    "country": "US",
-    "id": "ca-caltrans-d1-hum-255-k-st-looking-east-toward-h",
-    "location": "Arcata, CA, USA",
-    "name": "HUM-255: K St - Looking East toward H",
-    "timezone": "America/Los_Angeles",
-    "url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/hum255kstlookingeasttow/hum255kstlookingeasttow.jpg",
-    "verified": true,
-    "coordinates": {
-      "lat": 40.865951,
-      "lng": -124.091548
-    }
-  },
-  {
-    "auth": false,
-    "category": "highway",
     "city": "Crescent City",
     "country": "US",
     "id": "ca-caltrans-d1-dn-101-9th-l-looking-north",
@@ -230653,22 +230637,6 @@
     "coordinates": {
       "lat": 35.837122,
       "lng": -80.859387
-    }
-  },
-  {
-    "id": "nc-1225-i-77-n-mm-54-00",
-    "name": "I-77 N @ mm 54.00",
-    "url": "https://cfms.services.ncdot.gov/snapshots/chan-5333_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 35.849109,
-      "lng": -80.858844
     }
   },
   {
@@ -493588,24 +493556,6 @@
     "coordinates": {
       "lat": 44.027109,
       "lng": -92.576439
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C30053",
-    "name": "T.H.52 NB @ Southview Blvd (East ramps)",
-    "url": "https://public.carsprogram.org/cameras/MN/C30053",
-    "city": "South Saint Paul",
-    "country": "US",
-    "location": "US 52, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.884837,
-      "lng": -93.063235
     },
     "verified": true,
     "auth": {
