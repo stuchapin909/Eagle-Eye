@@ -392896,22 +392896,6 @@
     }
   },
   {
-    "id": "ga-13086-i-75n",
-    "name": "GDOT-0578: I-75/I-85 N past UniversityAve MM 244.9 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20496",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.725523,
-      "lng": -84.393383
-    }
-  },
-  {
     "id": "ga-13087-i-285u",
     "name": "GDOT-0581: I-285 CCW at US23 MM 33.4 (DeKalb)",
     "url": "https://511ga.org/map/Cctv/20497",
