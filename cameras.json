@@ -266800,22 +266800,6 @@
     }
   },
   {
-    "id": "pa-pa-283-eastbound-5933",
-    "name": "PA 283 @ PA 72 MANHEIM PIKE",
-    "url": "https://www.511pa.com/map/Cctv/5933",
-    "category": "highway",
-    "location": "PA 283, Pennsylvania, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "PA 283",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.07611,
-      "lng": -76.33783
-    }
-  },
-  {
     "id": "pa-i-79-southbound-5934",
     "name": "I-79 @ MM 64.6 (CORAOPOLIS INTERCHANGE)",
     "url": "https://www.511pa.com/map/Cctv/5934",
