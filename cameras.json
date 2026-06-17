@@ -79922,22 +79922,6 @@
   {
     "auth": false,
     "category": "highway",
-    "city": "Long Beach",
-    "country": "US",
-    "id": "ca-caltrans-d7-sr-47-959-pier-away",
-    "location": "Long Beach, CA, USA",
-    "name": "SR-47 : (959) Pier AWay",
-    "timezone": "America/Los_Angeles",
-    "url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/sr47959pieraway/sr47959pieraway.jpg",
-    "verified": true,
-    "coordinates": {
-      "lat": 33.7741,
-      "lng": -118.2395
-    }
-  },
-  {
-    "auth": false,
-    "category": "highway",
     "city": "Burbank",
     "country": "US",
     "id": "ca-caltrans-d7-sr-134-653-buena-vista",
