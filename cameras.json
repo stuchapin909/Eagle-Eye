@@ -390480,22 +390480,6 @@
     }
   },
   {
-    "id": "ga-12933-i-85s",
-    "name": "GDOT-0076: I-85 S before LoopRd MM 73.1 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20343",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.653457,
-      "lng": -84.438211
-    }
-  },
-  {
     "id": "ga-12934-i-75s",
     "name": "GDOT-0079: I-75 S at ClevelandAve MM 241.6 (Fulton)",
     "url": "https://511ga.org/map/Cctv/20344",
@@ -391309,22 +391293,6 @@
     "coordinates": {
       "lat": 33.83649,
       "lng": -84.248799
-    }
-  },
-  {
-    "id": "ga-12986-i-285u",
-    "name": "GDOT-0245: I-285 CCW at US78 MM 40.2 (DeKalb)",
-    "url": "https://511ga.org/map/Cctv/20396",
-    "category": "highway",
-    "location": "DeKalb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "DeKalb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.81596,
-      "lng": -84.25053
     }
   },
   {
@@ -393216,22 +393184,6 @@
     }
   },
   {
-    "id": "ga-13110-i-285u",
-    "name": "GDOT-0664: I-285 CW at 5thRunwayTunnel MM 60.7 (Clayton)",
-    "url": "https://511ga.org/map/Cctv/20520",
-    "category": "highway",
-    "location": "Clayton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Clayton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.621908,
-      "lng": -84.42755
-    }
-  },
-  {
     "id": "ga-13111-i-285u",
     "name": "GDOT-0667: I-285 CW past I-75 MM 60.6 (Clayton)",
     "url": "https://511ga.org/map/Cctv/20521",
@@ -393885,22 +393837,6 @@
     "coordinates": {
       "lat": 33.97519,
       "lng": -84.34505
-    }
-  },
-  {
-    "id": "ga-13154-sr400s",
-    "name": "GDOT-0834: SR400/US19 S past SR140 MM 13.2 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20564",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.00056,
-      "lng": -84.33695
     }
   },
   {
@@ -397117,22 +397053,6 @@
     "coordinates": {
       "lat": 33.72288,
       "lng": -84.39397
-    }
-  },
-  {
-    "id": "ga-13368-i-20e",
-    "name": "GDOT-0116: I-20 E at CapitolAve MM 57.4 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20778",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.74332,
-      "lng": -84.38633
     }
   },
   {
@@ -407389,38 +407309,6 @@
     "coordinates": {
       "lat": 33.730025,
       "lng": -84.393014
-    }
-  },
-  {
-    "id": "ga-14056-i-75n",
-    "name": "GDOT-0015: I-75/I-85 N at SpringSt MM 248.5 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21466",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.768191,
-      "lng": -84.389206
-    }
-  },
-  {
-    "id": "ga-14057-i-75s",
-    "name": "GDOT-0018: I-75/I-85 S at 10thSt MM 249.4 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21467",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.780517,
-      "lng": -84.391407
     }
   },
   {
