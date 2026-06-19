@@ -230944,22 +230944,6 @@
     }
   },
   {
-    "id": "nc-1836-i-40-mm-2-7",
-    "name": "I-40 MM 2.7",
-    "url": "https://cfss.services.ncdot.gov/snapshots/chan-6119_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 35.750542,
-      "lng": -83.064582
-    }
-  },
-  {
     "id": "nc-1837-i-40-mm-3",
     "name": "I-40 MM 3",
     "url": "https://cfss.services.ncdot.gov/snapshots/chan-6120_h.jpg",
@@ -461813,24 +461797,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C10-04",
-    "name": "T.H.10 WB @ 34th St",
-    "url": "https://public.carsprogram.org/cameras/MN/C10-04",
-    "city": "Moorhead",
-    "country": "US",
-    "location": "US 10, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 46.876382,
-      "lng": -96.725785
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C649",
     "name": "I-35W NB N of Co Rd 14 (MP 39.7)",
     "url": "https://public.carsprogram.org/cameras/MN/C649",
@@ -483892,24 +483858,6 @@
     "coordinates": {
       "lat": 45.125236,
       "lng": -93.264512
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C10-03",
-    "name": "T.H.10 WB @ 1st Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C10-03",
-    "city": "Moorhead",
-    "country": "US",
-    "location": "US 10, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 46.875516,
-      "lng": -96.746688
     },
     "verified": true,
     "auth": {
@@ -534346,22 +534294,6 @@
     "city": "At Sea",
     "category": "ferry",
     "location": "Norwegian America Bridge",
-    "timezone": "UTC",
-    "coordinates": {
-      "lat": 0,
-      "lng": 0
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "ncl-epic-bridge",
-    "name": "Norwegian Epic Bridge Cam",
-    "url": "http://www.ncl.com/shipcams/epiccam/fullsize.jpg",
-    "country": "US",
-    "city": "At Sea",
-    "category": "ferry",
-    "location": "Norwegian Epic Bridge",
     "timezone": "UTC",
     "coordinates": {
       "lat": 0,
