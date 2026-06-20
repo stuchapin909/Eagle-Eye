@@ -438857,22 +438857,6 @@
     }
   },
   {
-    "id": "oh-kyc-i-71-i-75-at-12th-st",
-    "name": "I-71/I-75 at 12th St (South)",
-    "url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1908.jpg",
-    "category": "highway",
-    "location": "Cincinnati, Ohio, USA",
-    "timezone": "America/Chicago",
-    "country": "US",
-    "city": "Cincinnati",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 39.08087,
-      "lng": -84.52272
-    }
-  },
-  {
     "id": "oh-kyc-i-71-i-75-at-cut-in-the-hill",
     "name": "I-71/I-75 at Cut in the Hill (North)",
     "url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1896.jpg",
@@ -439110,22 +439094,6 @@
     "coordinates": {
       "lat": 39.055124,
       "lng": -84.626084
-    }
-  },
-  {
-    "id": "oh-kyc-i-275-east-of-ky-212-airport",
-    "name": "I-275 East of KY 212/Airport (West)",
-    "url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0037.jpg",
-    "category": "highway",
-    "location": "Cincinnati, Ohio, USA",
-    "timezone": "America/Chicago",
-    "country": "US",
-    "city": "Cincinnati",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 39.06969,
-      "lng": -84.64961
     }
   },
   {
