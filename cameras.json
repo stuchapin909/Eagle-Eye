@@ -7683,22 +7683,6 @@
     "category": "city",
     "city": "New York",
     "country": "US",
-    "id": "nyc-hempstead-ave-at-cross-island-pkwy-ptz",
-    "location": "Queens, New York, USA",
-    "name": "Hempstead Ave @ Cross Island Pkwy (PTZ)",
-    "timezone": "America/New_York",
-    "url": "https://nyctmc.org/api/cameras/81c2390a-2dc5-4a44-9fc3-9870b360032e/image",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.710823,
-      "lng": -73.727495
-    }
-  },
-  {
-    "category": "city",
-    "city": "New York",
-    "country": "US",
     "id": "nyc-woodhaven-blvd-at-union-tpke",
     "location": "Queens, New York, USA",
     "name": "Woodhaven Blvd @ Union Tpke",
@@ -230032,22 +230016,6 @@
     }
   },
   {
-    "id": "nc-130-us-158-birch-st-mm-1",
-    "name": "US 158 - Birch St (MM 1)",
-    "url": "https://cfes.services.ncdot.gov/snapshots/chan-5313_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 36.097106,
-      "lng": -75.727601
-    }
-  },
-  {
     "id": "nc-138-us-158-3rd-st-mm-6-5",
     "name": "US 158 - 3rd St (MM 6.5)",
     "url": "https://cfes.services.ncdot.gov/snapshots/chan-5327_h.jpg",
@@ -231389,22 +231357,6 @@
     "coordinates": {
       "lat": 35.06541080674873,
       "lng": -80.8452167275275
-    }
-  },
-  {
-    "id": "nc-1879-cctv10-i485-57o-nc16",
-    "name": "CCTV10-I485-57O_NC16",
-    "url": "https://cfms.services.ncdot.gov/snapshots/chan-6364_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 35.059676161275135,
-      "lng": -80.76946528810291
     }
   },
   {
