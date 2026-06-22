@@ -7411,22 +7411,6 @@
     "category": "city",
     "city": "New York",
     "country": "US",
-    "id": "nyc-cadman-plz-west-at-tillary-st",
-    "location": "Brooklyn, New York, USA",
-    "name": "Cadman Plz West @ Tillary St",
-    "timezone": "America/New_York",
-    "url": "https://nyctmc.org/api/cameras/07c5a9ab-38b0-4176-a932-395cded5858e/image",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.696267,
-      "lng": -73.991073
-    }
-  },
-  {
-    "category": "city",
-    "city": "New York",
-    "country": "US",
     "id": "nyc-atlantic-ave-at-barclays-center",
     "location": "Brooklyn, New York, USA",
     "name": "Atlantic Ave @ Barclays Center",
@@ -400349,22 +400333,6 @@
     "coordinates": {
       "lat": 33.8306,
       "lng": -84.48597
-    }
-  },
-  {
-    "id": "ga-13606-i-285u",
-    "name": "GDOT-0965: I-285 CCW at CumberlandPkwy MM 18.1 (Cobb)",
-    "url": "https://511ga.org/map/Cctv/21016",
-    "category": "highway",
-    "location": "Cobb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cobb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.847727,
-      "lng": -84.486638
     }
   },
   {
