@@ -231296,22 +231296,6 @@
     }
   },
   {
-    "id": "nc-1875-cctv10-i485-65i-south",
-    "name": "CCTV10-I485-65I_South",
-    "url": "https://cfms.services.ncdot.gov/snapshots/chan-6360_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 35.101828724120566,
-      "lng": -80.88054023962486
-    }
-  },
-  {
     "id": "nc-1876-cctv10-i485-62-6o-carmel",
     "name": "CCTV10-I485-62.6O_Carmel",
     "url": "https://cfms.services.ncdot.gov/snapshots/chan-6361_h.jpg",
