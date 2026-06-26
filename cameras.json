@@ -391392,22 +391392,6 @@
     }
   },
   {
-    "id": "ga-13004-i-20w",
-    "name": "GDOT-0310: I-20 W past MtVernonRd MM 42 (Douglas)",
-    "url": "https://511ga.org/map/Cctv/20414",
-    "category": "highway",
-    "location": "Douglas, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Douglas",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.771342,
-      "lng": -84.640137
-    }
-  },
-  {
     "id": "ga-13005-i-20w",
     "name": "GDOT-0313: I-20 W past SR6 MM 43.3 (Douglas)",
     "url": "https://511ga.org/map/Cctv/20415",
@@ -461571,24 +461555,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C9020",
-    "name": "U.S.169 NB S of 237th Ave NE",
-    "url": "https://public.carsprogram.org/cameras/MN/C9020",
-    "city": "1 mile north of Elk River",
-    "country": "US",
-    "location": "US 169, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.392053,
-      "lng": -93.561346
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C649",
     "name": "I-35W NB N of Co Rd 14 (MP 39.7)",
     "url": "https://public.carsprogram.org/cameras/MN/C649",
@@ -464487,24 +464453,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C646",
-    "name": "I-35W NB S of Co Rd 23 (MP 35.7)",
-    "url": "https://public.carsprogram.org/cameras/MN/C646",
-    "city": "Lino Lakes",
-    "country": "US",
-    "location": "I-35W, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.172713,
-      "lng": -93.12447
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C785",
     "name": "I-94 EB W of T.H.25 (MP 192)",
     "url": "https://public.carsprogram.org/cameras/MN/C785",
@@ -464775,24 +464723,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C30172",
-    "name": "U.S.14 EB @ 10th Ave SE",
-    "url": "https://public.carsprogram.org/cameras/MN/C30172",
-    "city": "1 mile east of Byron",
-    "country": "US",
-    "location": "US 14, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.028616,
-      "lng": -92.628084
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30125",
     "name": "T.H.52 NB @ Fischer Ave (MP 103.8)",
     "url": "https://public.carsprogram.org/cameras/MN/C30125",
@@ -464948,24 +464878,6 @@
     "coordinates": {
       "lat": 46.734587,
       "lng": -92.097295
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-D6-C093",
-    "name": "I-35 NB (MP 75.3)",
-    "url": "https://public.carsprogram.org/cameras/MN/D6-C093",
-    "city": "6 miles south of Lakeville",
-    "country": "US",
-    "location": "I-35, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.550986,
-      "lng": -93.298728
     },
     "verified": true,
     "auth": {
@@ -466773,24 +466685,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C9021",
-    "name": "U.S.169 NB @ 247th Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C9021",
-    "city": "1 mile south of Zimmerman",
-    "country": "US",
-    "location": "US 169, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.421038,
-      "lng": -93.566585
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30310-v1",
     "name": "I-94 (Dilworth - MP 5) View 1",
     "url": "https://public.carsprogram.org/cameras/MN/C30310-v1",
@@ -466928,24 +466822,6 @@
     "coordinates": {
       "lat": 45.089561,
       "lng": -93.007237
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C9022",
-    "name": "U.S.169 SB N of 273rd Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C9022",
-    "city": "2 miles north of Zimmerman",
-    "country": "US",
-    "location": "US 169, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.475194,
-      "lng": -93.582218
     },
     "verified": true,
     "auth": {
@@ -467367,24 +467243,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C9010",
-    "name": "I-94 WB E of Co Rd 18 (TEMP)",
-    "url": "https://public.carsprogram.org/cameras/MN/C9010",
-    "city": "Monticello",
-    "country": "US",
-    "location": "I-94, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.286931,
-      "lng": -93.754614
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C852",
     "name": "I-94 WB @ I-35E NB",
     "url": "https://public.carsprogram.org/cameras/MN/C852",
@@ -467522,24 +467380,6 @@
     "coordinates": {
       "lat": 44.952574,
       "lng": -93.082789
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C902",
-    "name": "U.S.12 EB E of Co Rd 15",
-    "url": "https://public.carsprogram.org/cameras/MN/C902",
-    "city": "Wayzata",
-    "country": "US",
-    "location": "US 12, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.970869,
-      "lng": -93.483481
     },
     "verified": true,
     "auth": {
@@ -471194,24 +471034,6 @@
     "coordinates": {
       "lat": 44.879385,
       "lng": -93.080437
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C796",
-    "name": "I-94 EB @ Co Rd 37 (MP 202)",
-    "url": "https://public.carsprogram.org/cameras/MN/C796",
-    "city": "Albertville",
-    "country": "US",
-    "location": "I-94, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.238032,
-      "lng": -93.649224
     },
     "verified": true,
     "auth": {
@@ -482559,24 +482381,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C3629",
-    "name": "T.H.36 EB @ T.H.95",
-    "url": "https://public.carsprogram.org/cameras/MN/C3629",
-    "city": "Oak Park Heights",
-    "country": "US",
-    "location": "MN 95, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.034721,
-      "lng": -92.791462
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C004",
     "name": "T.H.36 WB @ Dale St",
     "url": "https://public.carsprogram.org/cameras/MN/C004",
@@ -483902,24 +483706,6 @@
     "coordinates": {
       "lat": 44.905813,
       "lng": -93.869712
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C30512",
-    "name": "U.S.14 EB @ 280th Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C30512",
-    "city": "1 mile west of Byron",
-    "country": "US",
-    "location": "US 14, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.028211,
-      "lng": -92.677129
     },
     "verified": true,
     "auth": {
@@ -486897,24 +486683,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C9023",
-    "name": "U.S.169 SB N of Co Rd 9",
-    "url": "https://public.carsprogram.org/cameras/MN/C9023",
-    "city": "4 miles south of Princeton",
-    "country": "US",
-    "location": "US 169, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.508718,
-      "lng": -93.582421
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C1321",
     "name": "T.H.13 SB @ McColl Dr",
     "url": "https://public.carsprogram.org/cameras/MN/C1321",
@@ -488942,24 +488710,6 @@
     "coordinates": {
       "lat": 45.028008,
       "lng": -93.166902
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-D6-C009",
-    "name": "T.H.52 SB @ 6th St SW (MP 55)",
-    "url": "https://public.carsprogram.org/cameras/MN/D6-C009",
-    "city": "Rochester",
-    "country": "US",
-    "location": "US 52, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.017104,
-      "lng": -92.487568
     },
     "verified": true,
     "auth": {
@@ -492038,24 +491788,6 @@
     "coordinates": {
       "lat": 44.805418,
       "lng": -93.601872
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C420",
-    "name": "I-494 WB @ Lyndale Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C420",
-    "city": "Richfield",
-    "country": "US",
-    "location": "I-494, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.861994,
-      "lng": -93.288457
     },
     "verified": true,
     "auth": {
