@@ -234404,22 +234404,6 @@
     "category": "city",
     "city": "Hong Kong",
     "country": "HK",
-    "id": "td-TC002F",
-    "location": "Lung Mun Rd Roundabout near TM-CLKL [TC002F], Tuen Mun, Hong Kong",
-    "name": "Lung Mun Rd Roundabout near TM-CLKL [TC002F]",
-    "timezone": "Asia/Hong_Kong",
-    "url": "https://tdcctv.data.one.gov.hk/TC002F.JPG",
-    "verified": true,
-    "coordinates": {
-      "lat": 22.372131,
-      "lng": 113.953067
-    }
-  },
-  {
-    "auth": false,
-    "category": "city",
-    "city": "Hong Kong",
-    "country": "HK",
     "id": "td-TC003F",
     "location": "TM-CLK Tunnel Northern Portal [TC003F], Tuen Mun, Hong Kong",
     "name": "TM-CLK Tunnel Northern Portal [TC003F]",
