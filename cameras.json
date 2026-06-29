@@ -230400,22 +230400,6 @@
     }
   },
   {
-    "id": "nc-928-i-140-us17-us74-us76",
-    "name": "I-140/US17 @ US74/US76",
-    "url": "https://cfes.services.ncdot.gov/snapshots/chan-5489_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.258529,
-      "lng": -78.080027
-    }
-  },
-  {
     "id": "nc-974-i-85-at-nelson-farm-rd",
     "name": "I-85 at Nelson Farm Rd",
     "url": "https://cfts.services.ncdot.gov:443/snapshots/chan-5831_h.jpg",
@@ -231168,102 +231152,6 @@
     }
   },
   {
-    "id": "nc-1863-us-74-mm-270-old-stage",
-    "name": "US-74 mm 270 @ Old Stage",
-    "url": "https://cfes.services.ncdot.gov/snapshots/chan-6351_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.312822109223426,
-      "lng": -78.21003274473647
-    }
-  },
-  {
-    "id": "nc-1864-us-74-mm-270-old-stage",
-    "name": "US-74 mm 270 @ Old Stage",
-    "url": "https://cfes.services.ncdot.gov/snapshots/chan-6351_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.312822109223426,
-      "lng": -78.21003274473647
-    }
-  },
-  {
-    "id": "nc-1865-1865",
-    "name": "NC Camera 1865",
-    "url": "https://cfes.services.ncdot.gov/snapshots/chan-6352_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.32935040555665,
-      "lng": -78.4195940072948
-    }
-  },
-  {
-    "id": "nc-1866-1866",
-    "name": "NC Camera 1866",
-    "url": "https://cfes.services.ncdot.gov/snapshots/chan-6353_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.34925128870021,
-      "lng": -78.65777729900046
-    }
-  },
-  {
-    "id": "nc-1867-1867",
-    "name": "NC Camera 1867",
-    "url": "https://cfes.services.ncdot.gov/snapshots/chan-6355_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.35997332928967,
-      "lng": -78.8306915757379
-    }
-  },
-  {
-    "id": "nc-1868-1868",
-    "name": "NC Camera 1868",
-    "url": "https://cfes.services.ncdot.gov/snapshots/chan-6355_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.35997332928967,
-      "lng": -78.8306915757379
-    }
-  },
-  {
     "id": "nc-1873-i-40-mm261-5w",
     "name": "I-40_mm261.5W",
     "url": "https://cfts.services.ncdot.gov:443/snapshots/chan-5870_h.jpg",
@@ -231293,38 +231181,6 @@
     "coordinates": {
       "lat": 35.06836620081567,
       "lng": -80.86542587857865
-    }
-  },
-  {
-    "id": "nc-1883-cctv08-us74-311w-us1",
-    "name": "CCTV08-US74-311W_US1",
-    "url": "https://cfss.services.ncdot.gov/snapshots/chan-6382_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.91118502806034,
-      "lng": -79.79198187589645
-    }
-  },
-  {
-    "id": "nc-1885-cctv08-us74-305w-pee-dee-east",
-    "name": "CCTV08-US74-305W_PEE-DEE-EAST",
-    "url": "https://cfss.services.ncdot.gov/snapshots/chan-6384_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.94677006746386,
-      "lng": -79.86793130636215
     }
   },
   {
@@ -248749,22 +248605,6 @@
     "coordinates": {
       "lat": 40.087099,
       "lng": -75.402492
-    }
-  },
-  {
-    "id": "pa-turnpike-i-276-westbound-4792",
-    "name": "I-276 @ Exit 351, Bensalem Interchange",
-    "url": "https://www.511pa.com/map/Cctv/4792",
-    "category": "highway",
-    "location": "Turnpike (I-276), Pennsylvania, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Turnpike (I-276)",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.132321,
-      "lng": -74.971495
     }
   },
   {
@@ -394205,22 +394045,6 @@
     "coordinates": {
       "lat": 34.271704,
       "lng": -83.815929
-    }
-  },
-  {
-    "id": "ga-13194-i-985s",
-    "name": "GDOT-0996: I-985 S before AthensSt MM 22.5 (Hall)",
-    "url": "https://511ga.org/map/Cctv/20604",
-    "category": "highway",
-    "location": "Hall, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Hall",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.2978,
-      "lng": -83.798806
     }
   },
   {
