@@ -407328,22 +407328,6 @@
     }
   },
   {
-    "id": "ga-14096-sr13s",
-    "name": "GDOT-0143: SR13 S at SR237 MM 2.2 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21506",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.812977,
-      "lng": -84.367069
-    }
-  },
-  {
     "id": "ga-14098-sr316e",
     "name": "GDOT-0149: SR316 E past SR20 MM 7.5 (Gwinnett)",
     "url": "https://511ga.org/map/Cctv/21508",
@@ -407744,22 +407728,6 @@
     }
   },
   {
-    "id": "ga-14127-i-285u",
-    "name": "GDOT-0240: I-285 CCW past SR236 MM 37.6 (DeKalb)",
-    "url": "https://511ga.org/map/Cctv/21537",
-    "category": "highway",
-    "location": "DeKalb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "DeKalb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.85101,
-      "lng": -84.24625
-    }
-  },
-  {
     "id": "ga-14128-i-285u",
     "name": "GDOT-0243: I-285 CCW at US29 MM 39.3 (DeKalb)",
     "url": "https://511ga.org/map/Cctv/21538",
@@ -407933,22 +407901,6 @@
     "coordinates": {
       "lat": 33.667554,
       "lng": -84.340625
-    }
-  },
-  {
-    "id": "ga-14139-i-285u",
-    "name": "GDOT-0277: I-285 CW at JonesboroRd MM 56.3 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21549",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.652555,
-      "lng": -84.367019
     }
   },
   {
@@ -493666,24 +493618,6 @@
     "coordinates": {
       "lat": 43.911442,
       "lng": -91.543542
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C020",
-    "name": "I-35E SB @ Lone Oak Rd",
-    "url": "https://public.carsprogram.org/cameras/MN/C020",
-    "city": "Eagan",
-    "country": "US",
-    "location": "I-35E, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.847755,
-      "lng": -93.153043
     },
     "verified": true,
     "auth": {
