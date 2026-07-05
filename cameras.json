@@ -6963,22 +6963,6 @@
     "category": "city",
     "city": "New York",
     "country": "US",
-    "id": "nyc-7-ave-at-40-st",
-    "location": "Manhattan, New York, USA",
-    "name": "7 Ave @ 40 St",
-    "timezone": "America/New_York",
-    "url": "https://nyctmc.org/api/cameras/5d055599-875a-4010-991f-e7e454889052/image",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.754746,
-      "lng": -73.987894
-    }
-  },
-  {
-    "category": "city",
-    "city": "New York",
-    "country": "US",
     "id": "nyc-west-st-and-west-thames-battery-tunnel",
     "location": "Manhattan, New York, USA",
     "name": "West st and West Thames (Battery tunnel)",
@@ -7021,22 +7005,6 @@
     "coordinates": {
       "lat": 40.75907,
       "lng": -73.97846
-    }
-  },
-  {
-    "category": "city",
-    "city": "New York",
-    "country": "US",
-    "id": "nyc-7-ave-at-34-st",
-    "location": "Manhattan, New York, USA",
-    "name": "7 Ave @ 34 St",
-    "timezone": "America/New_York",
-    "url": "https://nyctmc.org/api/cameras/ee1b1d85-e8ce-485f-a539-12962933eb9f/image",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.7510195668227,
-      "lng": -73.9906285955498
     }
   },
   {
@@ -7309,22 +7277,6 @@
     "coordinates": {
       "lat": 40.613168,
       "lng": -73.926315
-    }
-  },
-  {
-    "category": "city",
-    "city": "New York",
-    "country": "US",
-    "id": "nyc-wbb-2-nor-at-above-bedford-ave-s-5-st",
-    "location": "Brooklyn, New York, USA",
-    "name": "WBB - 2 NOR @ ABOVE BEDFORD AVE & S 5 St",
-    "timezone": "America/New_York",
-    "url": "https://nyctmc.org/api/cameras/8d2b3ae9-da68-4d37-8ae2-d3bc014f827b/image",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.710983,
-      "lng": -73.963168
     }
   },
   {
@@ -375808,22 +375760,6 @@
     }
   },
   {
-    "id": "ga-12022-e-ponce-de-leon-avee",
-    "name": "DEK-0633: E Ponce De Leon Ave at Brockett Rd (DeKalb)",
-    "url": "https://511ga.org/map/Cctv/19432",
-    "category": "highway",
-    "location": "DeKalb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "DeKalb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.818943,
-      "lng": -84.23117
-    }
-  },
-  {
     "id": "ga-12023-sr-236n",
     "name": "DEK-0636: SR 236/Hugh Howell Rd at Silver Hill Rd East (DeKalb)",
     "url": "https://511ga.org/map/Cctv/19433",
@@ -527621,22 +527557,6 @@
     "category": "aurora",
     "location": "SkyShack Observatory, Deerlick Astronomy Village",
     "timezone": "America/New_York",
-    "coordinates": {
-      "lat": 0,
-      "lng": 0
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "ca-university-of-calgary-rothney-astrophysi",
-    "name": "University of Calgary Rothney Astrophysical Observatory",
-    "url": "https://cam01.sci.ucalgary.ca/AllSkyCam/AllSkyCurrentImage.JPG",
-    "country": "CA",
-    "city": "Calgary",
-    "category": "aurora",
-    "location": "University of Calgary Rothney Astrophysical Observatory",
-    "timezone": "America/Edmonton",
     "coordinates": {
       "lat": 0,
       "lng": 0
