@@ -400928,22 +400928,6 @@
     }
   },
   {
-    "id": "ga-13675-i-75s",
-    "name": "GDOT-1198: I-75 S at JodecoRd MM 222.2 (Henry)",
-    "url": "https://511ga.org/map/Cctv/21085",
-    "category": "highway",
-    "location": "Henry, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Henry",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.480381,
-      "lng": -84.217369
-    }
-  },
-  {
     "id": "ga-13676-i-75n",
     "name": "GDOT-1202: I-75 N at SR113 MM 287.5 (Bartow)",
     "url": "https://511ga.org/map/Cctv/21086",
@@ -472681,24 +472665,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C1308",
-    "name": "T.H.13 EB @ Cliff Rd",
-    "url": "https://public.carsprogram.org/cameras/MN/C1308",
-    "city": "Burnsville",
-    "country": "US",
-    "location": "MN 13, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.790208,
-      "lng": -93.242699
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C624",
     "name": "I-35W NB @ 26th St",
     "url": "https://public.carsprogram.org/cameras/MN/C624",
@@ -527309,22 +527275,6 @@
     "auth": false
   },
   {
-    "id": "fi-syrj-vaara-dark-sky-park-kaavi",
-    "name": "Syrjävaara Dark Sky Park, Kaavi",
-    "url": "https://www.syrjavaara.fi/img/syrjavaara_latest_img.jpg",
-    "country": "FI",
-    "city": "Kaavi",
-    "category": "aurora",
-    "location": "Syrjävaara Dark Sky Park, Kaavi",
-    "timezone": "Europe/Helsinki",
-    "coordinates": {
-      "lat": 0,
-      "lng": 0
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
     "id": "dk-sor",
     "name": "Sorø",
     "url": "https://archive.allsky.tv/AMS89/LATEST/010893.jpg",
@@ -530792,22 +530742,6 @@
     "coordinates": {
       "lat": 53.2561,
       "lng": 158.8347
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "us-shasta-dam",
-    "name": "Shasta Dam",
-    "url": "http://www.shastacam.com/images/rotating/camfile1.jpg",
-    "country": "US",
-    "city": "Shasta Lake, California",
-    "category": "dam",
-    "location": "Shasta Dam, Shasta Lake, California, US",
-    "timezone": "America/Los_Angeles",
-    "coordinates": {
-      "lat": 40.7189,
-      "lng": -122.4161
     },
     "verified": true,
     "auth": false
