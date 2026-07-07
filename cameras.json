@@ -507343,22 +507343,6 @@
     "auth": false
   },
   {
-    "id": "za-94-4",
-    "name": "WC CCTV N1 137",
-    "url": "https://www.i-traffic.co.za/map/Cctv/94--4",
-    "city": "Cape Winelands",
-    "country": "ZA",
-    "location": "N1, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -33.776985,
-      "lng": 18.955835
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
     "id": "za-95-2",
     "name": "GP CCTV R21 819",
     "url": "https://www.i-traffic.co.za/map/Cctv/95--2",
@@ -533362,22 +533346,6 @@
     "city": "St Croix",
     "category": "beach",
     "location": "Tamarind Reef Resort, St Croix",
-    "timezone": "UTC",
-    "coordinates": {
-      "lat": 0,
-      "lng": 0
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "ncl-ameri-bridge",
-    "name": "Norwegian America Bridge Cam",
-    "url": "http://www.ncl.com/shipcams/americam/fullsize.jpg",
-    "country": "US",
-    "city": "At Sea",
-    "category": "ferry",
-    "location": "Norwegian America Bridge",
     "timezone": "UTC",
     "coordinates": {
       "lat": 0,
