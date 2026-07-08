@@ -49408,22 +49408,6 @@
     }
   },
   {
-    "category": "highway",
-    "city": "Snohomish",
-    "country": "US",
-    "id": "wa-harvey-airfield-snohomish-754d71",
-    "location": "Harvey Airfield(Snohomish), Snohomish, WA, USA",
-    "name": "Harvey Airfield(Snohomish)",
-    "timezone": "America/Los_Angeles",
-    "url": "https://images.wsdot.wa.gov/traffic/HarveyAirfield.jpg",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 47.907177,
-      "lng": -122.10015
-    }
-  },
-  {
     "category": "airport",
     "city": "Washington",
     "country": "US",
@@ -86669,22 +86653,6 @@
     "coordinates": {
       "lat": 33.84509,
       "lng": -117.25119
-    }
-  },
-  {
-    "auth": false,
-    "category": "highway",
-    "city": "Perris",
-    "country": "US",
-    "id": "ca-caltrans-d8-i-215-510-harley-knox",
-    "location": "Perris, CA, USA",
-    "name": "I-215 : (510) Harley Knox",
-    "timezone": "America/Los_Angeles",
-    "url": "https://cwwp2.dot.ca.gov/data/d8/cctv/image/i215510harleyknox/i215510harleyknox.jpg",
-    "verified": true,
-    "coordinates": {
-      "lat": 33.86394,
-      "lng": -117.25993
     }
   },
   {
@@ -268829,22 +268797,6 @@
     "coordinates": {
       "lat": 40.482737,
       "lng": -80.121504
-    }
-  },
-  {
-    "id": "pa-i-79-southbound-6100",
-    "name": "I-79 SB @ GLENORA DRIVE",
-    "url": "https://www.511pa.com/map/Cctv/6100",
-    "category": "highway",
-    "location": "I-79, Pennsylvania, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "I-79",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.486826,
-      "lng": -80.124878
     }
   },
   {
