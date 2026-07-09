@@ -230496,22 +230496,6 @@
     }
   },
   {
-    "id": "nc-1240-i-85-n-us-321",
-    "name": "I-85 N @ US 321",
-    "url": "https://cfms.services.ncdot.gov/snapshots/chan-5337_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 35.28356,
-      "lng": -81.187779
-    }
-  },
-  {
     "id": "nc-1242-i-85-n-cox-rd",
     "name": "I-85 N @ Cox Rd",
     "url": "https://cfms.services.ncdot.gov/snapshots/chan-5346_h.jpg",
@@ -462278,24 +462262,6 @@
     "coordinates": {
       "lat": 45.123528,
       "lng": -93.00317
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C033",
-    "name": "I-35E SB @ Grand Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C033",
-    "city": "Saint Paul",
-    "country": "US",
-    "location": "I-35E, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.939193,
-      "lng": -93.117334
     },
     "verified": true,
     "auth": {
