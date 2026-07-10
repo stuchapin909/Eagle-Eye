@@ -347632,22 +347632,6 @@
     }
   },
   {
-    "id": "ut-123545",
-    "name": "SR-153 RWIS EB @ Puffer Lake / MP 20.24, BV",
-    "url": "https://udottraffic.utah.gov/map/Cctv/123545",
-    "category": "city",
-    "location": "Bountiful, Utah, USA",
-    "timezone": "America/Denver",
-    "country": "US",
-    "city": "Bountiful",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 38.32091,
-      "lng": -112.37263
-    }
-  },
-  {
     "id": "ut-123546",
     "name": "12600 S / Herriman Blvd @ Main St / 5040 W, HRR",
     "url": "https://udottraffic.utah.gov/map/Cctv/123546",
@@ -484420,24 +484404,6 @@
     "coordinates": {
       "lat": 44.820941,
       "lng": -93.575731
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C1544",
-    "name": "T.H.55 WB @ Schaper Rd",
-    "url": "https://public.carsprogram.org/cameras/MN/C1544",
-    "city": "Golden Valley",
-    "country": "US",
-    "location": "MN 55, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.984191,
-      "lng": -93.342525
     },
     "verified": true,
     "auth": {
