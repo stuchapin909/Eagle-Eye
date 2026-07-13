@@ -248944,22 +248944,6 @@
     }
   },
   {
-    "id": "pa-turnpike-i-76-eastbound-4821",
-    "name": "I-76 @ Reading Interchange",
-    "url": "https://www.511pa.com/map/Cctv/4821",
-    "category": "highway",
-    "location": "Turnpike (I-76), Pennsylvania, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Turnpike (I-76)",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.214965,
-      "lng": -76.079592
-    }
-  },
-  {
     "id": "pa-turnpike-i-76-westbound-4822",
     "name": "I-76 @ Exit 236, Gettysburg Pike Interchange",
     "url": "https://www.511pa.com/map/Cctv/4822",
@@ -494091,22 +494075,6 @@
     "auth": false
   },
   {
-    "id": "za-107-4",
-    "name": "WC CCTV N1 141",
-    "url": "https://www.i-traffic.co.za/map/Cctv/107--4",
-    "city": "Cape Winelands",
-    "country": "ZA",
-    "location": "N1, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -33.74207,
-      "lng": 19.016891
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
     "id": "za-108-2",
     "name": "GP CCTV N1 209",
     "url": "https://www.i-traffic.co.za/map/Cctv/108--2",
@@ -494982,22 +494950,6 @@
     "coordinates": {
       "lat": -29.670341,
       "lng": 31.097248
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
-    "id": "za-124-4",
-    "name": "WC CCTV N2 917",
-    "url": "https://www.i-traffic.co.za/map/Cctv/124--4",
-    "city": "City Of Cape Town",
-    "country": "ZA",
-    "location": "N2, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -34.12962,
-      "lng": 18.9062
     },
     "verified": false,
     "auth": false
@@ -505403,22 +505355,6 @@
     "auth": false
   },
   {
-    "id": "za-50-4",
-    "name": "WC CCTV N1 112B",
-    "url": "https://www.i-traffic.co.za/map/Cctv/50--4",
-    "city": "City Of Cape Town",
-    "country": "ZA",
-    "location": "N1, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -33.88942,
-      "lng": 18.60972
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
     "id": "za-51-3",
     "name": "N2-CCTV-018A",
     "url": "https://www.i-traffic.co.za/map/Cctv/51--3",
@@ -506118,22 +506054,6 @@
     "coordinates": {
       "lat": -34.13516,
       "lng": 18.92327
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
-    "id": "za-69-4",
-    "name": "WC CCTV N2 287",
-    "url": "https://www.i-traffic.co.za/map/Cctv/69--4",
-    "city": "City Of Cape Town",
-    "country": "ZA",
-    "location": "N2, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -34.04305,
-      "lng": 18.73433
     },
     "verified": false,
     "auth": false
