@@ -43059,22 +43059,6 @@
     "category": "highway",
     "city": "Washington",
     "country": "US",
-    "id": "wa-i-205-at-99e-6bdd8e",
-    "location": "I-205 at 99E, Washington, USA",
-    "name": "I-205 at 99E",
-    "timezone": "America/Los_Angeles",
-    "url": "https://www.tripcheck.com/RoadCams/cams/i20599E_pid660.jpg",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.36637,
-      "lng": -122.596174
-    }
-  },
-  {
-    "category": "highway",
-    "city": "Washington",
-    "country": "US",
     "id": "wa-i-205-at-gladstone-db94d9",
     "location": "I-205 at Gladstone, Washington, USA",
     "name": "I-205 at Gladstone",
@@ -43091,22 +43075,6 @@
     "category": "highway",
     "city": "Washington",
     "country": "US",
-    "id": "wa-i-205-at-ore-212-224-03d634",
-    "location": "I-205 at ORE 212-224, Washington, USA",
-    "name": "I-205 at ORE 212-224",
-    "timezone": "America/Los_Angeles",
-    "url": "https://www.tripcheck.com/RoadCams/cams/i205hwy212_pid538.jpg",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.407207,
-      "lng": -122.570495
-    }
-  },
-  {
-    "category": "highway",
-    "city": "Washington",
-    "country": "US",
     "id": "wa-i-205-at-lawnfield-32b515",
     "location": "I-205 at Lawnfield, Washington, USA",
     "name": "I-205 at Lawnfield",
@@ -43117,70 +43085,6 @@
     "coordinates": {
       "lat": 45.418298,
       "lng": -122.574438
-    }
-  },
-  {
-    "category": "highway",
-    "city": "Washington",
-    "country": "US",
-    "id": "wa-i-205-at-sunnyside-8d9297",
-    "location": "I-205 at Sunnyside, Sunnyside, WA, USA",
-    "name": "I-205 at Sunnyside",
-    "timezone": "America/Los_Angeles",
-    "url": "https://www.tripcheck.com/RoadCams/cams/i205Sunnyside_pid544.jpg",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.433473,
-      "lng": -122.565121
-    }
-  },
-  {
-    "category": "highway",
-    "city": "Washington",
-    "country": "US",
-    "id": "wa-i-205-at-johnson-cr-5f17bb",
-    "location": "I-205 at Johnson Cr., Washington, USA",
-    "name": "I-205 at Johnson Cr.",
-    "timezone": "America/Los_Angeles",
-    "url": "https://www.tripcheck.com/RoadCams/cams/i205jcrk_pid539.jpg",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.456625,
-      "lng": -122.573697
-    }
-  },
-  {
-    "category": "highway",
-    "city": "Washington",
-    "country": "US",
-    "id": "wa-i-205-at-92nd-12f3a3",
-    "location": "I-205 at 92nd, Washington, USA",
-    "name": "I-205 at 92nd",
-    "timezone": "America/Los_Angeles",
-    "url": "https://www.tripcheck.com/RoadCams/cams/i20592nd_pid532.jpg",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.464315,
-      "lng": -122.568321
-    }
-  },
-  {
-    "category": "highway",
-    "city": "Washington",
-    "country": "US",
-    "id": "wa-i-205-at-foster-87b1c3",
-    "location": "I-205 at Foster, Washington, USA",
-    "name": "I-205 at Foster",
-    "timezone": "America/Los_Angeles",
-    "url": "https://www.tripcheck.com/RoadCams/cams/i205fstr_pid535.jpg",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.479731,
-      "lng": -122.56551
     }
   },
   {
@@ -43309,38 +43213,6 @@
     "coordinates": {
       "lat": 45.51248,
       "lng": -122.68935
-    }
-  },
-  {
-    "category": "highway",
-    "city": "Washington",
-    "country": "US",
-    "id": "wa-i-405-at-sw-fourth-ave-2d7503",
-    "location": "I-405 at SW Fourth Ave, Washington, USA",
-    "name": "I-405 at SW Fourth Ave",
-    "timezone": "America/Los_Angeles",
-    "url": "https://www.tripcheck.com/RoadCams/cams/i405fourth_pid546.jpg",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.50618,
-      "lng": -122.68275
-    }
-  },
-  {
-    "category": "highway",
-    "city": "Washington",
-    "country": "US",
-    "id": "wa-i-5-at-elligsen-road-7bc34b",
-    "location": "I-5 at Elligsen Road, Washington, USA",
-    "name": "I-5 at Elligsen Road",
-    "timezone": "America/Los_Angeles",
-    "url": "https://www.tripcheck.com/RoadCams/cams/i5elligs_pid559.jpg",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.33631,
-      "lng": -122.76975
     }
   },
   {
@@ -279632,22 +279504,6 @@
     }
   },
   {
-    "id": "or-us26-at-zoo-bridge-pid498",
-    "name": "US26 at Zoo Bridge",
-    "url": "https://tripcheck.com/roadcams/cams/26Zoo_pid498.jpg",
-    "category": "highway",
-    "location": "Portland, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Portland",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.50701,
-      "lng": -122.71921
-    }
-  },
-  {
     "id": "or-or217-at-denney-pid516",
     "name": "OR217 at Denney",
     "url": "https://tripcheck.com/roadcams/cams/217denney_pid516.jpg",
@@ -279744,22 +279600,6 @@
     }
   },
   {
-    "id": "or-us26-at-or217-pid523",
-    "name": "US26 at OR217",
-    "url": "https://tripcheck.com/roadcams/cams/26_217_pid523.jpg",
-    "category": "highway",
-    "location": "Portland, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Portland",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.50797,
-      "lng": -122.77776
-    }
-  },
-  {
     "id": "or-us26-at-bethany-pid524",
     "name": "US26 at Bethany",
     "url": "https://tripcheck.com/roadcams/cams/26Bethany_pid524.jpg",
@@ -279773,38 +279613,6 @@
     "coordinates": {
       "lat": 45.53288,
       "lng": -122.8429
-    }
-  },
-  {
-    "id": "or-us26-at-jefferson-off-ramp-pid525",
-    "name": "US26 at Jefferson Off-Ramp",
-    "url": "https://tripcheck.com/roadcams/cams/26Jefferson_pid525.jpg",
-    "category": "highway",
-    "location": "Portland, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Portland",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.51246,
-      "lng": -122.70289
-    }
-  },
-  {
-    "id": "or-us26-at-murray-pid526",
-    "name": "US26 at Murray",
-    "url": "https://tripcheck.com/roadcams/cams/26Murray_pid526.jpg",
-    "category": "highway",
-    "location": "Portland, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Portland",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.52189,
-      "lng": -122.81529
     }
   },
   {
@@ -279824,22 +279632,6 @@
     }
   },
   {
-    "id": "or-or99w-at-bertha-pid530",
-    "name": "OR99W at Bertha",
-    "url": "https://tripcheck.com/roadcams/cams/99wbertha_pid530.jpg",
-    "category": "highway",
-    "location": "Portland, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Portland",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.47085,
-      "lng": -122.6885
-    }
-  },
-  {
     "id": "or-i-205-at-92nd-pid532",
     "name": "I-205 at 92nd",
     "url": "https://tripcheck.com/roadcams/cams/i20592nd_pid532.jpg",
@@ -279853,22 +279645,6 @@
     "coordinates": {
       "lat": 45.46449,
       "lng": -122.56808
-    }
-  },
-  {
-    "id": "or-i-205-at-airport-way-pid533",
-    "name": "I-205 at Airport Way",
-    "url": "https://tripcheck.com/roadcams/cams/i205arprt_pid533.jpg",
-    "category": "highway",
-    "location": "Portland, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Portland",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.57143,
-      "lng": -122.54986
     }
   },
   {
@@ -281261,22 +281037,6 @@
     "coordinates": {
       "lat": 45.06205,
       "lng": -123.56799
-    }
-  },
-  {
-    "id": "or-i-84-at-weatherby-rest-area-pid657",
-    "name": "I-84 at Weatherby Rest Area",
-    "url": "https://tripcheck.com/roadcams/cams/Weatherby_pid657.jpg",
-    "category": "highway",
-    "location": "Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Oregon",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 44.49611,
-      "lng": -117.3675
     }
   },
   {
@@ -282816,22 +282576,6 @@
     }
   },
   {
-    "id": "or-us20-at-sweet-home-pid2282",
-    "name": "US20 at Sweet Home",
-    "url": "https://tripcheck.com/roadcams/cams/US20%20at%20Sweet%20Home_pid2282.JPG",
-    "category": "highway",
-    "location": "Sweet Home, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Sweet Home",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 44.41004,
-      "lng": -122.65274
-    }
-  },
-  {
     "id": "or-or140-at-bly-pid2285",
     "name": "OR140 at Bly",
     "url": "https://tripcheck.com/roadcams/cams/ORE140%20at%20Bly_pid2285.JPG",
@@ -282877,38 +282621,6 @@
     "coordinates": {
       "lat": 43.12657,
       "lng": -122.132
-    }
-  },
-  {
-    "id": "or-us101-at-camp-rilea-pid2301",
-    "name": "US101 at Camp Rilea",
-    "url": "https://tripcheck.com/roadcams/cams/US101%20at%20Camp%20Rilea_pid2301.JPG",
-    "category": "highway",
-    "location": "Portland, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Portland",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 46.12138,
-      "lng": -123.92577
-    }
-  },
-  {
-    "id": "or-us26-at-sunset-rest-area-pid2310",
-    "name": "US26 at Sunset Rest Area",
-    "url": "https://tripcheck.com/roadcams/cams/US26%20at%20Sunset%20Rest%20Area_pid2310.JPG",
-    "category": "highway",
-    "location": "Portland, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Portland",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.79717,
-      "lng": -123.46215
     }
   },
   {
@@ -478563,24 +478275,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C30286",
-    "name": "I-94 WB E of Radio Dr",
-    "url": "https://public.carsprogram.org/cameras/MN/C30286",
-    "city": "Woodbury",
-    "country": "US",
-    "location": "I-94, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.948426,
-      "lng": -92.921957
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C3630",
     "name": "T.H.36 WB @ T.H.95",
     "url": "https://public.carsprogram.org/cameras/MN/C3630",
@@ -505243,22 +504937,6 @@
     "auth": false
   },
   {
-    "id": "za-48-4",
-    "name": "WC CCTV N1 111C",
-    "url": "https://www.i-traffic.co.za/map/Cctv/48--4",
-    "city": "City Of Cape Town",
-    "country": "ZA",
-    "location": "N1, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -33.888009,
-      "lng": 18.598609
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
     "id": "za-49-3",
     "name": "N2-CCTV-017B",
     "url": "https://www.i-traffic.co.za/map/Cctv/49--3",
@@ -505318,22 +504996,6 @@
     "coordinates": {
       "lat": -29.97678,
       "lng": 30.936717
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
-    "id": "za-5-4",
-    "name": "WC CCTV M5 501A",
-    "url": "https://www.i-traffic.co.za/map/Cctv/5--4",
-    "city": "City Of Cape Town",
-    "country": "ZA",
-    "location": "M5, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -33.920858,
-      "lng": 18.478824
     },
     "verified": false,
     "auth": false
@@ -506635,22 +506297,6 @@
     "auth": false
   },
   {
-    "id": "za-84-4",
-    "name": "WC CCTV N1 092",
-    "url": "https://www.i-traffic.co.za/map/Cctv/84--4",
-    "city": "City Of Cape Town",
-    "country": "ZA",
-    "location": "N1, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -33.921052,
-      "lng": 18.437554
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
     "id": "za-85-2",
     "name": "GP CCTV N1 605",
     "url": "https://www.i-traffic.co.za/map/Cctv/85--2",
@@ -506950,22 +506596,6 @@
     "coordinates": {
       "lat": -29.776855,
       "lng": 30.998988
-    },
-    "verified": false,
-    "auth": false
-  },
-  {
-    "id": "za-90-4",
-    "name": "WC CCTV N2 208",
-    "url": "https://www.i-traffic.co.za/map/Cctv/90--4",
-    "city": "City Of Cape Town",
-    "country": "ZA",
-    "location": "N2, South Africa",
-    "category": "highway",
-    "timezone": "Africa/Johannesburg",
-    "coordinates": {
-      "lat": -33.95005,
-      "lng": 18.52227
     },
     "verified": false,
     "auth": false
