@@ -99892,22 +99892,6 @@
     "category": "highway",
     "city": "Foothill Ranch",
     "country": "US",
-    "id": "ca-caltrans-d12-sr-241-252-80-meters-south-of-alton-parkway-overcross",
-    "location": "Foothill Ranch, CA, USA",
-    "name": "SR-241 : (252) 80 Meters South of Alton Parkway Overcross",
-    "timezone": "America/Los_Angeles",
-    "url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr24125280meterssouthofaltonparkwayovercross/sr24125280meterssouthofaltonparkwayovercross.jpg",
-    "verified": true,
-    "coordinates": {
-      "lat": 33.67977,
-      "lng": -117.67286
-    }
-  },
-  {
-    "auth": false,
-    "category": "highway",
-    "city": "Foothill Ranch",
-    "country": "US",
     "id": "ca-caltrans-d12-sr-241-253-780-meters-south-of-portola-parkway-overcross",
     "location": "Foothill Ranch, CA, USA",
     "name": "SR-241 : (253) 780 Meters South of Portola Parkway Overcross",
@@ -247600,22 +247584,6 @@
     }
   },
   {
-    "id": "pa-ne-extension-i-476-southbound-4842",
-    "name": "I-476 @ Lehigh Valley Interchange / US 22",
-    "url": "https://www.511pa.com/map/Cctv/4842",
-    "category": "highway",
-    "location": "NE Extension (I-476), Pennsylvania, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "NE Extension (I-476)",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.59543,
-      "lng": -75.570863
-    }
-  },
-  {
     "id": "pa-ne-extension-i-476-southbound-4843",
     "name": "I-476 @ MP 72.1, Lehigh Tunnel",
     "url": "https://www.511pa.com/map/Cctv/4843",
@@ -277952,70 +277920,6 @@
     }
   },
   {
-    "id": "or-portland-division-at-136th-pid4883",
-    "name": "Portland - Division at 136th",
-    "url": "https://tripcheck.com/roadcams/cams/SE%20Division%20at%20136th_pid4883.jpg",
-    "category": "city",
-    "location": "Portland, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Portland",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.50409,
-      "lng": -122.52368
-    }
-  },
-  {
-    "id": "or-portland-division-at-139th-pid4885",
-    "name": "Portland - Division at 139th",
-    "url": "https://tripcheck.com/roadcams/cams/SE%20Division%20at%20139th_pid4885.jpg",
-    "category": "city",
-    "location": "Portland, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Portland",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.5041,
-      "lng": -122.52096
-    }
-  },
-  {
-    "id": "or-portland-division-at-154th-pid4887",
-    "name": "Portland - Division at 154th",
-    "url": "https://tripcheck.com/roadcams/cams/SE%20Division%20at%20154th_pid4887.jpg",
-    "category": "city",
-    "location": "Portland, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Portland",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.50434,
-      "lng": -122.50513
-    }
-  },
-  {
-    "id": "or-portland-division-at-160th-pid4889",
-    "name": "Portland - Division at 160th",
-    "url": "https://tripcheck.com/roadcams/cams/SE%20Division%20at%20160th_pid4889.jpg",
-    "category": "city",
-    "location": "Portland, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Portland",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.50449,
-      "lng": -122.49856
-    }
-  },
-  {
     "id": "or-portland-division-at-166th-pid4891",
     "name": "Portland - Division at 166th",
     "url": "https://tripcheck.com/roadcams/cams/SE%20Division%20at%20166th_pid4891.jpg",
@@ -278045,22 +277949,6 @@
     "coordinates": {
       "lat": 45.59531,
       "lng": -122.73039
-    }
-  },
-  {
-    "id": "or-rampgate-i-84-eb-at-union-interchange-pid4895",
-    "name": "RampGate I-84 EB at Union Interchange",
-    "url": "https://tripcheck.com/roadcams/cams/RampGate%20I84%20EB%20at%20Union%20Interchange_pid4895.jpg",
-    "category": "highway",
-    "location": "Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Oregon",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.2957,
-      "lng": -118.03969
     }
   },
   {
@@ -278429,54 +278317,6 @@
     "coordinates": {
       "lat": 45.6418,
       "lng": -118.68953
-    }
-  },
-  {
-    "id": "or-i-84-at-pendleton-mp21569-pid4944",
-    "name": "I-84 at Pendleton MP215.69",
-    "url": "https://tripcheck.com/roadcams/cams/I-84%20at%20Pendleton%20215.69E_pid4944.jpg",
-    "category": "highway",
-    "location": "Pendleton, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Pendleton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.6418,
-      "lng": -118.68953
-    }
-  },
-  {
-    "id": "or-or331-at-pendleton-mp46-pid4946",
-    "name": "OR331 at Pendleton MP4.6",
-    "url": "https://tripcheck.com/roadcams/cams/OR331%20at%20Pendleton%20MP4.6%20I-84%20MP216E_pid4946.jpg",
-    "category": "highway",
-    "location": "Pendleton, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Pendleton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.63716,
-      "lng": -118.6838
-    }
-  },
-  {
-    "id": "or-klamath-falls-westside-road-pid4948",
-    "name": "Klamath Falls - Westside Road",
-    "url": "https://tripcheck.com/roadcams/cams/Westside%20Road%20MP%206.06_pid4948.jpg",
-    "category": "city",
-    "location": "Klamath Falls, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Klamath Falls",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 42.5871,
-      "lng": -122.087
     }
   },
   {
@@ -279248,22 +279088,6 @@
     }
   },
   {
-    "id": "or-clackamas-co-elligsen-rd-at-parkway-ave-and-argyle-ave-pid5058",
-    "name": "Clackamas Co - Elligsen Rd at Parkway Ave and Argyle Ave",
-    "url": "https://tripcheck.com/roadcams/cams/Elligsen%20Rd%20at%20Parkway%20Ave%20and%20Argyle%20Ave_pid5058.jpg",
-    "category": "city",
-    "location": "Oregon City, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Oregon City",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.33551,
-      "lng": -122.76542
-    }
-  },
-  {
     "id": "or-clackamas-co-95th-ave-at-commerce-cir-pid5062",
     "name": "Clackamas Co - 95th Ave at Commerce Cir",
     "url": "https://tripcheck.com/roadcams/cams/95th%20Ave%20at%20Commerce%20Cir_pid5062.jpg",
@@ -279312,22 +279136,6 @@
     }
   },
   {
-    "id": "or-clackamas-co-wilsonville-rd-at-town-center-loop-west-pid5070",
-    "name": "Clackamas Co - Wilsonville Rd at Town Center Loop West",
-    "url": "https://tripcheck.com/roadcams/cams/Wilsonville%20Rd%20at%20Town%20Center%20Loop%20West_pid5070.jpg",
-    "category": "city",
-    "location": "Wilsonville, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Wilsonville",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.30292,
-      "lng": -122.76581
-    }
-  },
-  {
     "id": "or-clackamas-co-wilsonville-rd-at-town-center-loop-east-pid5072",
     "name": "Clackamas Co - Wilsonville Rd at Town Center Loop East",
     "url": "https://tripcheck.com/roadcams/cams/Wilsonville%20Rd%20at%20Town%20Center%20Loop%20East_pid5072.jpg",
@@ -279341,22 +279149,6 @@
     "coordinates": {
       "lat": 45.30297,
       "lng": -122.76028
-    }
-  },
-  {
-    "id": "or-clackamas-co-stafford-and-wilsonville-at-advance-and-boeckman-pid5074",
-    "name": "Clackamas Co - Stafford and Wilsonville at Advance and Boeckman",
-    "url": "https://tripcheck.com/roadcams/cams/Stafford%20and%20Wilsonville%20at%20Advance%20and%20Boeckman_pid5074.jpg",
-    "category": "city",
-    "location": "Wilsonville, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Wilsonville",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.31755,
-      "lng": -122.74374
     }
   },
   {
@@ -279405,22 +279197,6 @@
     "coordinates": {
       "lat": 45.41568,
       "lng": -122.71596
-    }
-  },
-  {
-    "id": "or-clackamas-co-boones-ferry-rd-at-madrona-st-pid5084",
-    "name": "Clackamas Co - Boones Ferry Rd at Madrona St",
-    "url": "https://tripcheck.com/roadcams/cams/Boones%20Ferry%20Rd%20at%20Madrona%20St_pid5084.jpg",
-    "category": "city",
-    "location": "Oregon City, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Oregon City",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.40686,
-      "lng": -122.72619
     }
   },
   {
@@ -279504,38 +279280,6 @@
     }
   },
   {
-    "id": "or-us26-at-cairo-jct-roundabout-pid5104",
-    "name": "US26 at Cairo Jct Roundabout",
-    "url": "https://tripcheck.com/roadcams/cams/US26%20at%20Cairo%20Jct%20Roundabout_pid5104.jpg",
-    "category": "highway",
-    "location": "Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Oregon",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 43.98855,
-      "lng": -117.00721
-    }
-  },
-  {
-    "id": "or-or569-at-or126w-11th-pid5106",
-    "name": "OR569 at OR126/W 11th",
-    "url": "https://tripcheck.com/roadcams/cams/OR569%20at%20OR126%20W%2011thEB_pid5106.jpg",
-    "category": "highway",
-    "location": "Eugene, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Eugene",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 44.04801,
-      "lng": -123.17315
-    }
-  },
-  {
     "id": "or-or569-at-or126w-11th-pid5108",
     "name": "OR569 at OR126/W 11th",
     "url": "https://tripcheck.com/roadcams/cams/OR569%20at%20OR126%20W%2011th%20WB_pid5108.jpg",
@@ -279565,38 +279309,6 @@
     "coordinates": {
       "lat": 44.0648,
       "lng": -123.17338
-    }
-  },
-  {
-    "id": "or-or569-at-roosevelt-blvd-pid5112",
-    "name": "OR569 at Roosevelt Blvd",
-    "url": "https://tripcheck.com/roadcams/cams/OR569%20at%20Roosevelt%20Blvd%20NB_pid5112.jpg",
-    "category": "highway",
-    "location": "Eugene, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Eugene",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 44.0648,
-      "lng": -123.17338
-    }
-  },
-  {
-    "id": "or-portland-se-division-at-170th-pid5114",
-    "name": "Portland - SE Division at 170th",
-    "url": "https://tripcheck.com/roadcams/cams/Portland%20-%20SE%20Division%20at%20170th_pid5114.jpg",
-    "category": "city",
-    "location": "Portland, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Portland",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.50457,
-      "lng": -122.48723
     }
   },
   {
@@ -280608,70 +280320,6 @@
     }
   },
   {
-    "id": "or-washington-county-72nd-ave-at-durham-rd-pid5246",
-    "name": "Washington County - 72nd Ave at Durham Rd",
-    "url": "https://tripcheck.com/roadcams/cams/72nd%20Ave%20at%20Durham%20Rd_pid5246.jpg",
-    "category": "city",
-    "location": "Vancouver, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Vancouver",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.39907,
-      "lng": -122.749
-    }
-  },
-  {
-    "id": "or-washington-county-susbauer-rd-at-hornecker-rd-pid5248",
-    "name": "Washington County - Susbauer Rd at Hornecker Rd",
-    "url": "https://tripcheck.com/roadcams/cams/Susbauer%20Rd%20at%20Hornecker%20Rd_pid5248.jpg",
-    "category": "city",
-    "location": "Vancouver, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Vancouver",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.54307,
-      "lng": -123.04042
-    }
-  },
-  {
-    "id": "or-washington-county-susbauer-rd-at-long-rd-pid5250",
-    "name": "Washington County - Susbauer Rd at Long Rd",
-    "url": "https://tripcheck.com/roadcams/cams/Susbauer%20Rd%20at%20Long%20Rd_pid5250.jpg",
-    "category": "city",
-    "location": "Vancouver, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Vancouver",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.5389,
-      "lng": -123.04198
-    }
-  },
-  {
-    "id": "or-washington-county-grabhorn-rd-at-farmington-rd-pid5252",
-    "name": "Washington County - Grabhorn Rd at Farmington Rd",
-    "url": "https://tripcheck.com/roadcams/cams/Grabhorn%20Rd%20at%20Farmington%20Rd_pid5252.jpg",
-    "category": "city",
-    "location": "Vancouver, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Vancouver",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.46619,
-      "lng": -122.89248
-    }
-  },
-  {
     "id": "or-washington-county-grabhorn-rd-at-tile-flat-rd-pid5254",
     "name": "Washington County - Grabhorn Rd at Tile Flat Rd",
     "url": "https://tripcheck.com/roadcams/cams/Grabhorn%20Rd%20at%20Tile%20Flat%20Rd_pid5254.jpg",
@@ -280701,22 +280349,6 @@
     "coordinates": {
       "lat": 45.48944,
       "lng": -122.82634
-    }
-  },
-  {
-    "id": "or-us20-at-santiam-pass-pid5258",
-    "name": "US20 at Santiam Pass",
-    "url": "https://tripcheck.com/roadcams/cams/Santiam%20Pass%20WB_pid5258.jpg",
-    "category": "highway",
-    "location": "Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Oregon",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 44.422,
-      "lng": -121.8573
     }
   },
   {
@@ -280816,38 +280448,6 @@
     }
   },
   {
-    "id": "or-or99w-at-lafayette-ave-pid5272",
-    "name": "OR99W at Lafayette Ave",
-    "url": "https://tripcheck.com/roadcams/cams/OR99W%20SB%20@%20Lafayette_pid5272.jpg",
-    "category": "highway",
-    "location": "Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Oregon",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.22934,
-      "lng": -123.17097
-    }
-  },
-  {
-    "id": "or-portland-ne-columbia-at-42nd-pid5274",
-    "name": "Portland - NE Columbia at 42nd",
-    "url": "https://tripcheck.com/roadcams/cams/NE%20Columbia%20at%2042nd_pid5274.jpg",
-    "category": "city",
-    "location": "Portland, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Portland",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.57185,
-      "lng": -122.62069
-    }
-  },
-  {
     "id": "nv-mccarran-caughlin-cashill-2",
     "name": "McCarran & Caughlin/cashill",
     "url": "https://www.nvroads.com/map/Cctv/2",
@@ -280909,22 +280509,6 @@
     "coordinates": {
       "lat": 36.1118,
       "lng": -115.17269
-    }
-  },
-  {
-    "id": "nv-las-vegas-blvd-planet-hollywood-f1-4698",
-    "name": "Las Vegas Blvd & Planet Hollywood F1",
-    "url": "https://www.nvroads.com/map/Cctv/4698",
-    "category": "highway",
-    "location": "Las Vegas, Nevada, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Las Vegas",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 36.1111,
-      "lng": -115.17271
     }
   },
   {
@@ -448374,24 +447958,6 @@
     "id": "us-minnesota-mndot-C30340-v1",
     "name": "I-90 E-W (Welcome - MP 93.7) View 1",
     "url": "https://public.carsprogram.org/cameras/MN/C30340-v1",
-    "city": "6 miles east of Sherburn",
-    "country": "US",
-    "location": "I-90, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 43.680945,
-      "lng": -94.615194
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C30340-v2",
-    "name": "I-90 E-W (Welcome - MP 93.7) View 2",
-    "url": "https://public.carsprogram.org/cameras/MN/C30340-v2",
     "city": "6 miles east of Sherburn",
     "country": "US",
     "location": "I-90, Minnesota",
