@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "artifact": "cameras.json",
+  "content_sha256": "f7676db03110cd07edbb2b71fb4424e9c1213d38bec74832a8b911c086501d27",
+  "byte_size": 14453648,
+  "camera_count": 32028,
+  "generated_at": "2026-07-23T09:39:10.208Z",
+  "download_url": "https://raw.githubusercontent.com/stuchapin909/Open-Eagle-Eye/master/cameras.json",
+  "download_url_fallback": "https://media.githubusercontent.com/media/stuchapin909/Open-Eagle-Eye/master/cameras.json"
+}

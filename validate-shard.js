@@ -15,7 +15,7 @@ import axios from "axios";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { isSafeUrl, detectImageType } from "./src/security.js";
+import { detectImageType, safeHttpGet, getHeadersForUrl } from "./src/security.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CAMERAS_PATH = path.join(__dirname, "cameras.json");
@@ -30,46 +30,57 @@ const MIN_IMAGE_SIZE = 1024;
 const FETCH_TIMEOUT = 12000;
 const MAX_CONCURRENT = 10;
 
-const FETCH_HEADERS = {
-  'User-Agent': 'open-public-cam-validator',
-  'Accept': 'image/jpeg,image/png,image/*;q=0.8,*/*;q=0.1',
-  'Cache-Control': 'no-cache',
-};
-
-// isSafeUrl, detectImageType imported from ./src/security.js
-
-// --- Quick HTTP check (no vision AI for speed) ---
+// --- Quick HTTP check (no vision AI for speed); redirects re-validated (#55) ---
 async function quickCheck(cam) {
-  const safety = await isSafeUrl(cam.url);
-  if (!safety.safe) {
-    return { id: cam.id, status: "fail", reason: `Security: ${safety.reason}`, checked_at: new Date().toISOString() };
-  }
-
   try {
-    const resp = await axios.get(cam.url, {
+    const fetched = await safeHttpGet(cam.url, {
       timeout: FETCH_TIMEOUT,
-      headers: FETCH_HEADERS,
-      responseType: 'arraybuffer',
+      headers: getHeadersForUrl(cam.url),
       maxContentLength: 5 * 1024 * 1024,
-      maxBodyLength: 5 * 1024 * 1024,
       maxRedirects: 1,
     });
-    const ct = resp.headers['content-type'] || "";
-    const data = Buffer.from(resp.data);
-    let isImage = ALLOWED_CONTENT_TYPES.some(t => ct.includes(t));
+    if (!fetched.ok) {
+      return {
+        id: cam.id,
+        status: "fail",
+        reason: `Security/HTTP: ${fetched.error}`,
+        checked_at: new Date().toISOString(),
+      };
+    }
+    let ct = fetched.headers["content-type"] || "";
+    const data = fetched.data;
+    let isImage = ALLOWED_CONTENT_TYPES.some((t) => ct.includes(t));
     if (!isImage) {
       const detected = detectImageType(data);
-      if (detected) isImage = true;
+      if (detected) {
+        isImage = true;
+        ct = detected;
+      }
     }
     if (!isImage) {
-      return { id: cam.id, status: "fail", reason: `Rejected content-type: ${ct}`, checked_at: new Date().toISOString() };
+      return {
+        id: cam.id,
+        status: "fail",
+        reason: `Rejected content-type: ${ct}`,
+        checked_at: new Date().toISOString(),
+      };
     }
     if (data.length < MIN_IMAGE_SIZE) {
-      return { id: cam.id, status: "fail", reason: `Image too small (${data.length} bytes)`, checked_at: new Date().toISOString() };
+      return {
+        id: cam.id,
+        status: "fail",
+        reason: `Image too small (${data.length} bytes)`,
+        checked_at: new Date().toISOString(),
+      };
     }
     return { id: cam.id, status: "pass", size: data.length, checked_at: new Date().toISOString() };
   } catch (e) {
-    return { id: cam.id, status: "fail", reason: `HTTP ${e.response?.status || 0} — ${e.message.substring(0, 80)}`, checked_at: new Date().toISOString() };
+    return {
+      id: cam.id,
+      status: "fail",
+      reason: `HTTP ${e.response?.status || 0} — ${e.message.substring(0, 80)}`,
+      checked_at: new Date().toISOString(),
+    };
   }
 }
 
@@ -77,15 +88,14 @@ async function quickCheck(cam) {
 async function visionRecheck(cam) {
   if (!GITHUB_TOKEN) return null;
   try {
-    const resp = await axios.get(cam.url, {
+    const fetched = await safeHttpGet(cam.url, {
       timeout: 15000,
-      headers: FETCH_HEADERS,
-      responseType: 'arraybuffer',
+      headers: getHeadersForUrl(cam.url),
       maxContentLength: 5 * 1024 * 1024,
-      maxBodyLength: 5 * 1024 * 1024,
       maxRedirects: 1,
     });
-    const data = Buffer.from(resp.data);
+    if (!fetched.ok) return null;
+    const data = fetched.data;
     if (data.length < 500) return null;
 
     const b64 = data.toString('base64');

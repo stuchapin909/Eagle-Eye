@@ -100,9 +100,23 @@ function main() {
     }
   }
 
+  // Prune registry-state: keep live camera IDs + IDs removed this run (offline trail).
+  // Drops ghost keys for cameras long gone from the registry (#54).
+  const keepIds = new Set(allCameras.map((c) => c.id));
+  for (const f of failedIds) keepIds.add(f.id);
+  let prunedGhosts = 0;
+  const prunedLog = {};
+  for (const [id, entry] of Object.entries(log)) {
+    if (keepIds.has(id)) {
+      prunedLog[id] = entry;
+    } else {
+      prunedGhosts++;
+    }
+  }
+
   // Write updated files
   fs.writeFileSync(CAMERAS_PATH, JSON.stringify(allCameras, null, 2));
-  fs.writeFileSync(LOG_PATH, JSON.stringify(log, null, 2));
+  fs.writeFileSync(LOG_PATH, JSON.stringify(prunedLog, null, 2));
 
   // Clean up shard results (recursively — artifact download creates subdirs)
   fs.rmSync(SHARD_RESULTS_DIR, { recursive: true, force: true });
@@ -114,6 +128,7 @@ function main() {
   console.log(`Passed: ${totalPassed}`);
   console.log(`Failed: ${totalFailed}`);
   console.log(`Removed (${MAX_CONSECUTIVE_FAILURES}+ consecutive failures): ${removedCount}`);
+  console.log(`Registry-state ghost keys pruned: ${prunedGhosts}`);
   console.log(`Remaining in registry: ${allCameras.length}`);
 
   if (failedIds.length > 0) {

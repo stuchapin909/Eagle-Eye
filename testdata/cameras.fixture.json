@@ -1,0 +1,524 @@
+[
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00001.09731",
+    "location": "London, UK",
+    "name": "A1 Barnet Wy/Barnet Ln",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.09731.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.6433,
+      "lng": -0.25442
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "category": "highway",
+    "city": "Spokane",
+    "country": "US",
+    "id": "wa-2nd-monroe-spokane-6411c4",
+    "location": "2nd / Monroe (Spokane), Spokane, WA, USA",
+    "name": "2nd / Monroe (Spokane)",
+    "timezone": "America/Los_Angeles",
+    "url": "https://images.wsdot.wa.gov/spokane/cos_2nd_monroe.jpg",
+    "verified": true,
+    "auth": false,
+    "coordinates": {
+      "lat": 47.65449,
+      "lng": -117.42651
+    },
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "id": "es-skyline-340",
+    "name": "Playa de Los Cristianos Tenerife",
+    "url": "https://cdn.skylinewebcams.com/live340.jpg",
+    "country": "ES",
+    "city": "Arona",
+    "category": "beach",
+    "location": "Playa de Los Cristianos, Tenerife, Spain",
+    "timezone": "Atlantic/Canary",
+    "coordinates": {
+      "lat": 28.05,
+      "lng": -16.72
+    },
+    "verified": true,
+    "auth": false,
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "id": "qld-1-archerfield",
+    "name": "Archerfield - Ipswich Motorway & Granard Rd - North",
+    "url": "https://cameras.qldtraffic.qld.gov.au/Metropolitan/Archerfield_Ipswich_Mwy_sth.jpg",
+    "country": "AU",
+    "city": "Brisbane",
+    "category": "highway",
+    "location": "Archerfield, Queensland, Australia",
+    "timezone": "Australia/Brisbane",
+    "coordinates": {
+      "lat": -27.5551796,
+      "lng": 153.0086975
+    },
+    "verified": true,
+    "auth": false,
+    "source_id": "au-qld-dot",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "highway",
+    "city": "Sapporo",
+    "country": "JP",
+    "id": "jp-sapporo-hokkaido-hn009",
+    "location": "Sapporo, Japan",
+    "name": "張碓 (札樽道)",
+    "timezone": "Asia/Tokyo",
+    "url": "https://cdn-livecamera-pic.drivetraffic.jp/l/HN009.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 43.06,
+      "lng": 141.35
+    },
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00001.09740",
+    "location": "London, UK",
+    "name": "A1/A504 Finchley Lane",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.09740.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.591,
+      "lng": -0.21176
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00001.09741",
+    "location": "London, UK",
+    "name": "A1/Holders Hill",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.09741.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.5948,
+      "lng": -0.21662
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00001.01445",
+    "location": "London, UK",
+    "name": "A10 Grt Cambridge Rd/A110 S bury Rd",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.01445.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.6496,
+      "lng": -0.06039
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00001.04005",
+    "location": "London, UK",
+    "name": "A102 Blackwall Tunnel Sth Appr",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.04005.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.4857,
+      "lng": 0.01914
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00002.00344",
+    "location": "London, UK",
+    "name": "A102 Shooters Hill",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00344.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.47463,
+      "lng": 0.02484
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00002.00345",
+    "location": "London, UK",
+    "name": "A102 Woolwich Rd (S)",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00345.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.47979,
+      "lng": 0.02157
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00001.01603",
+    "location": "London, UK",
+    "name": "A107 Upper Clapton Rd/Southwold Rd",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.01603.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.5619,
+      "lng": -0.05748
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00001.08100",
+    "location": "London, UK",
+    "name": "A118 Romford Rd/A406 Ncr",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.08100.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.5564,
+      "lng": 0.06491
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00002.00810",
+    "location": "London, UK",
+    "name": "A12 East Cross Route",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00810.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.54821,
+      "lng": -0.02874
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00001.02420",
+    "location": "London, UK",
+    "name": "A12 Eastern Av/Barley Lane",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.02420.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.5823,
+      "lng": 0.11658
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00002.00840",
+    "location": "London, UK",
+    "name": "A12 GGT W Appr 4002A",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00840.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.57394,
+      "lng": 0.02384
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00002.00838",
+    "location": "London, UK",
+    "name": "A12 GMT E Appr 3969L",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00838.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.57193,
+      "lng": 0.0199
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00002.00816",
+    "location": "London, UK",
+    "name": "A12 Wick Road",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00816.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.54476,
+      "lng": -0.03214
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00002.00851",
+    "location": "London, UK",
+    "name": "A12/M11 Redbrdg 100A",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00851.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.57595,
+      "lng": 0.04396
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00002.00852",
+    "location": "London, UK",
+    "name": "A12/M11 Redbrdg 100A",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00852.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.57596,
+      "lng": 0.04429
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00002.00850",
+    "location": "London, UK",
+    "name": "A12/Preston Drive",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00850.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.57742,
+      "lng": 0.03599
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00002.00421",
+    "location": "London, UK",
+    "name": "A13 Branch Road",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00421.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.51281,
+      "lng": -0.0388
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00002.00330",
+    "location": "London, UK",
+    "name": "A13 Burdett Rd",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00330.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.51189,
+      "lng": -0.02849
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00001.02258",
+    "location": "London, UK",
+    "name": "A13 Commercial Road/Salmon Lane",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.02258.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.5124,
+      "lng": -0.032
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  },
+  {
+    "auth": false,
+    "category": "city",
+    "city": "London",
+    "country": "GB",
+    "id": "tfl-00002.00333",
+    "location": "London, UK",
+    "name": "A2 Arbuthnot Lane",
+    "timezone": "Europe/London",
+    "url": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00333.jpg",
+    "verified": true,
+    "coordinates": {
+      "lat": 51.44818,
+      "lng": 0.13535
+    },
+    "source_id": "gb-tfl",
+    "completeness": {
+      "level": "full",
+      "missing": []
+    }
+  }
+]

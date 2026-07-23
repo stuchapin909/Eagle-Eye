@@ -66,11 +66,19 @@ For developers and security reviewers:
 | Private IP blocking | 10.x, 172.16-31.x, 192.168.x, 127.x, 169.254.x, ::1, ULA, CGN, link-local |
 | Cloud metadata blocking | AWS 169.254.169.254, GCP metadata.google.internal |
 | Protocol restriction | HTTP and HTTPS only |
-| DNS rebinding protection | Resolve-then-pin IP addresses across security check and fetch |
+| DNS rebinding protection | Resolve-then-pin IP addresses across security check and fetch (per hop) |
 | Content-type whitelist | Only `image/jpeg` and `image/png` |
 | Magic byte validation | JPEG `FF D8 FF`, PNG `89 50 4E 47` |
 | Response size limit | 5MB max per snapshot |
-| Redirect limit | `maxRedirects: 1` -- allows CDN redirects, prevents multi-hop SSRF |
+| Redirect limit | At most one hop; **each hop re-runs `isSafeUrl` + DNS pin** before follow (no blind axios auto-redirect) |
+| Client identity | User-Agent identifies OpenEagleEye + project URL (operators can recognize us in logs) |
+| Registry integrity | Bootstrap verifies `registry-manifest.json` sha256 before accepting cameras.json |
+| Per-host rate limit | Token bucket on snapshot fetches (configurable in `~/.openeagleeye/config.json`) |
+| Plain HTTP | Default allowed; set `allow_insecure_http: false` to require HTTPS |
+
+## Reporting a feed that should not be listed
+
+Use the `report_camera` tool or open a GitHub issue with label context. For sensitive cases, use [GitHub Security Advisories](https://github.com/stuchapin909/Open-Eagle-Eye/security/advisories/new). We only index feeds that are already public; we will remove entries that are private, non-consensual, or mis-classified.
 | Snapshot filenames | Random hex (8 bytes), no camera ID in path |
 
 The security implementation is in `src/security.js` and is shared between the server and the validator to prevent code drift.

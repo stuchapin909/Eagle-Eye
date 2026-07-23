@@ -2,97 +2,128 @@
 /**
  * Open Eagle Eye — Bootstrap
  *
- * Fetches the latest camera registry from GitHub on startup.
- * Falls back to cached version if GitHub is unreachable.
- * Camera data is cached in ~/.openeagleeye/
+ * Fetches the camera registry using registry-manifest.json (checksum + URL).
+ * Verifies sha256 before accepting. Falls back to cached ~/.openeagleeye/cameras.json.
+ * Fail closed on first run if network unavailable and no valid cache.
  *
- * cameras.json is fetched via the GitHub Contents API (vnd.github.raw+json)
- * which handles Git LFS transparently — raw.githubusercontent.com returns
- * only the LFS pointer for tracked files.
+ * cameras.json is NOT shipped in the npm package; it is downloaded at runtime.
+ * Manifest is small and is fetched from the repo (or released with the package path).
  */
 
 import axios from "axios";
 import fs from "fs";
 import path from "path";
 import os from "os";
+import crypto from "crypto";
+import { fileURLToPath } from "url";
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CACHE_DIR = path.join(os.homedir(), ".openeagleeye");
 const GITHUB_RAW = "https://raw.githubusercontent.com/stuchapin909/Open-Eagle-Eye/master";
-const GITHUB_API = "https://api.github.com/repos/stuchapin909/Open-Eagle-Eye/contents";
 
 fs.mkdirSync(CACHE_DIR, { recursive: true });
 
-// Standard fetch for small files (not in LFS)
-async function fetchFile(remotePath) {
-  const resp = await axios.get(`${GITHUB_RAW}/${remotePath}`, {
-    timeout: 15000,
-    responseType: "text",
-    headers: {
-      "User-Agent": "openeagleeye-bootstrap",
-      "Accept": "application/json, text/plain, */*",
-    },
-    maxRedirects: 3,
-  });
-  return resp.data;
+function sha256Buffer(buf) {
+  return crypto.createHash("sha256").update(buf).digest("hex");
 }
 
-// Unauthenticated direct fetch for cameras.json via raw source
-async function fetchCamerasJson() {
-  const resp = await axios.get(`https://raw.githubusercontent.com/stuchapin909/Open-Eagle-Eye/master/cameras.json`, {
-    timeout: 30000,
-    responseType: "text",
-    headers: {
-      "User-Agent": "openeagleeye-bootstrap"
-    },
+async function fetchText(url, timeout = 30000) {
+  const resp = await axios.get(url, {
+    timeout,
+    responseType: "arraybuffer",
+    headers: { "User-Agent": "openeagleeye-bootstrap/8.0 (+https://github.com/stuchapin909/Open-Eagle-Eye)" },
     maxRedirects: 3,
+    validateStatus: (s) => s >= 200 && s < 300,
   });
-  return resp.data;
+  return Buffer.from(resp.data);
 }
 
-async function syncFile(remotePath, localPath) {
-  try {
-    const content = await fetchFile(remotePath);
-    fs.writeFileSync(localPath, content);
-    return "updated";
-  } catch (e) {
-    return "fallback";
+async function loadManifest() {
+  // Prefer packaged/repo-adjacent manifest when developing from a git checkout
+  const localManifest = path.join(__dirname, "registry-manifest.json");
+  if (fs.existsSync(localManifest)) {
+    try {
+      return JSON.parse(fs.readFileSync(localManifest, "utf8"));
+    } catch {
+      /* fall through to network */
+    }
   }
+  const buf = await fetchText(`${GITHUB_RAW}/registry-manifest.json`, 15000);
+  return JSON.parse(buf.toString("utf8"));
 }
 
 async function syncCamerasJson(localPath) {
+  let manifest;
   try {
-    const content = await fetchCamerasJson();
-    fs.writeFileSync(localPath, content);
-    return "updated";
+    manifest = await loadManifest();
   } catch (e) {
-    return "fallback";
+    return { status: "manifest_failed", error: e.message };
   }
+
+  // Cache hit: matching sha256
+  if (fs.existsSync(localPath)) {
+    try {
+      const existing = fs.readFileSync(localPath);
+      if (sha256Buffer(existing) === manifest.content_sha256) {
+        return { status: "cache_hit", manifest };
+      }
+    } catch {
+      /* re-fetch */
+    }
+  }
+
+  const urls = [manifest.download_url, manifest.download_url_fallback].filter(Boolean);
+  let lastErr = null;
+  for (const url of urls) {
+    try {
+      const buf = await fetchText(url, 60000);
+      const hash = sha256Buffer(buf);
+      if (hash !== manifest.content_sha256) {
+        lastErr = `sha256 mismatch for ${url}: got ${hash.slice(0, 12)}… want ${manifest.content_sha256.slice(0, 12)}…`;
+        continue;
+      }
+      // Validate JSON array non-empty before replacing cache
+      const data = JSON.parse(buf.toString("utf8"));
+      if (!Array.isArray(data) || data.length === 0) {
+        lastErr = "downloaded cameras.json empty or not an array";
+        continue;
+      }
+      const tmp = localPath + ".tmp";
+      fs.writeFileSync(tmp, buf);
+      fs.renameSync(tmp, localPath);
+      // Cache manifest too
+      fs.writeFileSync(path.join(CACHE_DIR, "registry-manifest.json"), JSON.stringify(manifest, null, 2));
+      return { status: "updated", manifest, count: data.length };
+    } catch (e) {
+      lastErr = e.message;
+    }
+  }
+  return { status: "fetch_failed", error: lastErr, manifest };
 }
 
 async function bootstrap() {
-  console.error("[bootstrap] Syncing camera data from GitHub...");
+  console.error("[bootstrap] Syncing camera registry (manifest + checksum)...");
 
   const camerasCache = path.join(CACHE_DIR, "cameras.json");
   const stateCache = path.join(CACHE_DIR, ".registry-state.json");
 
-  const camerasResult = await syncCamerasJson(camerasCache);
-  if (camerasResult === "updated") {
-    console.error("  [+] cameras.json — updated");
+  const result = await syncCamerasJson(camerasCache);
+
+  if (result.status === "cache_hit") {
+    console.error(`  [=] cameras.json — cache valid (sha256 ${result.manifest.content_sha256.slice(0, 12)}…)`);
+  } else if (result.status === "updated") {
+    console.error(`  [+] cameras.json — updated (${result.count.toLocaleString()} cameras, verified sha256)`);
   } else {
-    // --- First-run guard ---
-    // If GitHub is unreachable and there's no local cache at all, we have
-    // nothing to serve. Exit loudly instead of starting with zero cameras.
     if (!fs.existsSync(camerasCache)) {
-      console.error("  [!] cameras.json — GitHub unreachable and no local cache found.");
+      console.error(`  [!] Registry sync failed: ${result.error || result.status}`);
+      console.error("  [!] GitHub unreachable / checksum failed and no local cache found.");
       console.error("  [!] Cannot start: no camera data available.");
-      console.error("  [!] Check your internet connection and try again.");
       process.exit(1);
     }
-    console.error("  [=] cameras.json — using cached (GitHub unreachable)");
+    console.error(`  [=] cameras.json — using cached (sync failed: ${result.error || result.status})`);
   }
 
-  // Validate cache integrity — catch truncated / corrupt files before the
-  // server tries to JSON.parse them and crashes with an unhelpful error.
+  // Validate cache integrity
   try {
     const data = JSON.parse(fs.readFileSync(camerasCache, "utf8"));
     if (!Array.isArray(data) || data.length === 0) {
@@ -107,10 +138,12 @@ async function bootstrap() {
     process.exit(1);
   }
 
-  const stateResult = await syncFile(".registry-state.json", stateCache);
-  if (stateResult === "updated") {
+  // Optional registry state (non-fatal)
+  try {
+    const content = await fetchText(`${GITHUB_RAW}/.registry-state.json`, 15000);
+    fs.writeFileSync(stateCache, content);
     console.error("  [+] .registry-state.json — updated");
-  } else {
+  } catch {
     console.error("  [-] .registry-state.json — skipped");
   }
 
@@ -119,4 +152,3 @@ async function bootstrap() {
 
 await bootstrap();
 await import("./server.js");
-

@@ -1,0 +1,165 @@
+{
+  "gb-tfl": {
+    "operator": "Transport for London",
+    "research": "sources/uk/RESEARCH.md",
+    "terms_url": "https://tfl.gov.uk/corporate/terms-and-conditions/",
+    "license_note": "Public JamCam still images",
+    "country": "GB"
+  },
+  "us-nyc-dot": {
+    "operator": "NYC Department of Transportation",
+    "research": "sources/us-nyc/RESEARCH.md",
+    "license_note": "Public traffic camera stills",
+    "country": "US"
+  },
+  "us-florida-fdot": {
+    "operator": "Florida Department of Transportation (FL511)",
+    "research": "sources/us-florida/RESEARCH.md",
+    "country": "US"
+  },
+  "us-georgia-511": {
+    "operator": "Georgia 511",
+    "research": "sources/us-georgia/RESEARCH.md",
+    "country": "US"
+  },
+  "us-caltrans": {
+    "operator": "Caltrans CWWP2",
+    "research": "sources/us-california/RESEARCH.md",
+    "country": "US"
+  },
+  "us-colorado-cdot": {
+    "operator": "Colorado DOT CoTrip",
+    "research": "sources/us-colorado/RESEARCH.md",
+    "country": "US"
+  },
+  "us-virginia-vdot": {
+    "operator": "Virginia DOT",
+    "research": "sources/us-virginia/RESEARCH.md",
+    "country": "US"
+  },
+  "us-washington-wsdot": {
+    "operator": "Washington State DOT",
+    "research": "sources/us-washington/RESEARCH.md",
+    "country": "US"
+  },
+  "us-north-carolina": {
+    "operator": "NCDOT",
+    "research": "sources/us-north-carolina/RESEARCH.md",
+    "country": "US"
+  },
+  "us-pennsylvania": {
+    "operator": "PennDOT 511PA",
+    "research": "sources/us-pennsylvania/RESEARCH.md",
+    "country": "US"
+  },
+  "us-arizona-adot": {
+    "operator": "Arizona DOT",
+    "research": "sources/us-arizona/RESEARCH.md",
+    "country": "US"
+  },
+  "us-oregon-odot": {
+    "operator": "Oregon DOT",
+    "research": "sources/us-oregon/RESEARCH.md",
+    "country": "US"
+  },
+  "us-nevada-ndot": {
+    "operator": "Nevada DOT",
+    "research": "sources/us-nevada/RESEARCH.md",
+    "country": "US"
+  },
+  "us-utah-udot": {
+    "operator": "Utah DOT",
+    "research": "sources/us-utah/RESEARCH.md",
+    "country": "US"
+  },
+  "us-wisconsin": {
+    "operator": "WisDOT",
+    "research": "sources/us-wisconsin/RESEARCH.md",
+    "country": "US"
+  },
+  "us-louisiana": {
+    "operator": "LADOTD",
+    "research": "sources/us-louisiana/RESEARCH.md",
+    "country": "US"
+  },
+  "us-missouri": {
+    "operator": "MoDOT",
+    "research": "sources/us-missouri/RESEARCH.md",
+    "country": "US"
+  },
+  "us-houston-transtar": {
+    "operator": "Houston TranStar",
+    "research": "sources/us-texas/RESEARCH.md",
+    "country": "US"
+  },
+  "us-minnesota-mndot": {
+    "operator": "Minnesota DOT",
+    "research": "sources/us-minnesota/RESEARCH.md",
+    "country": "US"
+  },
+  "us-ohio-its": {
+    "operator": "Ohio DOT ITS cameras",
+    "research": "sources/us-ohio/RESEARCH.md",
+    "country": "US"
+  },
+  "us-ny-511": {
+    "operator": "New York 511",
+    "research": "sources/us-new-york/RESEARCH.md",
+    "country": "US"
+  },
+  "au-qld-dot": {
+    "operator": "Queensland Department of Transport and Main Roads",
+    "research": "sources/au-qld/RESEARCH.md",
+    "country": "AU"
+  },
+  "nz-nzta": {
+    "operator": "NZ Transport Agency",
+    "research": "sources/nz/RESEARCH.md",
+    "country": "NZ"
+  },
+  "hk-td": {
+    "operator": "Hong Kong Transport Department",
+    "research": "sources/hk/RESEARCH.md",
+    "country": "HK"
+  },
+  "fi-digitraffic": {
+    "operator": "Fintraffic Digitraffic",
+    "research": "sources/fi/RESEARCH.md",
+    "country": "FI"
+  },
+  "ca-ontario-mto": {
+    "operator": "Ontario Ministry of Transportation",
+    "research": "sources/ca/RESEARCH.md",
+    "country": "CA"
+  },
+  "ca-alberta-511": {
+    "operator": "Alberta 511",
+    "research": "sources/ca-alberta/RESEARCH.md",
+    "country": "CA"
+  },
+  "sg-lta": {
+    "operator": "Singapore Land Transport Authority",
+    "research": "sources/sg/RESEARCH.md",
+    "country": "SG"
+  },
+  "jp-nexco-east": {
+    "operator": "NEXCO East",
+    "research": "sources/jp/RESEARCH.md",
+    "country": "JP"
+  },
+  "ie-tii": {
+    "operator": "Transport Infrastructure Ireland",
+    "research": "sources/ie/RESEARCH.md",
+    "country": "IE"
+  },
+  "br-cet-sp": {
+    "operator": "CET São Paulo",
+    "research": "sources/br/RESEARCH.md",
+    "country": "BR"
+  },
+  "za-itraffic": {
+    "operator": "i-traffic South Africa",
+    "research": "sources/za/RESEARCH.md",
+    "country": "ZA"
+  }
+}

@@ -1,0 +1,25 @@
+name: Camera submission
+description: Propose new public camera URL(s) for the registry
+title: "[cameras] "
+labels: ["webcam-submission"]
+body:
+  - type: textarea
+    id: cameras
+    attributes:
+      label: Camera JSON
+      description: Array of objects with id, name, url, country, city, location, timezone, coordinates, category, verified, auth
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: verify
+    attributes:
+      label: Verification
+      description: curl results showing image/jpeg or image/png
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Operator / source
+      placeholder: e.g. Queensland DOT

@@ -1,9 +1,12 @@
 #!/usr/bin/env node
 /**
- * update-counts.js — Sync camera counts in README.md
+ * update-counts.js — Sync camera counts in README.md (marker-based table)
  *
- * Reads cameras.json, counts total and per-country, updates docs.
- * Called by the parallel validator after removing dead cameras.
+ * Requires markers in README.md:
+ *   <!-- COUNTRY_TABLE_START -->
+ *   ... table rows ...
+ *   <!-- COUNTRY_TABLE_END -->
+ *   <!-- TOTAL_LINE_START --> ... <!-- TOTAL_LINE_END -->
  */
 
 import fs from "fs";
@@ -17,7 +20,6 @@ const STATS_PATH = path.join(__dirname, "stats.json");
 
 const cameras = JSON.parse(fs.readFileSync(CAMERAS_PATH, "utf8"));
 
-// Count by country and category
 const countryCounts = {};
 const categoryCounts = {};
 for (const c of cameras) {
@@ -29,32 +31,49 @@ for (const c of cameras) {
 
 const total = cameras.length;
 const countryNum = Object.keys(countryCounts).length;
-
-// Sort by count descending
 const sorted = Object.entries(countryCounts).sort((a, b) => b[1] - a[1]);
 
-// Source details per country (hardcoded from known additions — update when new sources added)
 const COUNTRY_SOURCES = {
-  US: "NYC DOT, WSDOT, Caltrans CWWP2, CDOT CoTrip, VDOT 511, FDOT FL511, NCDOT, PennDOT 511PA, Arizona ADOT, Oregon ODOT, Nevada NDOT, Utah UDOT, Wisconsin WisDOT, New England 511, Louisiana LADOTD",
-  FI: "Digitraffic weather cameras (Fintraffic)",
+  US: "State DOTs, 511 feeds, and municipal traffic cameras",
   CA: "Ontario MTO, Alberta 511",
   HK: "Hong Kong Transport Department",
-  UK: "London TfL JamCams",
+  ZA: "i-traffic (South Africa)",
+  FI: "Digitraffic weather cameras (Fintraffic)",
+  GB: "London TfL JamCams and other UK feeds",
   NZ: "NZTA nationwide highways",
-  AU: "Sydney metro, Regional NSW",
-  BR: "CET Sao Paulo urban traffic",
+  AU: "Queensland DOT and other AU feeds",
+  BR: "CET São Paulo urban traffic",
   JP: "NEXCO East expressways",
   SG: "Singapore LTA",
   IE: "TII motorway cams (M50 Dublin)",
 };
 
-// Number word
-function numWord(n) {
-  const words = ["zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen"];
-  return words[n] || String(n);
+const MAJOR_MIN = 40;
+const majorRows = sorted.filter(([cc, n]) => n >= MAJOR_MIN && cc !== "??");
+const minorRows = sorted.filter(([cc, n]) => n < MAJOR_MIN || cc === "??");
+const minorTotal = minorRows.reduce((s, [, n]) => s + n, 0);
+
+function row(cc, n, sources) {
+  return `| ${cc} | ${n.toLocaleString("en-US")} | ${sources} |`;
 }
 
-// --- Write stats.json ---
+const tableLines = [
+  "| Country | Count | Sources |",
+  "|---|---|---|",
+  ...majorRows.map(([cc, n]) => row(cc, n, COUNTRY_SOURCES[cc] || "Public / community sources")),
+];
+if (minorTotal > 0) {
+  const codes = minorRows.map(([c]) => c).slice(0, 20).join(", ");
+  tableLines.push(
+    row(
+      "other",
+      minorTotal,
+      `Smaller sources and incomplete country codes (${codes}${minorRows.length > 20 ? ", …" : ""})`
+    )
+  );
+}
+const tableBody = tableLines.join("\n");
+
 const sortedCategories = Object.entries(categoryCounts).sort((a, b) => b[1] - a[1]);
 const stats = {
   total,
@@ -65,36 +84,31 @@ const stats = {
   generated_at: new Date().toISOString(),
 };
 fs.writeFileSync(STATS_PATH, JSON.stringify(stats, null, 2) + "\n");
-console.log(`Wrote stats.json (${total} cameras, ${countryNum} countries, ${Object.keys(categoryCounts).length} categories)`);
+console.log(`Wrote stats.json (${total} cameras, ${countryNum} countries)`);
 
-console.log(`Registry: ${total} cameras across ${countryNum} countries`);
-
-// --- Update README.md ---
 let readme = fs.readFileSync(README_PATH, "utf8");
 
-// Update top-line count: **22,999 cameras** across eleven countries:
-readme = readme.replace(
-  /\*\*[\d,]+ cameras\*\* across \w+ countries:/,
-  `**${total.toLocaleString()} cameras** across ${numWord(countryNum)} countries:`
-);
+const totalLine = `~${Math.round(total / 1000)}k cameras across ${countryNum} country codes (${total.toLocaleString("en-US")} in registry at last sync — counts refresh with the nightly validator):`;
 
-// Update per-country lines: "- US: 17,181 (sources)"
-const countryLinePattern = /^- ([A-Z]{2}): \d[\d,]+/gm;
-const newCountryLines = sorted.map(([cc, count]) => {
-  const sources = COUNTRY_SOURCES[cc] || "";
-  const paren = sources ? ` (${sources})` : "";
-  return `- ${cc}: ${count.toLocaleString()}${paren}`;
-}).join("\n");
-
-// Find the country list block (starts with "- US:" or first "- XX:")
-const countryListMatch = readme.match(/(^[ \t]*-[ \t]+[A-Z]{2}: \d[\d,]+[\s\S]*?)(\n^[ \t]*(?:- [A-Z]|\n##|\n\n))/m);
-if (countryListMatch) {
-  readme = readme.replace(countryListMatch[1].trimEnd(), newCountryLines);
+if (readme.includes("<!-- TOTAL_LINE_START -->")) {
+  readme = readme.replace(
+    /<!-- TOTAL_LINE_START -->[\s\S]*?<!-- TOTAL_LINE_END -->/,
+    `<!-- TOTAL_LINE_START -->\n${totalLine}\n<!-- TOTAL_LINE_END -->`
+  );
 } else {
-  console.log("WARNING: Could not find country list in README.md");
+  console.warn("WARNING: TOTAL_LINE markers missing in README.md");
+}
+
+if (readme.includes("<!-- COUNTRY_TABLE_START -->")) {
+  readme = readme.replace(
+    /<!-- COUNTRY_TABLE_START -->[\s\S]*?<!-- COUNTRY_TABLE_END -->/,
+    `<!-- COUNTRY_TABLE_START -->\n${tableBody}\n<!-- COUNTRY_TABLE_END -->`
+  );
+} else {
+  console.error("ERROR: COUNTRY_TABLE markers missing in README.md");
+  process.exit(1);
 }
 
 fs.writeFileSync(README_PATH, readme);
-console.log("Updated README.md");
-
-console.log(`\nDone. ${total.toLocaleString()} cameras across ${countryNum} countries.`);
+console.log("Updated README.md country table");
+console.log(`Done. ${total.toLocaleString("en-US")} cameras across ${countryNum} countries.`);
