@@ -118,6 +118,26 @@ Each camera in `cameras.json` follows this schema:
 
 **`category`:** One of: `city`, `park`, `highway`, `airport`, `port`, `weather`, `nature`, `landmark`, `other`, `beach`, `volcano`, `wildlife`, `aurora`, `ferry`, `dam`, `stadium`, `construction`, `ski_resort`, `traffic`
 
+### Metadata completeness policy (R2)
+
+Do **not** invent places. Allowed fill methods only:
+
+| Field | Allowed | Forbidden |
+|-------|---------|-----------|
+| `country` | Source API; ISO from known source; reverse-geocode from lat/lng | Guessing from name alone |
+| `city` | Source field; reverse-geocode locality; regional rollup (e.g. "Regional Queensland") | Copying `location` wholesale |
+| `timezone` | IANA from source; geo-tz from lat/lng | Hardcoding `UTC` for everything |
+| `coordinates` | Source geo only | `(0,0)` or country centroid |
+| `verified` | `true` only after URL (+ optional vision) pass | Bulk flip without evidence |
+
+Incomplete rows may ship with a `completeness` object (`full` \| `partial` \| `minimal`). Agents can filter with `list_cameras` `completeness: "full"`.
+
+Use `node scripts/backfill-metadata.mjs` (source-derived fills only) and review `docs/backfill-report.json`.
+
+### Source provenance (R7)
+
+Bulk imports should set `source_id` matching an entry in `sources/catalog.json` (and ideally a `sources/*/RESEARCH.md` note). Prefix inference covers many existing IDs; new networks must register in the catalog.
+
 **`auth`:** Prefer boolean `false` when no API key is needed. If a key is required, use an object:
 
 ```json

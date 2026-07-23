@@ -13,20 +13,30 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Registry `auth` field normalized to boolean `false` or real `key_required` objects; empty/`null`/`{required:false}` removed (#54)
 - `.registry-state.json` ghost keys pruned; merge-shards prunes on every nightly merge (#54)
 - Snapshot responses include `city` and `coordinates` (parity with README examples)
+- `update-counts.js` rewrites README country **table** via markers (was expecting bullet list → silent drift) (R6)
 
 ### Added
 - Shared `VALID_CATEGORIES` includes specialty tags (`beach`, `volcano`, `ski_resort`, …) (#54)
 - `normalizeAuth`, `safeHttpGet`, `validateRedirectTarget`, `buildPinnedLookup` in `src/security.js`
-- Unit tests for auth normalization and redirect URL resolution
+- **R1:** `registry-manifest.json` + checksum-verified bootstrap (`index.js`)
+- **R2:** completeness policy, `completeness` on camera meta, `list_cameras` filter, `scripts/backfill-metadata.mjs`
+- **R3:** geohash spatial index + inverted text index (`src/geo-index.js`) for nearby/search
+- **R4:** expanded unit tests + `testdata/cameras.fixture.json` + CI `test.yml` + `scripts/bench-search.mjs`
+- **R5:** issue/PR templates, CODE_OF_CONDUCT, topics (via PR notes)
+- **R7:** `sources/catalog.json` + prefix `source_id` inference + provenance on tool meta
+- **R8:** `docs/demo.md`, example MCP configs, `traffic-check` / `weather-check` prompts
+- **R9:** per-host rate limit, `allow_insecure_http` config, SECURITY abuse path
+- Unit tests for auth, redirects, geo-index, provenance, rate-limit
 
 ### Changed
 - User-Agent identifies OpenEagleEye + project URL while remaining CDN-compatible
+- Nightly validator also rebuilds `registry-manifest.json` + `stats.json`
 
 ### Documentation
 - README MCP tool table documents all 13 tools plus `cameras://stats` and `discover-cameras` (#53)
 - README country counts resynced from current `cameras.json`
-- CONTRIBUTING: expanded categories + canonical `auth` shape
-- SECURITY: redirect re-validation + client identity
+- CONTRIBUTING: expanded categories, auth shape, completeness + provenance policy
+- SECURITY: redirect re-validation, client identity, rate limit, checksum bootstrap
 
 ## [8.0.0] - 2026-03-31
 

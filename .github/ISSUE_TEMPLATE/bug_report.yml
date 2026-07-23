@@ -1,0 +1,21 @@
+name: Bug report
+description: Something broken in the MCP server or validator
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Steps to reproduce, expected vs actual
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: openeagleeye version
+      placeholder: "8.0.0"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / error JSON

@@ -20,6 +20,9 @@ import {
   VALID_CATEGORIES,
 } from "./src/security.js";
 import { ghIssueCreate, classifyGhError, checkGhAuth, checkDuplicateUrls } from "./src/github.js";
+import { buildCameraIndexes, queryNearby, querySearch, haversineKm } from "./src/geo-index.js";
+import { createHostRateLimiter } from "./src/rate-limit.js";
+import { attachProvenance, assessCompleteness, inferSourceId } from "./src/provenance.js";
 
 const CATEGORY_ENUM = /** @type {[string, ...string[]]} */ (VALID_CATEGORIES);
 
@@ -74,6 +77,19 @@ try {
 // Merged view: upstream + local
 const allCameras = [...cameras, ...localCameras.map(c => ({ ...c, source: "local" }))];
 
+// Source catalog (optional)
+let sourceCatalog = {};
+try {
+  const catPath = path.join(__dirname, "sources", "catalog.json");
+  if (fs.existsSync(catPath)) sourceCatalog = JSON.parse(fs.readFileSync(catPath, "utf8"));
+} catch {
+  /* optional */
+}
+
+// Spatial + text indexes (R3)
+let cameraIndexes = buildCameraIndexes(allCameras);
+console.error(`[server] Indexes built: geohash cells=${cameraIndexes.byGeohash.size} tokens=${cameraIndexes.byToken.size}`);
+
 // Pre-compute aggregates (used by list_cameras and registry-stats resource)
 const cityCounts = {};
 const countryCounts = {};
@@ -97,6 +113,21 @@ function getUserConfig() {
   } catch {}
   return {};
 }
+
+function getOpsConfig() {
+  const cfg = getUserConfig();
+  return {
+    allow_insecure_http: cfg.allow_insecure_http !== false, // default true for compat
+    rate_per_sec: cfg.rate_limit?.per_host_rps ?? 2,
+    rate_burst: cfg.rate_limit?.burst ?? 4,
+  };
+}
+
+const opsConfig = getOpsConfig();
+const hostRateLimiter = createHostRateLimiter({
+  ratePerSec: opsConfig.rate_per_sec,
+  burst: opsConfig.rate_burst,
+});
 
 function getUserApiKeys() {
   return getUserConfig().api_keys || {};
@@ -408,6 +439,22 @@ async function downloadSnapshot(cam) {
   const config = buildRequestConfig(cam);
   if (config.error) return { error: "API key required", details: config.error };
 
+  // R9: plain HTTP policy
+  try {
+    const proto = new URL(config.url).protocol;
+    if (proto === "http:" && !opsConfig.allow_insecure_http) {
+      return {
+        error: "Blocked: plain HTTP disabled",
+        details: `Set allow_insecure_http: true in ${USER_CONFIG_PATH} to allow http:// cameras`,
+      };
+    }
+  } catch {
+    return { error: "Invalid camera URL" };
+  }
+
+  // R9: per-host rate limit
+  await hostRateLimiter.acquire(config.url);
+
   const safety = await isSafeUrl(config.url);
   if (!safety.safe) return { error: `Blocked: ${safety.reason}` };
 
@@ -537,18 +584,10 @@ async function downloadSnapshot(cam) {
   }
 }
 
-// --- Haversine distance (km) ---
-function haversineKm(lat1, lon1, lat2, lon2) {
-  const R = 6371;
-  const toRad = d => d * Math.PI / 180;
-  const dLat = toRad(lat2 - lat1);
-  const dLon = toRad(lon2 - lon1);
-  const a = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
-  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-}
-
 // --- Camera metadata mapper (shared across tools) ---
 function mapCameraMeta(c, logs) {
+  const completeness = c.completeness || assessCompleteness(c);
+  const provenance = attachProvenance(c, sourceCatalog);
   return {
     id: c.id,
     name: c.name,
@@ -560,20 +599,24 @@ function mapCameraMeta(c, logs) {
     coordinates: c.coordinates || null,
     status: (logs && logs[c.id]?.status) || "active",
     source: c.source || "upstream",
-    auth_required: c.auth?.key_required || false,
+    auth_required: !!(c.auth && typeof c.auth === "object" && c.auth.key_required),
+    completeness,
+    source_id: provenance.source_id,
+    operator: provenance.operator || null,
   };
 }
 
 // --- REGISTRY ---
-server.tool("list_cameras", "Browse the camera registry. Returns cameras with id, name, city, country, location, category, coordinates, and source (upstream or local). Supports filtering by city, country, location, and category. Use limit/offset for pagination — the full registry is large. City/country aggregates are omitted by default (use cameras://stats or include_aggregates) to keep agent context small.", {
+server.tool("list_cameras", "Browse the camera registry. Returns cameras with id, name, city, country, location, category, coordinates, and source (upstream or local). Supports filtering by city, country, location, category, and completeness. Use limit/offset for pagination — the full registry is large. City/country aggregates are omitted by default (use cameras://stats or include_aggregates) to keep agent context small.", {
   city: z.string().optional().describe("Filter by city name (e.g. 'London', 'New York', 'Sydney')"),
   country: z.string().optional().describe("Filter by country code or name (e.g. 'US', 'UK', 'Australia', 'JP')"),
   location: z.string().optional().describe("Filter by location string (e.g. 'Manhattan', 'Borough')"),
   category: z.string().optional().describe(`Filter by category: ${VALID_CATEGORIES.join(", ")}`),
+  completeness: z.enum(["full", "partial", "minimal"]).optional().describe("Filter by metadata completeness level"),
   limit: z.number().int().min(1).max(100).optional().describe("Max cameras to return (default 20, max 100)"),
   offset: z.number().int().min(0).optional().describe("Skip this many cameras (for pagination, default 0)"),
   include_aggregates: z.boolean().optional().describe("If true, include full city count map (large). Prefer cameras://stats for rollups. Default false.")
-}, async ({ city, country, location, category, limit, offset, include_aggregates }) => {
+}, async ({ city, country, location, category, completeness, limit, offset, include_aggregates }) => {
   if (allCameras.length === 0) return { content: [{ type: "text", text: JSON.stringify({ version: VERSION, total: 0, cameras: [], message: "Registry is empty." }) }] };
 
   const logs = getValidationLog();
@@ -585,6 +628,9 @@ server.tool("list_cameras", "Browse the camera registry. Returns cameras with id
   }
   if (location) filtered = filtered.filter(c => (c.location || "").toLowerCase().includes(location.toLowerCase()));
   if (category) filtered = filtered.filter(c => (c.category || "") === category);
+  if (completeness) {
+    filtered = filtered.filter((c) => (c.completeness || assessCompleteness(c)).level === completeness);
+  }
 
   const totalFiltered = filtered.length;
   const effectiveLimit = Math.min(limit || 20, 100);
@@ -610,22 +656,26 @@ server.tool("list_cameras", "Browse the camera registry. Returns cameras with id
   return { content: [{ type: "text", text: JSON.stringify(payload, null, 2) }] };
 });
 
-server.tool("search_cameras", "Search cameras by text. Matches against name, city, country, location, and category. Use when looking for cameras in a specific place or of a specific type.", {
+server.tool("search_cameras", "Search cameras by text (inverted index). Matches against name, city, country, location, category, and id tokens. Use when looking for cameras in a specific place or of a specific type.", {
   query: z.string().describe("Search term — matches camera name, city, country, location, and category"),
   limit: z.number().int().min(1).max(100).optional().describe("Max results to return (default 20, max 100)")
 }, async ({ query, limit }) => {
-  const q = query.toLowerCase();
-  const results = allCameras.filter(c =>
-    c.name.toLowerCase().includes(q) ||
-    (c.city || "").toLowerCase().includes(q) ||
-    (c.country || "").toLowerCase().includes(q) ||
-    (c.location || "").toLowerCase().includes(q) ||
-    (c.category || "").toLowerCase().includes(q)
-  );
-  if (results.length === 0) return { content: [{ type: "text", text: JSON.stringify({ query, total: 0, cameras: [] }) }] };
+  const maxResults = Math.min(limit || 20, 100);
+  const hits = querySearch(cameraIndexes, allCameras, query, maxResults);
+  if (hits.length === 0) {
+    return { content: [{ type: "text", text: JSON.stringify({ query, total: 0, cameras: [] }) }] };
+  }
   const logs = getValidationLog();
-  const mapped = results.slice(0, limit || 20).map(c => mapCameraMeta(c, logs));
-  return { content: [{ type: "text", text: JSON.stringify({ query, total: results.length, returned: mapped.length, cameras: mapped }, null, 2) }] };
+  const mapped = hits.map((h) => ({
+    ...mapCameraMeta(allCameras[h.index], logs),
+    score: h.score,
+  }));
+  return {
+    content: [{
+      type: "text",
+      text: JSON.stringify({ query, total: mapped.length, returned: mapped.length, cameras: mapped }, null, 2),
+    }],
+  };
 });
 
 // --- GET CAMERA INFO ---
@@ -650,22 +700,22 @@ server.tool("nearby_cameras", "Find cameras within a geographic radius. Returns 
   const maxResults = Math.min(limit || 10, 50);
   const logs = getValidationLog();
 
-  let candidates = allCameras.filter(c => c.coordinates?.lat != null && c.coordinates?.lng != null);
-  if (category) candidates = candidates.filter(c => (c.category || "") === category);
+  // Geohash index candidate set + haversine (R3); over-fetch if category filter applied
+  const fetchN = category ? Math.min(maxResults * 20, 500) : maxResults;
+  let hits = queryNearby(cameraIndexes, allCameras, lat, lng, radius, fetchN);
+  if (category) {
+    hits = hits.filter((h) => (allCameras[h.index].category || "") === category).slice(0, maxResults);
+  }
 
-  const withDist = candidates.map(c => ({
-    cam: c,
-    distance: haversineKm(lat, lng, c.coordinates.lat, c.coordinates.lng)
-  })).filter(d => d.distance <= radius).sort((a, b) => a.distance - b.distance).slice(0, maxResults);
-
-  const results = withDist.map(d => ({
-    ...mapCameraMeta(d.cam, logs),
-    distance_km: Math.round(d.distance * 10) / 10
+  const results = hits.map((h) => ({
+    ...mapCameraMeta(allCameras[h.index], logs),
+    distance_km: Math.round(h.distance_km * 10) / 10,
   }));
 
   return { content: [{ type: "text", text: JSON.stringify({
     query: { lat, lng, radius_km: radius },
     total: results.length,
+    index: "geohash-v1",
     cameras: results
   }, null, 2) }] };
 });
@@ -771,6 +821,7 @@ server.tool("add_local_camera", "Add a camera to your local collection. Local ca
 
   localCameras.push(entry);
   allCameras.push({ ...entry, source: "local" });
+  cameraIndexes = buildCameraIndexes(allCameras);
   saveLocalCameras();
   return { content: [{ type: "text", text: JSON.stringify({ success: true, id, name: camFields.name, url: camFields.url, source: "local", auth_required: entry.auth?.key_required || false, message: "Camera added locally. Test with get_snapshot, share upstream with submit_local." }) }] };
 });
@@ -803,6 +854,7 @@ server.tool("remove_local", "Delete a locally-added camera by ID. Removes it fro
   const removed = localCameras.splice(idx, 1)[0];
   const mergedIdx = allCameras.findIndex(c => c.id === cam_id);
   if (mergedIdx !== -1) allCameras.splice(mergedIdx, 1);
+  cameraIndexes = buildCameraIndexes(allCameras);
   saveLocalCameras();
   return { content: [{ type: "text", text: JSON.stringify({ success: true, removed: { id: removed.id, name: removed.name } }) }] };
 });
@@ -1047,6 +1099,14 @@ server.resource("registry-stats", "cameras://stats", async () => {
     countries: countryCounts,
     categories: categoryCounts,
     top_cities: topCities,
+    indexes: {
+      type: "geohash-v1+inverted-text",
+      geohash_cells: cameraIndexes.byGeohash.size,
+      text_tokens: cameraIndexes.byToken.size,
+      with_coordinates: cameraIndexes.withCoords.length,
+    },
+    rate_limit: hostRateLimiter.snapshot(),
+    allow_insecure_http: opsConfig.allow_insecure_http,
   };
   return { contents: [{ uri: "cameras://stats", mimeType: "application/json", text: JSON.stringify(stats, null, 2) }] };
 });
@@ -1087,6 +1147,48 @@ server.prompt("discover-cameras", "Guide for finding and adding new public webca
           "- RTSP, HLS, or DASH streams",
           "- Pages requiring JavaScript rendering",
           "- URLs behind Cloudflare challenges or cookie consent",
+        ].join("\n"),
+      },
+    }],
+  };
+});
+
+server.prompt("traffic-check", "Check live traffic conditions near a place using public cameras", {
+  place: z.string().describe("City, neighborhood, or landmark (e.g. 'Times Square', 'Sydney Harbour')"),
+}, async ({ place }) => {
+  return {
+    messages: [{
+      role: "user",
+      content: {
+        type: "text",
+        text: [
+          `Check live traffic / road conditions near: ${place}`,
+          "",
+          "1. Use search_cameras or nearby_cameras (if you have lat/lng) to find highway/city cameras.",
+          "2. Pick 1–3 cameras with good names for the area.",
+          "3. get_snapshot (or get_snapshots) and inspect the images.",
+          "4. Summarize congestion, weather on road, incidents, or that the feed is dark/night.",
+          "Prefer completeness: full cameras when available.",
+        ].join("\n"),
+      },
+    }],
+  };
+});
+
+server.prompt("weather-check", "Check outdoor conditions via public weather/nature cameras", {
+  place: z.string().describe("Place name (e.g. 'Vail', 'Reykjavik', 'Queenstown')"),
+}, async ({ place }) => {
+  return {
+    messages: [{
+      role: "user",
+      content: {
+        type: "text",
+        text: [
+          `Check outdoor weather / visibility near: ${place}`,
+          "",
+          "1. search_cameras for the place; prefer category weather, nature, ski_resort, beach, aurora when relevant.",
+          "2. get_snapshot on 1–2 cameras.",
+          "3. Describe sky, precipitation, snow cover, fog, daylight — and uncertainty if night/dark.",
         ].join("\n"),
       },
     }],

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security concern
+    url: https://github.com/stuchapin909/Open-Eagle-Eye/security/advisories/new
+    about: Please use private security advisories for sensitive reports when possible

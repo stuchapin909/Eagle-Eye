@@ -90,9 +90,10 @@ jobs:
           TOTAL=$(echo "$SUMMARY" | node -e "const d=JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));process.stdout.write(String(d.total_checked))")
           echo "$SUMMARY"
           node update-counts.js
+          node scripts/build-registry-manifest.js
           git config --global user.name "registry-bot"
           git config --global user.email "bot@openeagleeye.local"
-          git add cameras.json .registry-state.json README.md
+          git add cameras.json .registry-state.json README.md registry-manifest.json stats.json
           git diff --cached --quiet || git commit -m "Validator: parallel nightly check ($REMOVED removed, $PASSED/$TOTAL passed)"
           git pull --rebase origin master || true
           git push

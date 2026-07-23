@@ -94,25 +94,29 @@ Every tool returns structured JSON. Snapshots save to disk and return the file p
 
 ## Registry
 
-~32,000 cameras across 40+ country codes (32,031 in registry at last sync — counts refresh with the nightly validator):
+<!-- TOTAL_LINE_START -->
+~32k cameras across 41 country codes (32,028 in registry at last sync — counts refresh with the nightly validator):
+<!-- TOTAL_LINE_END -->
 
 ![Global Coverage](docs/coverage-map.svg)
 
+<!-- COUNTRY_TABLE_START -->
 | Country | Count | Sources |
 |---|---|---|
-| US | 26,577 | NYC DOT, NY 511, WSDOT, Caltrans CWWP2, CDOT CoTrip, VDOT 511, FDOT FL511, NCDOT, PennDOT 511PA, Arizona ADOT, Oregon ODOT, Nevada NDOT, Utah UDOT, Wisconsin WisDOT, New England 511, Louisiana LADOTD, Alaska DOT&PF, Missouri MoDOT, Georgia 511, Ohio ITS, Houston TranStar, Minnesota MnDOT, and other state 511 feeds |
+| US | 26,574 | State DOTs, 511 feeds, and municipal traffic cameras |
 | CA | 1,283 | Ontario MTO, Alberta 511 |
 | HK | 994 | Hong Kong Transport Department |
 | ZA | 843 | i-traffic (South Africa) |
 | FI | 611 | Digitraffic weather cameras (Fintraffic) |
 | GB | 559 | London TfL JamCams and other UK feeds |
 | NZ | 251 | NZTA nationwide highways |
-| AU | 248 | Queensland DOT traffic + flood cameras and other AU feeds |
+| AU | 248 | Queensland DOT and other AU feeds |
 | BR | 178 | CET São Paulo urban traffic |
 | JP | 105 | NEXCO East expressways |
 | SG | 90 | Singapore LTA |
 | IE | 49 | TII motorway cams (M50 Dublin) |
-| other | 243 | Smaller and specialty sources (ES, CH, IT, NO, DE, and more; includes ~143 entries missing a country code) |
+| other | 243 | Smaller sources and incomplete country codes (??, ES, CH, IT, NO, DE, RU, FR, MT, SE, XX, TW, CW, MX, TH, NL, PT, AT, KE, ZM, …) |
+<!-- COUNTRY_TABLE_END -->
 
 Every camera has `country`, `city`, `location`, `timezone`, and `coordinates` (lat/lng) when the source provides them.
 

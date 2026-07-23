@@ -72,6 +72,13 @@ For developers and security reviewers:
 | Response size limit | 5MB max per snapshot |
 | Redirect limit | At most one hop; **each hop re-runs `isSafeUrl` + DNS pin** before follow (no blind axios auto-redirect) |
 | Client identity | User-Agent identifies OpenEagleEye + project URL (operators can recognize us in logs) |
+| Registry integrity | Bootstrap verifies `registry-manifest.json` sha256 before accepting cameras.json |
+| Per-host rate limit | Token bucket on snapshot fetches (configurable in `~/.openeagleeye/config.json`) |
+| Plain HTTP | Default allowed; set `allow_insecure_http: false` to require HTTPS |
+
+## Reporting a feed that should not be listed
+
+Use the `report_camera` tool or open a GitHub issue with label context. For sensitive cases, use [GitHub Security Advisories](https://github.com/stuchapin909/Open-Eagle-Eye/security/advisories/new). We only index feeds that are already public; we will remove entries that are private, non-consensual, or mis-classified.
 | Snapshot filenames | Random hex (8 bytes), no camera ID in path |
 
 The security implementation is in `src/security.js` and is shared between the server and the validator to prevent code drift.

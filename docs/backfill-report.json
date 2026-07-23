@@ -1,0 +1,19 @@
+{
+  "total": 32028,
+  "source_id_attached": 13811,
+  "country_filled": 0,
+  "timezone_filled": 0,
+  "zero_coords_cleared": 435,
+  "unchanged": 17797,
+  "by_method": {
+    "source_id:prefix": 13811,
+    "coordinates:clear_zero": 435
+  },
+  "remaining": {
+    "city": 428,
+    "country": 143,
+    "timezone": 149,
+    "coordinates": 435,
+    "verified_false": 1653
+  }
+}

@@ -9,7 +9,11 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "node --test src/security.test.js src/security.schema.test.js src/validate-registry.regression.test.js"
+    "test": "node --test src/*.test.js src/**/*.test.js",
+    "bench:search": "node scripts/bench-search.mjs",
+    "manifest": "node scripts/build-registry-manifest.js",
+    "backfill": "node scripts/backfill-metadata.mjs",
+    "counts": "node update-counts.js"
   },
   "keywords": [
     "mcp",
@@ -43,8 +47,12 @@
     "index.js",
     "server.js",
     "src/",
+    "sources/catalog.json",
+    "registry-manifest.json",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "docs/demo.md",
+    "examples/"
   ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.28.0",

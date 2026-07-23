@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "openeagleeye": {
+      "command": "npx",
+      "args": ["-y", "openeagleeye"]
+    }
+  }
+}

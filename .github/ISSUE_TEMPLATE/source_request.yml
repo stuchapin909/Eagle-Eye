@@ -1,0 +1,22 @@
+name: Source request
+description: Suggest a bulk camera network to research
+title: "[source] "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Network / operator name
+    validations:
+      required: true
+  - type: textarea
+    id: urls
+    attributes:
+      label: Known public endpoints or docs
+    validations:
+      required: true
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region
+      options: [US, CA, EU, APAC, Other]
