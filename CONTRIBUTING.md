@@ -116,7 +116,22 @@ Each camera in `cameras.json` follows this schema:
 
 **`country`:** ISO 3166-1 alpha-2 code (US, CA, GB, AU, NZ, JP, SG, HK, FI, BR, IE, etc.)
 
-**`category`:** One of: `city`, `park`, `highway`, `airport`, `port`, `weather`, `nature`, `landmark`, `other`
+**`category`:** One of: `city`, `park`, `highway`, `airport`, `port`, `weather`, `nature`, `landmark`, `other`, `beach`, `volcano`, `wildlife`, `aurora`, `ferry`, `dam`, `stadium`, `construction`, `ski_resort`, `traffic`
+
+**`auth`:** Prefer boolean `false` when no API key is needed. If a key is required, use an object:
+
+```json
+{
+  "key_required": true,
+  "provider": "Example DOT",
+  "signup_url": "https://example.com/signup",
+  "key_type": "query_params",
+  "key_names": ["api_key"],
+  "config_key": "EXAMPLE_API_KEY"
+}
+```
+
+Do not use empty objects `{}`, `null`, or `{ "required": false }` — those are normalized to `false`.
 
 **`coordinates`:** Always nested as `{"lat": number, "lng": number}`. Never flat top-level fields.
 

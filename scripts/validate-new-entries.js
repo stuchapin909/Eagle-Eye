@@ -47,7 +47,12 @@ const COUNTRY_BOUNDS = {
   CZ: [48.5, 51.1, 11.9, 18.9],
 };
 
-const VALID_CATEGORIES = ["city", "park", "highway", "airport", "port", "weather", "nature", "landmark", "other"];
+// Keep in sync with src/security.js VALID_CATEGORIES
+const VALID_CATEGORIES = [
+  "city", "park", "highway", "airport", "port", "weather", "nature", "landmark", "other",
+  "beach", "volcano", "wildlife", "aurora", "ferry", "dam", "stadium", "construction",
+  "ski_resort", "traffic",
+];
 
 const REQUIRED_FIELDS = [
   { name: "id", type: "string" },
@@ -60,7 +65,8 @@ const REQUIRED_FIELDS = [
   { name: "city", type: "string" },
   { name: "coordinates", type: "object" },
   { name: "verified", type: "boolean" },
-  { name: "auth", type: "boolean" },
+  // auth: boolean false, or object with key_required (see CONTRIBUTING.md)
+  { name: "auth", type: "any" },
 ];
 
 const errors = [];
@@ -81,6 +87,21 @@ function checkSchema(entry, index) {
   for (const field of REQUIRED_FIELDS) {
     if (!(field.name in entry)) {
       error(`Missing required field: ${field.name}`, id);
+      continue;
+    }
+    if (field.type === "any") continue;
+    if (field.name === "auth") {
+      const a = entry.auth;
+      const ok =
+        a === false ||
+        a === true ||
+        (a && typeof a === "object" && (a.key_required === true || a.key_required === false));
+      if (!ok && a !== false) {
+        // Allow boolean false; object with key_required; reject empty/null noise
+        if (a == null || (typeof a === "object" && Object.keys(a).length === 0)) {
+          error(`Field 'auth' should be false or an object with key_required (not null/empty)`, id);
+        }
+      }
       continue;
     }
     if (typeof entry[field.name] !== field.type) {

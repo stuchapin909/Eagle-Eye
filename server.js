@@ -10,8 +10,18 @@ import path from "path";
 import os from "os";
 import crypto from "crypto";
 import { fileURLToPath } from "url";
-import { isSafeUrl, getHeadersForUrl, detectImageType } from "./src/security.js";
+import {
+  isSafeUrl,
+  getHeadersForUrl,
+  detectImageType,
+  safeHttpGet,
+  buildPinnedLookup,
+  validateRedirectTarget,
+  VALID_CATEGORIES,
+} from "./src/security.js";
 import { ghIssueCreate, classifyGhError, checkGhAuth, checkDuplicateUrls } from "./src/github.js";
+
+const CATEGORY_ENUM = /** @type {[string, ...string[]]} */ (VALID_CATEGORIES);
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const VERSION = JSON.parse(fs.readFileSync(path.join(__dirname, "package.json"), "utf8")).version;
@@ -152,9 +162,15 @@ const ALLOWED_CONTENT_TYPES = ["image/jpeg", "image/png"];
  *
  * Returns { buf: Buffer, contentType: "image/jpeg" } or null on failure.
  */
-function extractMjpegFrame(url, headers, lookupFn, timeoutMs = 5000) {
+function extractMjpegFrame(url, headers, lookupFn, timeoutMs = 5000, redirectBudget = 1) {
   return new Promise((resolve) => {
-    const urlObj = new URL(url);
+    let urlObj;
+    try {
+      urlObj = new URL(url);
+    } catch {
+      resolve(null);
+      return;
+    }
     const mod = urlObj.protocol === "https:" ? https : http;
     const agentOpts = lookupFn ? { lookup: lookupFn } : {};
     const agent = urlObj.protocol === "https:"
@@ -167,10 +183,22 @@ function extractMjpegFrame(url, headers, lookupFn, timeoutMs = 5000) {
       agent,
     }, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        // Follow one redirect
+        // Follow at most one redirect — re-validate target with isSafeUrl (#55)
         agent.destroy();
-        extractMjpegFrame(res.headers.location, headers, lookupFn, timeoutMs)
-          .then(resolve).catch(() => resolve(null));
+        if (redirectBudget <= 0) {
+          resolve(null);
+          return;
+        }
+        validateRedirectTarget(url, res.headers.location)
+          .then((v) => {
+            if (!v.safe) {
+              resolve(null);
+              return;
+            }
+            return extractMjpegFrame(v.url, headers, v.lookup || lookupFn, timeoutMs, redirectBudget - 1);
+          })
+          .then(resolve)
+          .catch(() => resolve(null));
         return;
       }
       if (res.statusCode !== 200) {
@@ -364,6 +392,17 @@ function errResponse(error, extra = {}) {
   return { content: [{ type: "text", text: JSON.stringify({ error, ...extra }) }], isError: true };
 }
 
+function cameraSnapshotMeta(cam) {
+  return {
+    id: cam.id,
+    name: cam.name,
+    city: cam.city || null,
+    location: cam.location || null,
+    category: cam.category || "other",
+    coordinates: cam.coordinates || null,
+  };
+}
+
 // --- Shared snapshot download helper ---
 async function downloadSnapshot(cam) {
   const config = buildRequestConfig(cam);
@@ -372,70 +411,75 @@ async function downloadSnapshot(cam) {
   const safety = await isSafeUrl(config.url);
   if (!safety.safe) return { error: `Blocked: ${safety.reason}` };
 
-  // Pin resolved IPs to prevent TOCTOU DNS rebinding attacks.
-  // isSafeUrl already validated these IPs; we force axios to use them
-  // instead of performing a second DNS lookup.
   const resolvedIPs = safety.resolvedIPs || [];
-  const lookup = resolvedIPs.length > 0
-    ? (_hostname, opts, cb) => {
-        const family = opts.family || 0;
-        let ip = null;
-        if (family === 4) {
-          ip = resolvedIPs.find(a => !a.includes(':'));
-        } else if (family === 6) {
-          ip = resolvedIPs.find(a => a.includes(':'));
-        } else {
-          // family=0: prefer IPv4, fall back to IPv6
-          ip = resolvedIPs.find(a => !a.includes(':')) || resolvedIPs.find(a => a.includes(':'));
-        }
-        if (!ip) return cb(new Error(`No pinned IP found for family ${family}`));
-        cb(null, ip, ip.includes(':') ? 6 : 4);
-      }
-    : undefined;
+  const rawLookup = buildPinnedLookup(resolvedIPs);
 
-  const filename = `${crypto.randomBytes(8).toString('hex')}.jpg`;
+  const filename = `${crypto.randomBytes(8).toString("hex")}.jpg`;
   const fullPath = path.join(SNAPSHOTS_DIR, filename);
 
-  // Build a lookup function for the raw HTTP MJPEG path
-  const rawLookup = resolvedIPs.length > 0
-    ? (_hostname, opts, cb) => {
-        const family = opts.family || 0;
-        let ip = null;
-        if (family === 4) ip = resolvedIPs.find(a => !a.includes(':'));
-        else if (family === 6) ip = resolvedIPs.find(a => a.includes(':'));
-        else ip = resolvedIPs.find(a => !a.includes(':')) || resolvedIPs.find(a => a.includes(':'));
-        if (!ip) return cb(new Error(`No pinned IP found for family ${family}`));
-        cb(null, ip, ip.includes(':') ? 6 : 4);
-      }
-    : undefined;
-
   try {
-    // Probe for MJPEG: do a short GET with streaming to check content-type
-    // without buffering the whole response.
+    // Probe for MJPEG: short GET with streaming to check content-type
+    // without buffering the whole response. Redirects re-validated (#55).
     const isMjpeg = await new Promise((resolve) => {
-      const urlObj = new URL(config.url);
-      const mod = urlObj.protocol === "https:" ? https : http;
-      const agentOpts = rawLookup ? { lookup: rawLookup } : {};
-      const agent = urlObj.protocol === "https:"
-        ? new https.Agent({ ...agentOpts, keepAlive: false })
-        : new http.Agent({ ...agentOpts, keepAlive: false });
-      const req = mod.get(config.url, {
-        headers: config.headers,
-        timeout: 3000,
-        agent,
-      }, (res) => {
-        const ct = res.headers["content-type"] || "";
-        res.destroy();
-        agent.destroy();
-        resolve(ct.includes("multipart/x-mixed-replace") || ct.includes("multipart/mixed"));
-      });
-      req.on("error", () => resolve(false));
-      req.on("timeout", () => { req.destroy(); resolve(false); });
+      let settled = false;
+      const finish = (v) => {
+        if (!settled) {
+          settled = true;
+          resolve(v);
+        }
+      };
+
+      const probe = (url, lookupFn, redirectsLeft) => {
+        let urlObj;
+        try {
+          urlObj = new URL(url);
+        } catch {
+          finish(false);
+          return;
+        }
+        const mod = urlObj.protocol === "https:" ? https : http;
+        const agentOpts = lookupFn ? { lookup: lookupFn } : {};
+        const agent =
+          urlObj.protocol === "https:"
+            ? new https.Agent({ ...agentOpts, keepAlive: false })
+            : new http.Agent({ ...agentOpts, keepAlive: false });
+        const req = mod.get(
+          url,
+          { headers: config.headers, timeout: 3000, agent },
+          (res) => {
+            if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+              res.destroy();
+              agent.destroy();
+              if (redirectsLeft <= 0) {
+                finish(false);
+                return;
+              }
+              validateRedirectTarget(url, res.headers.location)
+                .then((v) => {
+                  if (!v.safe) finish(false);
+                  else probe(v.url, v.lookup || lookupFn, redirectsLeft - 1);
+                })
+                .catch(() => finish(false));
+              return;
+            }
+            const ct = res.headers["content-type"] || "";
+            res.destroy();
+            agent.destroy();
+            finish(ct.includes("multipart/x-mixed-replace") || ct.includes("multipart/mixed"));
+          }
+        );
+        req.on("error", () => finish(false));
+        req.on("timeout", () => {
+          req.destroy();
+          finish(false);
+        });
+      };
+
+      probe(config.url, rawLookup, 1);
     });
 
     if (isMjpeg) {
-      // MJPEG stream -- extract first JPEG frame
-      const frame = await extractMjpegFrame(config.url, config.headers, rawLookup, 5000);
+      const frame = await extractMjpegFrame(config.url, config.headers, rawLookup, 5000, 1);
       if (!frame || frame.buf.length < 500) {
         return { error: "MJPEG stream: could not extract a valid frame" };
       }
@@ -447,42 +491,46 @@ async function downloadSnapshot(cam) {
         size_bytes: frame.buf.length,
         content_type: "image/jpeg",
         source: "mjpeg",
-        camera: { id: cam.id, name: cam.name, location: cam.location, category: cam.category }
+        camera: cameraSnapshotMeta(cam),
       };
     }
 
-    // Standard image download via axios
-    const axiosOpts = {
-      responseType: 'arraybuffer',
-      timeout: 10000,
+    // Standard image download — redirect targets re-validated via safeHttpGet (#55)
+    const fetched = await safeHttpGet(config.url, {
       headers: config.headers,
+      timeout: 10000,
       maxContentLength: 5 * 1024 * 1024,
-      maxBodyLength: 5 * 1024 * 1024,
       maxRedirects: 1,
-    };
-    if (lookup) {
-      axiosOpts.httpAgent = new http.Agent({ lookup });
-      axiosOpts.httpsAgent = new https.Agent({ lookup });
+    });
+    if (!fetched.ok) {
+      return { error: `Snapshot failed: ${fetched.error}` };
     }
-    const response = await axios.get(config.url, axiosOpts);
-    let ct = response.headers['content-type'] || "";
-    let isAllowed = ALLOWED_CONTENT_TYPES.some(t => ct.includes(t));
-    const buf = Buffer.from(response.data);
+
+    let ct = fetched.headers["content-type"] || "";
+    let isAllowed = ALLOWED_CONTENT_TYPES.some((t) => ct.includes(t));
+    const buf = fetched.data;
     if (!isAllowed) {
       const detected = detectImageType(buf);
-      if (detected) { isAllowed = true; ct = detected; }
+      if (detected) {
+        isAllowed = true;
+        ct = detected;
+      }
     }
     if (!isAllowed) return { error: `Rejected content-type: ${ct}` };
-    if (buf.length > 5 * 1024 * 1024) return { error: `Response too large (${(buf.length / 1024 / 1024).toFixed(1)}MB)` };
-    if (buf.length < 500) return { error: `Response too small: ${buf.length} bytes (likely placeholder)` };
+    if (buf.length > 5 * 1024 * 1024) {
+      return { error: `Response too large (${(buf.length / 1024 / 1024).toFixed(1)}MB)` };
+    }
+    if (buf.length < 500) {
+      return { error: `Response too small: ${buf.length} bytes (likely placeholder)` };
+    }
     fs.writeFileSync(fullPath, buf);
     cleanupSnapshots();
     return {
       success: true,
       file_path: fullPath,
       size_bytes: buf.length,
-      content_type: ct.includes('png') ? 'image/png' : 'image/jpeg',
-      camera: { id: cam.id, name: cam.name, location: cam.location, category: cam.category }
+      content_type: ct.includes("png") ? "image/png" : "image/jpeg",
+      camera: cameraSnapshotMeta(cam),
     };
   } catch (e) {
     return { error: `Snapshot failed: ${e.message.substring(0, 200)}` };
@@ -521,7 +569,7 @@ server.tool("list_cameras", "Browse the camera registry. Returns cameras with id
   city: z.string().optional().describe("Filter by city name (e.g. 'London', 'New York', 'Sydney')"),
   country: z.string().optional().describe("Filter by country code or name (e.g. 'US', 'UK', 'Australia', 'JP')"),
   location: z.string().optional().describe("Filter by location string (e.g. 'Manhattan', 'Borough')"),
-  category: z.string().optional().describe("Filter by category: city, park, highway, airport, port, weather, nature, landmark, other"),
+  category: z.string().optional().describe(`Filter by category: ${VALID_CATEGORIES.join(", ")}`),
   limit: z.number().int().min(1).max(100).optional().describe("Max cameras to return (default 20, max 100)"),
   offset: z.number().int().min(0).optional().describe("Skip this many cameras (for pagination, default 0)"),
   include_aggregates: z.boolean().optional().describe("If true, include full city count map (large). Prefer cameras://stats for rollups. Default false.")
@@ -596,7 +644,7 @@ server.tool("nearby_cameras", "Find cameras within a geographic radius. Returns 
   lng: z.number().min(-180).max(180).describe("Longitude of the center point"),
   radius_km: z.number().min(1).max(500).optional().describe("Search radius in kilometers (default 25, max 500)"),
   limit: z.number().int().min(1).max(50).optional().describe("Max results (default 10, max 50)"),
-  category: z.string().optional().describe("Filter by category: city, park, highway, airport, port, weather, nature, landmark, other")
+  category: z.string().optional().describe(`Filter by category: ${VALID_CATEGORIES.join(", ")}`)
 }, async ({ lat, lng, radius_km, limit, category }) => {
   const radius = Math.min(radius_km || 25, 500);
   const maxResults = Math.min(limit || 10, 50);
@@ -626,7 +674,7 @@ server.tool("nearby_cameras", "Find cameras within a geographic radius. Returns 
 server.tool("explore_cameras", "Get random cameras from the registry for discovery. Returns a surprise selection. Filter by city, country, or category to narrow the pool, or leave empty for a truly random pick.", {
   city: z.string().optional().describe("Filter pool to this city (e.g. 'Tokyo', 'Paris')"),
   country: z.string().optional().describe("Filter pool to this country (e.g. 'JP', 'France')"),
-  category: z.string().optional().describe("Filter by category: city, park, highway, airport, port, weather, nature, landmark, other"),
+  category: z.string().optional().describe(`Filter by category: ${VALID_CATEGORIES.join(", ")}`),
   count: z.number().int().min(1).max(10).optional().describe("How many random cameras to return (default 3, max 10)")
 }, async ({ city, country, category, count }) => {
   const num = Math.min(count || 3, 10);
@@ -683,7 +731,7 @@ server.tool("add_local_camera", "Add a camera to your local collection. Local ca
   city: z.string().describe("City name (e.g. 'London', 'New York', 'Sydney')"),
   location: z.string().describe("Location description (e.g. 'Manhattan, New York, USA')"),
   timezone: z.string().describe("IANA timezone (e.g. 'America/New_York', 'Europe/London')"),
-  category: z.enum(["city", "park", "highway", "airport", "port", "weather", "nature", "landmark", "other"]).optional().describe("Camera category"),
+  category: z.enum(CATEGORY_ENUM).optional().describe("Camera category"),
   lat: z.number().min(-90).max(90).optional().describe("Latitude of the camera"),
   lng: z.number().min(-180).max(180).optional().describe("Longitude of the camera"),
   auth_provider: z.string().optional().describe("Provider name if API key is needed (e.g. 'Transport for London')"),

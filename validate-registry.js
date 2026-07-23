@@ -19,7 +19,12 @@ import axios from "axios";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { isSafeUrl, detectImageType, getHeadersForUrl } from "./src/security.js";
+import {
+  detectImageType,
+  getHeadersForUrl,
+  safeHttpGet,
+  VALID_CATEGORIES,
+} from "./src/security.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CAMERAS_PATH = path.join(__dirname, "cameras.json");
@@ -31,7 +36,6 @@ const PR_NUMBER = process.env.PR_NUMBER || "";
 const REPO_OWNER = process.env.REPO_OWNER || "stuchapin909";
 const REPO_NAME = process.env.REPO_NAME || "Open-Eagle-Eye";
 
-const VALID_CATEGORIES = ["city", "park", "highway", "airport", "port", "weather", "nature", "landmark", "other"];
 const ALLOWED_CONTENT_TYPES = ["image/jpeg", "image/png"];
 
 // Retry config: fail once → suspect, fail twice → remove
@@ -69,30 +73,22 @@ function validateSchema(entry, index) {
   return errors;
 }
 
-// --- URL liveness check ---
+// --- URL liveness check (redirect targets re-validated via safeHttpGet) ---
 async function checkUrl(urlStr) {
-  // SSRF check first
-  const safety = await isSafeUrl(urlStr);
-  if (!safety.safe) {
-    return { ok: false, status: 0, error: `Security: ${safety.reason}` };
-  }
-
   try {
-    const resp = await axios.get(urlStr, {
+    const fetched = await safeHttpGet(urlStr, {
       timeout: 10000,
       headers: getHeadersForUrl(urlStr),
-      responseType: 'arraybuffer',
       maxContentLength: 5 * 1024 * 1024,
-      maxBodyLength: 5 * 1024 * 1024,
       maxRedirects: 1,
     });
-    // Must be `let` — magic-byte fallback reassigns when CDN lies about content-type
-    // (matches server.js downloadSnapshot). Was `const` → TypeError → false failure (#51).
-    let ct = resp.headers['content-type'] || "";
-    const data = Buffer.from(resp.data);
-    // Strict content-type check: only jpeg and png
-    let isAllowedImage = ALLOWED_CONTENT_TYPES.some(t => ct.includes(t));
-    // Fallback: some CDNs return application/octet-stream for valid images — check magic bytes
+    if (!fetched.ok) {
+      return { ok: false, status: fetched.status || 0, error: `Security/HTTP: ${fetched.error}` };
+    }
+    // Must be `let` — magic-byte fallback reassigns when CDN lies about content-type (#51)
+    let ct = fetched.headers["content-type"] || "";
+    const data = fetched.data;
+    let isAllowedImage = ALLOWED_CONTENT_TYPES.some((t) => ct.includes(t));
     if (!isAllowedImage) {
       const detected = detectImageType(data);
       if (detected) {
@@ -100,7 +96,14 @@ async function checkUrl(urlStr) {
         ct = detected;
       }
     }
-    return { ok: true, isImage: isAllowedImage, contentType: ct, size: data.length, status: resp.status, data };
+    return {
+      ok: true,
+      isImage: isAllowedImage,
+      contentType: ct,
+      size: data.length,
+      status: fetched.status,
+      data,
+    };
   } catch (e) {
     return { ok: false, status: e.response?.status || 0, error: e.message.substring(0, 100) };
   }
