@@ -517,14 +517,15 @@ function mapCameraMeta(c, logs) {
 }
 
 // --- REGISTRY ---
-server.tool("list_cameras", "Browse the camera registry. Returns cameras with id, name, city, country, location, category, coordinates, and source (upstream or local). Supports filtering by city, country, location, and category. Use limit/offset for pagination — the full registry is large.", {
+server.tool("list_cameras", "Browse the camera registry. Returns cameras with id, name, city, country, location, category, coordinates, and source (upstream or local). Supports filtering by city, country, location, and category. Use limit/offset for pagination — the full registry is large. City/country aggregates are omitted by default (use cameras://stats or include_aggregates) to keep agent context small.", {
   city: z.string().optional().describe("Filter by city name (e.g. 'London', 'New York', 'Sydney')"),
   country: z.string().optional().describe("Filter by country code or name (e.g. 'US', 'UK', 'Australia', 'JP')"),
   location: z.string().optional().describe("Filter by location string (e.g. 'Manhattan', 'Borough')"),
   category: z.string().optional().describe("Filter by category: city, park, highway, airport, port, weather, nature, landmark, other"),
   limit: z.number().int().min(1).max(100).optional().describe("Max cameras to return (default 20, max 100)"),
-  offset: z.number().int().min(0).optional().describe("Skip this many cameras (for pagination, default 0)")
-}, async ({ city, country, location, category, limit, offset }) => {
+  offset: z.number().int().min(0).optional().describe("Skip this many cameras (for pagination, default 0)"),
+  include_aggregates: z.boolean().optional().describe("If true, include full city count map (large). Prefer cameras://stats for rollups. Default false.")
+}, async ({ city, country, location, category, limit, offset, include_aggregates }) => {
   if (allCameras.length === 0) return { content: [{ type: "text", text: JSON.stringify({ version: VERSION, total: 0, cameras: [], message: "Registry is empty." }) }] };
 
   const logs = getValidationLog();
@@ -543,7 +544,22 @@ server.tool("list_cameras", "Browse the camera registry. Returns cameras with id
   const paged = filtered.slice(effectiveOffset, effectiveOffset + effectiveLimit);
   const result = paged.map(c => mapCameraMeta(c, logs));
 
-  return { content: [{ type: "text", text: JSON.stringify({ version: VERSION, total: allCameras.length, filtered: totalFiltered, offset: effectiveOffset, limit: effectiveLimit, cities: cityCounts, cameras: result }, null, 2) }] };
+  // Default: omit full cities map (~2.8k keys / ~50KB) — agents should use cameras://stats (#52)
+  const payload = {
+    version: VERSION,
+    total: allCameras.length,
+    filtered: totalFiltered,
+    offset: effectiveOffset,
+    limit: effectiveLimit,
+    cameras: result,
+  };
+  if (include_aggregates) {
+    payload.cities = cityCounts;
+    payload.countries = countryCounts;
+    payload.categories = categoryCounts;
+  }
+
+  return { content: [{ type: "text", text: JSON.stringify(payload, null, 2) }] };
 });
 
 server.tool("search_cameras", "Search cameras by text. Matches against name, city, country, location, and category. Use when looking for cameras in a specific place or of a specific type.", {

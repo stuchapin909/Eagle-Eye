@@ -86,7 +86,9 @@ async function checkUrl(urlStr) {
       maxBodyLength: 5 * 1024 * 1024,
       maxRedirects: 1,
     });
-    const ct = resp.headers['content-type'] || "";
+    // Must be `let` — magic-byte fallback reassigns when CDN lies about content-type
+    // (matches server.js downloadSnapshot). Was `const` → TypeError → false failure (#51).
+    let ct = resp.headers['content-type'] || "";
     const data = Buffer.from(resp.data);
     // Strict content-type check: only jpeg and png
     let isAllowedImage = ALLOWED_CONTENT_TYPES.some(t => ct.includes(t));

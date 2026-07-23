@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "node --test src/security.test.js"
+    "test": "node --test src/security.test.js src/validate-registry.regression.test.js"
   },
   "keywords": [
     "mcp",

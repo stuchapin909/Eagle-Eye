@@ -42,14 +42,23 @@ A valid camera URL is any endpoint that returns a JPEG or PNG on a plain HTTP GE
 | Tool | Description |
 |---|---|
 | `get_snapshot` | Fetch a live image from a camera — saves to disk, returns file path |
-| `list_cameras` | Browse the registry with filters (city, location, category) |
-| `search_cameras` | Search by name, location, or category |
+| `get_snapshots` | Fetch live images from up to 5 cameras in one call |
+| `list_cameras` | Browse the registry with filters (city, country, location, category) and pagination |
+| `search_cameras` | Search by name, city, country, location, or category |
+| `get_camera_info` | Look up full metadata for one camera by ID (no snapshot) |
+| `nearby_cameras` | Find cameras within a radius of a lat/lng, sorted by distance |
+| `explore_cameras` | Return a random sample for discovery (optional city/country/category filter) |
 | `add_local_camera` | Add a camera to your local collection |
 | `list_local` | Show your locally-added cameras |
 | `remove_local` | Delete a locally-added camera |
 | `submit_local` | Share local cameras upstream via GitHub issue |
 | `report_camera` | Report a broken or low-quality camera |
 | `check_config` | Show API key configuration status |
+
+**Resource:** `cameras://stats` — registry totals, health counts, countries, categories, top cities.  
+**Prompt:** `discover-cameras` — guided workflow for finding and adding public sources.
+
+`list_cameras` omits the full city-count map by default (keeps agent context small). Pass `include_aggregates: true` if you need it, or read `cameras://stats`.
 
 ### Upstream vs local cameras
 
@@ -85,25 +94,27 @@ Every tool returns structured JSON. Snapshots save to disk and return the file p
 
 ## Registry
 
-~32,000 cameras across eleven countries (32,096 verified):
+~32,000 cameras across 40+ country codes (32,031 in registry at last sync — counts refresh with the nightly validator):
 
 ![Global Coverage](docs/coverage-map.svg)
 
 | Country | Count | Sources |
 |---|---|---|
-| US | 27,184 | NYC DOT, NY 511, WSDOT, Caltrans CWWP2, CDOT CoTrip, VDOT 511, FDOT FL511, NCDOT, PennDOT 511PA, Arizona ADOT, Oregon ODOT, Nevada NDOT, Utah UDOT, Wisconsin WisDOT, New England 511, Louisiana LADOTD, Alaska DOT&PF, Missouri MoDOT |
-| FI | 1,309 | Digitraffic weather cameras (Fintraffic) |
-| CA | 1,292 | Ontario MTO, Alberta 511 |
-| HK | 995 | Hong Kong Transport Department |
-| GB | 424 | London TfL JamCams |
-| NZ | 248 | NZTA nationwide highways |
-| AU | 247 | Queensland DOT traffic + flood cameras |
-| BR | 160 | CET São Paulo urban traffic |
-| JP | 98 | NEXCO East expressways |
+| US | 26,577 | NYC DOT, NY 511, WSDOT, Caltrans CWWP2, CDOT CoTrip, VDOT 511, FDOT FL511, NCDOT, PennDOT 511PA, Arizona ADOT, Oregon ODOT, Nevada NDOT, Utah UDOT, Wisconsin WisDOT, New England 511, Louisiana LADOTD, Alaska DOT&PF, Missouri MoDOT, Georgia 511, Ohio ITS, Houston TranStar, Minnesota MnDOT, and other state 511 feeds |
+| CA | 1,283 | Ontario MTO, Alberta 511 |
+| HK | 994 | Hong Kong Transport Department |
+| ZA | 843 | i-traffic (South Africa) |
+| FI | 611 | Digitraffic weather cameras (Fintraffic) |
+| GB | 559 | London TfL JamCams and other UK feeds |
+| NZ | 251 | NZTA nationwide highways |
+| AU | 248 | Queensland DOT traffic + flood cameras and other AU feeds |
+| BR | 178 | CET São Paulo urban traffic |
+| JP | 105 | NEXCO East expressways |
 | SG | 90 | Singapore LTA |
 | IE | 49 | TII motorway cams (M50 Dublin) |
+| other | 243 | Smaller and specialty sources (ES, CH, IT, NO, DE, and more; includes ~143 entries missing a country code) |
 
-Every camera has `country`, `city`, `location`, `timezone`, and `coordinates` (lat/lng).
+Every camera has `country`, `city`, `location`, `timezone`, and `coordinates` (lat/lng) when the source provides them.
 
 ### Self-healing
 
