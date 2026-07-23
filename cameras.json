@@ -277888,38 +277888,6 @@
     }
   },
   {
-    "id": "or-clackamas-co-valley-view-at-sunnyside-pid3089",
-    "name": "Clackamas Co - Valley View at Sunnyside",
-    "url": "https://tripcheck.com/roadcams/cams/Valley%20View%20at%20Sunnyside_pid3089.JPG",
-    "category": "city",
-    "location": "Oregon City, Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Oregon City",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.43328,
-      "lng": -122.54858
-    }
-  },
-  {
-    "id": "or-i-84-at-us97-biggs-jct-pid3097",
-    "name": "I-84 at US97 Biggs Jct.",
-    "url": "https://tripcheck.com/roadcams/cams/I-84%20at%20US97%20Biggs%20Jct._pid3097.JPG",
-    "category": "highway",
-    "location": "Oregon, USA",
-    "timezone": "America/Los_Angeles",
-    "country": "US",
-    "city": "Oregon",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 45.6713,
-      "lng": -120.83428
-    }
-  },
-  {
     "id": "or-portland-division-at-166th-pid4891",
     "name": "Portland - Division at 166th",
     "url": "https://tripcheck.com/roadcams/cams/SE%20Division%20at%20166th_pid4891.jpg",
@@ -458064,24 +458032,6 @@
     "coordinates": {
       "lat": 44.861248,
       "lng": -93.475613
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C30091",
-    "name": "I-394 WB @ Penn Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C30091",
-    "city": "Minneapolis",
-    "country": "US",
-    "location": "I-394HOV, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.969818,
-      "lng": -93.307056
     },
     "verified": true,
     "auth": {
