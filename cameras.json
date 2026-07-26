@@ -381120,22 +381120,6 @@
     }
   },
   {
-    "id": "ga-13746-i-185n",
-    "name": "GDOT-1454: I-185 N at UpperBigSpringsRd MM 45.7 (Troup)",
-    "url": "https://511ga.org/map/Cctv/21156",
-    "category": "highway",
-    "location": "Troup, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Troup",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.01221,
-      "lng": -84.952503
-    }
-  },
-  {
     "id": "ga-13747-i-20w",
     "name": "GDOT-1505: I-20 W at I-20 MM 200.3 (Richmond)",
     "url": "https://511ga.org/map/Cctv/21157",
@@ -387533,22 +387517,6 @@
     "coordinates": {
       "lat": 34.013431,
       "lng": -84.569774
-    }
-  },
-  {
-    "id": "ga-14182-i-75n",
-    "name": "GDOT-0431: I-75 N before ChastainRd MM 269.8 (Cobb)",
-    "url": "https://511ga.org/map/Cctv/21592",
-    "category": "highway",
-    "location": "Cobb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cobb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.02064,
-      "lng": -84.56989
     }
   },
   {
@@ -509187,22 +509155,6 @@
     "auth": false
   },
   {
-    "id": "ca-athabasca-allsky",
-    "name": "Athabasca University AllSky Camera",
-    "url": "http://autumn.athabascau.ca/magdata/HiQam/allsky/HiQam-resize.jpg",
-    "country": "CA",
-    "city": "Athabasca",
-    "category": "aurora",
-    "location": "Athabasca University, Athabasca, Alberta, Canada",
-    "timezone": "America/Edmonton",
-    "coordinates": {
-      "lat": 54.721,
-      "lng": -113.4146
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
     "id": "us-linuxkidd-allsky",
     "name": "LinuxKidd AllSky Camera",
     "url": "https://allsky.linuxkidd.com/image.jpg",
@@ -509230,22 +509182,6 @@
     "coordinates": {
       "lat": 30.5908,
       "lng": -96.3128
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "us-dutchghetto-allsky",
-    "name": "DutchGhetto AllSky Camera",
-    "url": "https://dutchghetto.com/allsky/image.jpg",
-    "country": "US",
-    "city": "Unknown",
-    "category": "aurora",
-    "location": "DutchGhetto AllSky Camera, USA",
-    "timezone": "America/New_York",
-    "coordinates": {
-      "lat": 0,
-      "lng": 0
     },
     "verified": true,
     "auth": false
