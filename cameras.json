@@ -376048,22 +376048,6 @@
     }
   },
   {
-    "id": "ga-13385-i-85n",
-    "name": "GDOT-0172: I-85 N before SR324 MM 116.8 (Gwinnett)",
-    "url": "https://511ga.org/map/Cctv/20795",
-    "category": "highway",
-    "location": "Gwinnett, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Gwinnett",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.05724,
-      "lng": -83.964838
-    }
-  },
-  {
     "id": "ga-13386-i-85n",
     "name": "GDOT-0175: I-85 N past HamiltonMillRd MM 119.3 (Gwinnett)",
     "url": "https://511ga.org/map/Cctv/20796",
@@ -380989,22 +380973,6 @@
     "coordinates": {
       "lat": 31.255819,
       "lng": -81.603466
-    }
-  },
-  {
-    "id": "ga-13737-i-95s",
-    "name": "GDOT-1409: I-95 S at HarrietsBluffRd MM 7 (Camden)",
-    "url": "https://511ga.org/map/Cctv/21147",
-    "category": "highway",
-    "location": "Camden, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Camden",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 30.846302,
-      "lng": -81.672396
     }
   },
   {
