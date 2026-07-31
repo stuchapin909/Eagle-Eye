@@ -386048,22 +386048,6 @@
     }
   },
   {
-    "id": "ga-14067-sr154w",
-    "name": "GDOT-0049: SR154 W past GreenbriarPkwy MM 22.9 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21477",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.691147,
-      "lng": -84.491327
-    }
-  },
-  {
     "id": "ga-14068-sr154w",
     "name": "GDOT-0052: SR154 W past DeloweDr MM 24.7 (Fulton)",
     "url": "https://511ga.org/map/Cctv/21478",
@@ -389949,22 +389933,6 @@
     "coordinates": {
       "lat": 32.918572,
       "lng": -83.708379
-    }
-  },
-  {
-    "id": "ga-14364-sr1s",
-    "name": "GDOT-1094: SR1/US27 S at TalbottonRd MM 9.1 (Muscogee)",
-    "url": "https://511ga.org/map/Cctv/21774",
-    "category": "highway",
-    "location": "Muscogee, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Muscogee",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.481165,
-      "lng": -84.987864
     }
   },
   {
