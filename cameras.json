@@ -390672,22 +390672,6 @@
     }
   },
   {
-    "id": "ga-14437-sr540e",
-    "name": "GDOT-1341: SR540/US80 E at ManchesterExpy MM 9.9 (Muscogee)",
-    "url": "https://511ga.org/map/Cctv/21847",
-    "category": "highway",
-    "location": "Muscogee, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Muscogee",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.539814,
-      "lng": -84.871328
-    }
-  },
-  {
     "id": "ga-14438-sr154e",
     "name": "GDOT-1344: SR154 E before GreenbriarPkwy MM 8.7 (Fulton)",
     "url": "https://511ga.org/map/Cctv/21848",
