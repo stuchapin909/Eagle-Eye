@@ -246816,22 +246816,6 @@
     }
   },
   {
-    "id": "pa-turnpike-i-76-eastbound-4791",
-    "name": "I-76 @ Valley Forge Interchange",
-    "url": "https://www.511pa.com/map/Cctv/4791",
-    "category": "highway",
-    "location": "Turnpike (I-76), Pennsylvania, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Turnpike (I-76)",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.087099,
-      "lng": -75.402492
-    }
-  },
-  {
     "id": "pa-turnpike-i-276-westbound-4793",
     "name": "I-276 @ Exit 340, Virginia Drive",
     "url": "https://www.511pa.com/map/Cctv/4793",
