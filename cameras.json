@@ -441963,24 +441963,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C792",
-    "name": "I-94 WB (MP 198)",
-    "url": "https://public.carsprogram.org/cameras/MN/C792",
-    "city": "Otsego",
-    "country": "US",
-    "location": "MnRoad, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.265603,
-      "lng": -93.715834
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C725",
     "name": "I-694 NB @ 10th St",
     "url": "https://public.carsprogram.org/cameras/MN/C725",
@@ -444890,24 +444872,6 @@
     "coordinates": {
       "lat": 43.848377,
       "lng": -93.285258
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C30733",
-    "name": "I-94 EB (Elm Creek Rest Area 4)",
-    "url": "https://public.carsprogram.org/cameras/MN/C30733",
-    "city": "Maple Grove",
-    "country": "US",
-    "location": "I-94, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.111779,
-      "lng": -93.472047
     },
     "verified": true,
     "auth": {
@@ -449847,24 +449811,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C901",
-    "name": "U.S.12 WB @ Central Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C901",
-    "city": "Wayzata",
-    "country": "US",
-    "location": "US 12, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.975645,
-      "lng": -93.501883
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30288",
     "name": "I-94 EB W of Co Rd 21 (Stagecoach Tr)",
     "url": "https://public.carsprogram.org/cameras/MN/C30288",
@@ -451629,24 +451575,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C392",
-    "name": "T.H.212 EB @ Mitchell Rd NB",
-    "url": "https://public.carsprogram.org/cameras/MN/C392",
-    "city": "Eden Prairie",
-    "country": "US",
-    "location": "US 212, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.861762,
-      "lng": -93.459565
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C624",
     "name": "I-35W NB @ 26th St",
     "url": "https://public.carsprogram.org/cameras/MN/C624",
@@ -452324,24 +452252,6 @@
     "coordinates": {
       "lat": 44.863371,
       "lng": -93.590096
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C341",
-    "name": "U.S.169 SB @ 109th Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C341",
-    "city": "Brooklyn Park",
-    "country": "US",
-    "location": "US 169, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.151714,
-      "lng": -93.391728
     },
     "verified": true,
     "auth": {
@@ -454862,24 +454772,6 @@
     "coordinates": {
       "lat": 47.677178,
       "lng": -91.61783
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C535-159",
-    "name": "I-535 NB (Blatnik Bridge)",
-    "url": "https://public.carsprogram.org/cameras/MN/C535-159",
-    "city": "Duluth",
-    "country": "US",
-    "location": "I-535, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 46.749325,
-      "lng": -92.100767
     },
     "verified": true,
     "auth": {
@@ -467397,24 +467289,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C5007",
-    "name": "T.H.5 WB @ T.H.41 NB",
-    "url": "https://public.carsprogram.org/cameras/MN/C5007",
-    "city": "Chanhassen",
-    "country": "US",
-    "location": "MN 41, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.863787,
-      "lng": -93.597251
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30390-v1",
     "name": "T.H.171 (St. Vincent - MP 2) View 1",
     "url": "https://public.carsprogram.org/cameras/MN/C30390-v1",
@@ -468110,24 +467984,6 @@
     "coordinates": {
       "lat": 45.159297,
       "lng": -93.163337
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-D6-C104",
-    "name": "I-35 NB (MP 64.0)",
-    "url": "https://public.carsprogram.org/cameras/MN/D6-C104",
-    "city": "3 miles north of Faribault",
-    "country": "US",
-    "location": "I-35, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.390552,
-      "lng": -93.292363
     },
     "verified": true,
     "auth": {
@@ -470151,24 +470007,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C30477",
-    "name": "I-35E NB @ Lone Oak Rd",
-    "url": "https://public.carsprogram.org/cameras/MN/C30477",
-    "city": "Eagan",
-    "country": "US",
-    "location": "I-35E, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.847783,
-      "lng": -93.153021
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30407-v1",
     "name": "T.H.23 (Richmond - MP 187.8) View 1",
     "url": "https://public.carsprogram.org/cameras/MN/C30407-v1",
@@ -470594,24 +470432,6 @@
     "coordinates": {
       "lat": 45.196115,
       "lng": -93.029615
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C3620",
-    "name": "T.H.36 EB @ Lake Elmo Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C3620",
-    "city": "Lake Elmo",
-    "country": "US",
-    "location": "MN 36, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.035573,
-      "lng": -92.883017
     },
     "verified": true,
     "auth": {
@@ -472430,24 +472250,6 @@
     "coordinates": {
       "lat": 45.011694,
       "lng": -93.055554
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C841",
-    "name": "I-94 EB @ T.H.280",
-    "url": "https://public.carsprogram.org/cameras/MN/C841",
-    "city": "Saint Paul",
-    "country": "US",
-    "location": "I-94, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.959723,
-      "lng": -93.20219
     },
     "verified": true,
     "auth": {
