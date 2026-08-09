@@ -49794,22 +49794,6 @@
   {
     "auth": false,
     "category": "highway",
-    "city": "Arcata",
-    "country": "US",
-    "id": "ca-caltrans-d1-hum-255-8465-h-st-arcata",
-    "location": "Arcata, CA, USA",
-    "name": "HUM-255-8.465: H St, Arcata",
-    "timezone": "America/Los_Angeles",
-    "url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/hum2558465hstar/hum2558465hstar.jpg",
-    "verified": true,
-    "coordinates": {
-      "lat": 40.865232,
-      "lng": -124.088173
-    }
-  },
-  {
-    "auth": false,
-    "category": "highway",
     "city": "Eureka",
     "country": "US",
     "id": "ca-caltrans-d1-us-101-eureka-4th-h-looking-north-cxxx",
@@ -50093,22 +50077,6 @@
     "coordinates": {
       "lat": 40.784357,
       "lng": -124.182874
-    }
-  },
-  {
-    "auth": false,
-    "category": "highway",
-    "city": "Arcata",
-    "country": "US",
-    "id": "ca-caltrans-d1-hum-255-g-st-looking-west-toward-h",
-    "location": "Arcata, CA, USA",
-    "name": "HUM-255: G St - Looking West toward H",
-    "timezone": "America/Los_Angeles",
-    "url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/hum255gstlookingwesttow/hum255gstlookingwesttow.jpg",
-    "verified": true,
-    "coordinates": {
-      "lat": 40.865026,
-      "lng": -124.087105
     }
   },
   {
@@ -387328,22 +387296,6 @@
     }
   },
   {
-    "id": "ga-14174-i-75n",
-    "name": "GDOT-0403: I-75 N at SR280 MM 261.2 (Cobb)",
-    "url": "https://511ga.org/map/Cctv/21584",
-    "category": "highway",
-    "location": "Cobb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cobb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.92298,
-      "lng": -84.484816
-    }
-  },
-  {
     "id": "ga-14175-i-75n",
     "name": "GDOT-0406: I-75 N before SR120 MM 262.3 (Cobb)",
     "url": "https://511ga.org/map/Cctv/21585",
@@ -388621,22 +388573,6 @@
     "coordinates": {
       "lat": 33.533764,
       "lng": -84.261069
-    }
-  },
-  {
-    "id": "ga-14268-sml-els",
-    "name": "GDOT-0737: SML_EL/I-75 S before FlippenRd MM 225.5 (Henry)",
-    "url": "https://511ga.org/map/Cctv/21678",
-    "category": "highway",
-    "location": "Henry, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Henry",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.520128,
-      "lng": -84.247715
     }
   },
   {
