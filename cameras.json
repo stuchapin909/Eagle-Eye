@@ -193472,22 +193472,6 @@
     }
   },
   {
-    "id": "fl-2974-sr-528-w-at-mm-8-8",
-    "name": "SR-528 W at MM 8.8",
-    "url": "https://www.fl511.com/map/Cctv/2974",
-    "category": "highway",
-    "location": "Orange, Florida, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Orange",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 28.450834,
-      "lng": -81.341232
-    }
-  },
-  {
     "id": "fl-2975-sr-528-e-at-mm-8-6",
     "name": "SR-528 E at MM 8.6",
     "url": "https://www.fl511.com/map/Cctv/2975",
