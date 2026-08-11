@@ -456391,24 +456391,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C30124",
-    "name": "T.H.52 NB @ Goodwin Ave (MP 102.5)",
-    "url": "https://public.carsprogram.org/cameras/MN/C30124",
-    "city": "3 miles south of Hampton",
-    "country": "US",
-    "location": "US 52, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.566586,
-      "lng": -92.955234
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30253",
     "name": "U.S.14 EB @ C.S.A.H.37",
     "url": "https://public.carsprogram.org/cameras/MN/C30253",
