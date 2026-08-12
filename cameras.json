@@ -388576,22 +388576,6 @@
     }
   },
   {
-    "id": "ga-14270-sml-els",
-    "name": "GDOT-0745: SML_EL/I-75 S before JodecoRd MM 222.6 (Henry)",
-    "url": "https://511ga.org/map/Cctv/21680",
-    "category": "highway",
-    "location": "Henry, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Henry",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.4859,
-      "lng": -84.218392
-    }
-  },
-  {
     "id": "ga-14271-sml-eln",
     "name": "GDOT-0749: SML_EL/I-75 N before JonesboroRd MM 220.9 (Henry)",
     "url": "https://511ga.org/map/Cctv/21681",
