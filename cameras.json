@@ -228432,22 +228432,6 @@
     }
   },
   {
-    "id": "nc-336-i-85-statesville-ave",
-    "name": "I-85 @ Statesville Ave.",
-    "url": "https://cfms.services.ncdot.gov/snapshots/chan-5161_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 35.273793,
-      "lng": -80.83075
-    }
-  },
-  {
     "id": "nc-350-i-485-walkers-ferry-rd",
     "name": "I-485 @ Walkers Ferry Rd",
     "url": "https://cfms.services.ncdot.gov/snapshots/chan-5249_h.jpg",
@@ -299677,22 +299661,6 @@
     "coordinates": {
       "lat": 41.88455,
       "lng": -112.48962
-    }
-  },
-  {
-    "id": "ut-120362",
-    "name": "US-6 RWIS NB @ Sphinx Siding / MP 295.93, GRR",
-    "url": "https://udottraffic.utah.gov/map/Cctv/120362",
-    "category": "highway",
-    "location": "Utah, Utah, USA",
-    "timezone": "America/Denver",
-    "country": "US",
-    "city": "Utah",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 39.0182,
-      "lng": -110.2904
     }
   },
   {
@@ -376669,22 +376637,6 @@
     "coordinates": {
       "lat": 33.745964,
       "lng": -84.428472
-    }
-  },
-  {
-    "id": "ga-13436-i-20e",
-    "name": "GDOT-0342: I-20 E before LoweryBlvd MM 55.3 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20846",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.741469,
-      "lng": -84.419873
     }
   },
   {
@@ -508834,22 +508786,6 @@
     "coordinates": {
       "lat": 31.585,
       "lng": 130.6567
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "ru-avachinsky-volcano",
-    "name": "Avachinsky Volcano",
-    "url": "http://www.kscnet.ru/ivs/video/Avachinsky/Avachinsky.jpg",
-    "country": "RU",
-    "city": "Kamchatka",
-    "category": "volcano",
-    "location": "Avachinsky Volcano, Kamchatka, Russia",
-    "timezone": "Asia/Kamchatka",
-    "coordinates": {
-      "lat": 53.2561,
-      "lng": 158.8347
     },
     "verified": true,
     "auth": false
