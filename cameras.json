@@ -49348,22 +49348,6 @@
     "category": "highway",
     "city": "Blue Lake",
     "country": "US",
-    "id": "ca-caltrans-d1-sr-299-berry-summit-vista-point-looking-east-c040",
-    "location": "Blue Lake, CA, USA",
-    "name": "SR-299 : Berry Summit Vista Point - Looking East (C040)",
-    "timezone": "America/Los_Angeles",
-    "url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299berrysummitvistapointlookingeast/sr299berrysummitvistapointlookingeast.jpg",
-    "verified": true,
-    "coordinates": {
-      "lat": 40.901985,
-      "lng": -123.78073
-    }
-  },
-  {
-    "auth": false,
-    "category": "highway",
-    "city": "Blue Lake",
-    "country": "US",
     "id": "ca-caltrans-d1-sr-299-berry-summit-vista-point-looking-west-c040",
     "location": "Blue Lake, CA, USA",
     "name": "SR-299 : Berry Summit Vista Point - Looking West (C040)",
@@ -247200,22 +247184,6 @@
     }
   },
   {
-    "id": "pa-turnpike-i-76-i-276-westbound-4823",
-    "name": "I-76 @ Exit 266, Lebanon/Manheim Interchange",
-    "url": "https://www.511pa.com/map/Cctv/4823",
-    "category": "highway",
-    "location": "Turnpike (I-76/I-276), Pennsylvania, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Turnpike (I-76/I-276)",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.23013,
-      "lng": -76.43648
-    }
-  },
-  {
     "id": "pa-turnpike-i-276-eastbound-4824",
     "name": "I-276 @ MP 352.4, Neshaminy Falls",
     "url": "https://www.511pa.com/map/Cctv/4824",
@@ -387101,22 +387069,6 @@
     "coordinates": {
       "lat": 33.71206,
       "lng": -84.28334
-    }
-  },
-  {
-    "id": "ga-14166-i-20w",
-    "name": "GDOT-0372: I-20 W at ColumbiaDr MM 66.4 (DeKalb)",
-    "url": "https://511ga.org/map/Cctv/21576",
-    "category": "highway",
-    "location": "DeKalb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "DeKalb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.716319,
-      "lng": -84.251968
     }
   },
   {
