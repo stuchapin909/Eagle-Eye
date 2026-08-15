@@ -247616,22 +247616,6 @@
     }
   },
   {
-    "id": "pa-ne-extension-i-476-southbound-4853",
-    "name": "I-476 @ Exit 95, Pocono Interchange",
-    "url": "https://www.511pa.com/map/Cctv/4853",
-    "category": "highway",
-    "location": "NE Extension (I-476), Pennsylvania, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "NE Extension (I-476)",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 41.073285,
-      "lng": -75.705776
-    }
-  },
-  {
     "id": "pa-ne-extension-i-476-southbound-4854",
     "name": "I-476 @ Keyser Ave Toll Plaza",
     "url": "https://www.511pa.com/map/Cctv/4854",
@@ -387405,22 +387389,6 @@
     "coordinates": {
       "lat": 34.07876,
       "lng": -84.651291
-    }
-  },
-  {
-    "id": "ga-14190-nwc-els",
-    "name": "GDOT-0455: NWC_EL/I-75 S before MtParanRd MM 256.8 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21600",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.870082,
-      "lng": -84.443631
     }
   },
   {
