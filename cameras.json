@@ -228800,22 +228800,6 @@
     }
   },
   {
-    "id": "nc-1252-i-85-s-sam-wilson-rd",
-    "name": "I-85 S @ Sam Wilson Rd",
-    "url": "https://cfms.services.ncdot.gov/snapshots/chan-5353_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 35.254872,
-      "lng": -80.982501
-    }
-  },
-  {
     "id": "nc-1254-i-85-s-belmont-rd",
     "name": "I-85 S @ Belmont Rd",
     "url": "https://cfms.services.ncdot.gov/snapshots/chan-5350_h.jpg",
@@ -228877,22 +228861,6 @@
     "coordinates": {
       "lat": 35.268847,
       "lng": -81.149469
-    }
-  },
-  {
-    "id": "nc-1303-i-485-outer-mm-16-1",
-    "name": "I-485 Outer MM 16.1",
-    "url": "https://cfms.services.ncdot.gov/snapshots/chan-5180_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 35.327637,
-      "lng": -80.929444
     }
   },
   {
@@ -440551,24 +440519,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C30143",
-    "name": "I-94 EB @ Dayton Pkwy NB",
-    "url": "https://public.carsprogram.org/cameras/MN/C30143",
-    "city": "Dayton",
-    "country": "US",
-    "location": "I-94, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.155647,
-      "lng": -93.509912
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C619",
     "name": "I-35W N-S @ 46th St",
     "url": "https://public.carsprogram.org/cameras/MN/C619",
@@ -458022,24 +457972,6 @@
     "coordinates": {
       "lat": 44.766738,
       "lng": -92.859201
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C044",
-    "name": "I-35E SB N of Co Rd 96 (MP 118.3)",
-    "url": "https://public.carsprogram.org/cameras/MN/C044",
-    "city": "1 mile north of White Bear Lake",
-    "country": "US",
-    "location": "I-35E, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 45.093796,
-      "lng": -93.051969
     },
     "verified": true,
     "auth": {
