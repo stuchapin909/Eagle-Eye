@@ -376592,22 +376592,6 @@
     }
   },
   {
-    "id": "ga-13440-i-20e",
-    "name": "GDOT-0355: I-20 E at BillKennedyWay MM 58.9 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20850",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.74326,
-      "lng": -84.35795
-    }
-  },
-  {
     "id": "ga-13441-i-20w",
     "name": "GDOT-0358: I-20 W past MaynardTerr MM 60 (DeKalb)",
     "url": "https://511ga.org/map/Cctv/20851",
