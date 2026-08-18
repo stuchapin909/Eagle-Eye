@@ -228528,22 +228528,6 @@
     }
   },
   {
-    "id": "nc-539-i-73-at-kings-mill-rd",
-    "name": "I-73 at Kings Mill Rd",
-    "url": "https://cfts.services.ncdot.gov:443/snapshots/chan-5972_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 36.01993,
-      "lng": -79.8738
-    }
-  },
-  {
     "id": "nc-687-158-neptune-dr-mm-9-5",
     "name": "158 @ Neptune Dr. (MM 9.5)",
     "url": "https://cfes.services.ncdot.gov/snapshots/chan-5329_h.jpg",
@@ -228573,22 +228557,6 @@
     "coordinates": {
       "lat": 36.455117,
       "lng": -76.029081
-    }
-  },
-  {
-    "id": "nc-974-i-85-at-nelson-farm-rd",
-    "name": "I-85 at Nelson Farm Rd",
-    "url": "https://cfts.services.ncdot.gov:443/snapshots/chan-5831_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 36.030441,
-      "lng": -79.718733
     }
   },
   {
@@ -228637,54 +228605,6 @@
     "coordinates": {
       "lat": 35.754746,
       "lng": -83.046525
-    }
-  },
-  {
-    "id": "nc-1171-i-785-i-840-at-mcknight-mill-rd",
-    "name": "I-785 / I-840 at McKnight Mill Rd",
-    "url": "https://cfts.services.ncdot.gov:443/snapshots/chan-5984_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 36.13861,
-      "lng": -79.72278
-    }
-  },
-  {
-    "id": "nc-1174-i-785-i-840-at-huffine-mill-rd",
-    "name": "I-785 / I-840 at Huffine Mill Rd",
-    "url": "https://cfts.services.ncdot.gov:443/snapshots/chan-5987_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 36.1049,
-      "lng": -79.69558
-    }
-  },
-  {
-    "id": "nc-1175-i-785-i-840-at-us-70",
-    "name": "I-785 / I-840 at US-70",
-    "url": "https://cfts.services.ncdot.gov:443/snapshots/chan-5988_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 36.08966,
-      "lng": -79.69768
     }
   },
   {
@@ -228925,22 +228845,6 @@
     "coordinates": {
       "lat": 35.504425,
       "lng": -80.866623
-    }
-  },
-  {
-    "id": "nc-1708-i-73s-i-40e",
-    "name": "I-73S @ I-40E",
-    "url": "https://cfts.services.ncdot.gov:443/snapshots/chan-5947_h.jpg",
-    "category": "highway",
-    "location": "North Carolina, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Unknown",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 36.065032,
-      "lng": -79.921287
     }
   },
   {
