@@ -6915,22 +6915,6 @@
     "category": "city",
     "city": "New York",
     "country": "US",
-    "id": "nyc-dyer-ave-at-w-40-st",
-    "location": "Manhattan, New York, USA",
-    "name": "Dyer Ave @ W 40 St",
-    "timezone": "America/New_York",
-    "url": "https://nyctmc.org/api/cameras/bb362cd8-057b-4538-bdee-cf846a725ea0/image",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.7577,
-      "lng": -73.9948
-    }
-  },
-  {
-    "category": "city",
-    "city": "New York",
-    "country": "US",
     "id": "nyc-canal-st-at-greenwich-st-holland-tunnel",
     "location": "Manhattan, New York, USA",
     "name": "Canal St @ Greenwich St ( Holland Tunnel )",
@@ -375280,22 +375264,6 @@
     }
   },
   {
-    "id": "ga-13348-sr154w",
-    "name": "GDOT-0053: SR154 W at DeloweDr MM 25.2 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20758",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.699473,
-      "lng": -84.456513
-    }
-  },
-  {
     "id": "ga-13349-sr154w",
     "name": "GDOT-0056: SR154 W past US29 MM 26.2 (Fulton)",
     "url": "https://511ga.org/map/Cctv/20759",
@@ -376445,22 +376413,6 @@
     "coordinates": {
       "lat": 33.76462,
       "lng": -84.49242
-    }
-  },
-  {
-    "id": "ga-13435-i-20w",
-    "name": "GDOT-0339: I-20 W at LanghornSt MM 54.7 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20845",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.745964,
-      "lng": -84.428472
     }
   },
   {
