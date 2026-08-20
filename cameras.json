@@ -508403,22 +508403,6 @@
     "auth": false
   },
   {
-    "id": "us-aaronvivo-skycam",
-    "name": "AaronVivo SkyCam",
-    "url": "https://skycam.aaronvivo.com/image.jpg",
-    "country": "US",
-    "city": "Unknown",
-    "category": "aurora",
-    "location": "AaronVivo SkyCam, USA",
-    "timezone": "America/New_York",
-    "coordinates": {
-      "lat": 0,
-      "lng": 0
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
     "id": "us-isle-royale-greenstone-ridge",
     "name": "Isle Royale Greenstone Ridge",
     "url": "https://www.nps.gov/webcams-isro/greenstoneridgene.jpg",
