@@ -408089,22 +408089,6 @@
     }
   },
   {
-    "id": "oh-city-of-columbus-karl-rd-at-evaline-dr",
-    "name": "(City of Columbus) Karl Rd at Evaline Dr",
-    "url": "https://itscameras.dot.state.oh.us/images/CMH/Evaline-Karl.jpg",
-    "category": "highway",
-    "location": "Columbus, Ohio, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Columbus",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.05391,
-      "lng": -82.976418
-    }
-  },
-  {
     "id": "oh-mason-rd-montgomery-rd",
     "name": "Mason Rd & Montgomery Rd",
     "url": "https://itscameras.dot.state.oh.us/images/artimis/FEMM183.jpg",
