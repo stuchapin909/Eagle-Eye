@@ -447489,24 +447489,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C30002",
-    "name": "T.H.210 WB @ 6th St SB",
-    "url": "https://public.carsprogram.org/cameras/MN/C30002",
-    "city": "Brainerd",
-    "country": "US",
-    "location": "MN 210, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 46.357957,
-      "lng": -94.200237
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C342",
     "name": "U.S.169 SB @ 114th Ave (Elm Creek Pkwy)",
     "url": "https://public.carsprogram.org/cameras/MN/C342",
@@ -449904,24 +449886,6 @@
     "id": "us-minnesota-mndot-C30391-v2",
     "name": "T.H.200 (Halstad - MP 9) View 2",
     "url": "https://public.carsprogram.org/cameras/MN/C30391-v2",
-    "city": "10 miles west of Ada",
-    "country": "US",
-    "location": "MN 200, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 47.2958,
-      "lng": -96.731649
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C30391-v3",
-    "name": "T.H.200 (Halstad - MP 9) View 3",
-    "url": "https://public.carsprogram.org/cameras/MN/C30391-v3",
     "city": "10 miles west of Ada",
     "country": "US",
     "location": "MN 200, Minnesota",
