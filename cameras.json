@@ -7939,22 +7939,6 @@
     "category": "city",
     "city": "New York",
     "country": "US",
-    "id": "nyc-bruckner-blvd-e-white-plains-rd-camera-1",
-    "location": "Bronx, New York, USA",
-    "name": "Bruckner Blvd E / White Plains Rd- Camera 1",
-    "timezone": "America/New_York",
-    "url": "https://nyctmc.org/api/cameras/0951f345-28ef-447c-af7f-1cb4e0e16aa8/image",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.825717,
-      "lng": -73.859182
-    }
-  },
-  {
-    "category": "city",
-    "city": "New York",
-    "country": "US",
     "id": "nyc-major-deegan-expy-atvan-cortland-pk-s",
     "location": "Bronx, New York, USA",
     "name": "Major Deegan Expy @Van Cortland Pk S",
@@ -247264,22 +247248,6 @@
     }
   },
   {
-    "id": "pa-turnpike-i-76-eastbound-4838",
-    "name": "I-76 @ Exit 286, Reading Interchange",
-    "url": "https://www.511pa.com/map/Cctv/4838",
-    "category": "highway",
-    "location": "Turnpike (I-76), Pennsylvania, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Turnpike (I-76)",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 40.216001,
-      "lng": -76.07516
-    }
-  },
-  {
     "id": "pa-ne-extension-i-476-northbound-4839",
     "name": "I-476 @ MP 19.9 (I-276/I-476 Junction)",
     "url": "https://www.511pa.com/map/Cctv/4839",
@@ -377616,22 +377584,6 @@
     }
   },
   {
-    "id": "ga-13521-i-675n",
-    "name": "GDOT-0618: I-675 N before I-285 MM 10 (DeKalb)",
-    "url": "https://511ga.org/map/Cctv/20931",
-    "category": "highway",
-    "location": "DeKalb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "DeKalb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.671703,
-      "lng": -84.326007
-    }
-  },
-  {
     "id": "ga-13522-nwc-elu",
     "name": "GDOT-0621: NWC_EL/I-285 CW at MtWilkinsonPkwy MM 19.9 (Cobb)",
     "url": "https://511ga.org/map/Cctv/20932",
@@ -386285,22 +386237,6 @@
     "coordinates": {
       "lat": 33.910027,
       "lng": -84.427316
-    }
-  },
-  {
-    "id": "ga-14117-i-285u",
-    "name": "GDOT-0210: I-285 CCW at MtVernonHwy MM 25.6 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21527",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.914965,
-      "lng": -84.400031
     }
   },
   {
