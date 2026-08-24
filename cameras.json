@@ -503199,22 +503199,6 @@
     "auth": false
   },
   {
-    "id": "ca-bc-ferries-lng-cam2",
-    "name": "Langdale Terminal Cam 2",
-    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_LNG.jpg",
-    "country": "CA",
-    "city": "Gibsons",
-    "category": "ferry",
-    "location": "Langdale Terminal, Gibsons, Canada",
-    "timezone": "America/Vancouver",
-    "coordinates": {
-      "lat": 49.4033,
-      "lng": -123.5086
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
     "id": "ca-bc-ferries-nan-cam2",
     "name": "Departure Bay Terminal Cam 2",
     "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_NAN.jpg",
