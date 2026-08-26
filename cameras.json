@@ -376256,22 +376256,6 @@
     }
   },
   {
-    "id": "ga-13424-i-20w",
-    "name": "GDOT-0303: I-20 W at SR92 MM 37.4 (Douglas)",
-    "url": "https://511ga.org/map/Cctv/20834",
-    "category": "highway",
-    "location": "Douglas, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Douglas",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.750924,
-      "lng": -84.715768
-    }
-  },
-  {
     "id": "ga-13425-i-20e",
     "name": "GDOT-0306: I-20 E before NCountyLineRd MM 39.3 (Douglas)",
     "url": "https://511ga.org/map/Cctv/20835",
@@ -377184,22 +377168,6 @@
     }
   },
   {
-    "id": "ga-13494-i-75s",
-    "name": "GDOT-0534: I-75 S past SR92 MM 275.1 (Cherokee)",
-    "url": "https://511ga.org/map/Cctv/20904",
-    "category": "highway",
-    "location": "Cherokee, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cherokee",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 34.07819,
-      "lng": -84.62575
-    }
-  },
-  {
     "id": "ga-13495-i-75n",
     "name": "GDOT-0537: I-75 N at SR92 MM 276.6 (Cherokee)",
     "url": "https://511ga.org/map/Cctv/20905",
@@ -377501,22 +377469,6 @@
     "coordinates": {
       "lat": 33.948977,
       "lng": -84.235519
-    }
-  },
-  {
-    "id": "ga-13515-sr141s",
-    "name": "GDOT-0598: SR141 S past WintersChapelRd MM 6.8 (DeKalb)",
-    "url": "https://511ga.org/map/Cctv/20925",
-    "category": "highway",
-    "location": "DeKalb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "DeKalb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.92761,
-      "lng": -84.273177
     }
   },
   {
@@ -457423,24 +457375,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C1110",
-    "name": "West River St SB",
-    "url": "https://public.carsprogram.org/cameras/MN/C1110",
-    "city": "Minneapolis",
-    "country": "US",
-    "location": "I-35W, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.977337,
-      "lng": -93.245466
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C30373-v1",
     "name": "U.S.12 (Holloway - MP 27.0) View 1",
     "url": "https://public.carsprogram.org/cameras/MN/C30373-v1",
@@ -468756,24 +468690,6 @@
     "coordinates": {
       "lat": 45.085243,
       "lng": -93.009572
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C1109",
-    "name": "@ 6th Ave",
-    "url": "https://public.carsprogram.org/cameras/MN/C1109",
-    "city": "Minneapolis",
-    "country": "US",
-    "location": "I-35W, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.979706,
-      "lng": -93.244406
     },
     "verified": true,
     "auth": {
