@@ -386704,22 +386704,6 @@
     }
   },
   {
-    "id": "ga-14163-i-20e",
-    "name": "GDOT-0363: I-20 E at FayettevilleRd MM 62.1 (DeKalb)",
-    "url": "https://511ga.org/map/Cctv/21573",
-    "category": "highway",
-    "location": "DeKalb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "DeKalb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.723782,
-      "lng": -84.324157
-    }
-  },
-  {
     "id": "ga-14164-i-20e",
     "name": "GDOT-0366: I-20 E at FlatShoalsRd MM 63.3 (DeKalb)",
     "url": "https://511ga.org/map/Cctv/21574",
@@ -502070,22 +502054,6 @@
     "coordinates": {
       "lat": 42.33,
       "lng": -83.05
-    },
-    "verified": true,
-    "auth": false
-  },
-  {
-    "id": "us-dataw-eagles",
-    "name": "Dataw Eagles",
-    "url": "https://storage.hdontap.com/wowza_stream_thumbnails/snapshot_hosb3_dataw_eagles-small_ptz.stream.jpg",
-    "country": "US",
-    "city": "Dataw Island",
-    "category": "wildlife",
-    "location": "Dataw Eagles, Dataw Island, US",
-    "timezone": "America/New_York",
-    "coordinates": {
-      "lat": 32.38,
-      "lng": -80.42
     },
     "verified": true,
     "auth": false
