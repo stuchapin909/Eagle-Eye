@@ -299440,22 +299440,6 @@
     }
   },
   {
-    "id": "ut-120432",
-    "name": "SR-39 RWIS WB @ Monte Cristo / MP 46.2, RI",
-    "url": "https://udottraffic.utah.gov/map/Cctv/120432",
-    "category": "highway",
-    "location": "Richfield, Utah, USA",
-    "timezone": "America/Denver",
-    "country": "US",
-    "city": "Richfield",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 41.4446,
-      "lng": -111.5056
-    }
-  },
-  {
     "id": "ut-120454",
     "name": "SR-73 @ Milepost 20, FRF",
     "url": "https://udottraffic.utah.gov/map/Cctv/120454",
