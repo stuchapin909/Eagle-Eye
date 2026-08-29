@@ -389040,22 +389040,6 @@
     }
   },
   {
-    "id": "ga-14342-i-475s",
-    "name": "GDOT-1024: I-475 S before ColumbusRd MM 5 (Bibb)",
-    "url": "https://511ga.org/map/Cctv/21752",
-    "category": "highway",
-    "location": "Bibb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Bibb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.822545,
-      "lng": -83.730485
-    }
-  },
-  {
     "id": "ga-14344-i-475n",
     "name": "GDOT-1030: I-475 N before PeakeRd MM 8.2 (Bibb)",
     "url": "https://511ga.org/map/Cctv/21754",
@@ -390141,22 +390125,6 @@
     "coordinates": {
       "lat": 34.03804,
       "lng": -84.037457
-    }
-  },
-  {
-    "id": "ga-14444-sr74w",
-    "name": "GDOT-1369: SR74 W past LogCabinRd MM 10.9 (Bibb)",
-    "url": "https://511ga.org/map/Cctv/21854",
-    "category": "highway",
-    "location": "Bibb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Bibb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 32.82083,
-      "lng": -83.695497
     }
   },
   {
