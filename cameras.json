@@ -375424,22 +375424,6 @@
     }
   },
   {
-    "id": "ga-13367-i-75n",
-    "name": "GDOT-0113: I-75/I-85 N at SR54 MM 244.8 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/20777",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.72288,
-      "lng": -84.39397
-    }
-  },
-  {
     "id": "ga-13369-i-85s",
     "name": "GDOT-0119: I-85 S at I-285 MM 95.5 (DeKalb)",
     "url": "https://511ga.org/map/Cctv/20779",
