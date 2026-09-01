@@ -379920,22 +379920,6 @@
     }
   },
   {
-    "id": "ga-13699-unitedavew",
-    "name": "GDOT-1282: UnitedAve W at LesterSt MM 0 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21109",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.727129,
-      "lng": -84.360413
-    }
-  },
-  {
     "id": "ga-13700-sr39w",
     "name": "GDOT-1286: SR30/US280 W at SR31 MM 11.2 (Telfair)",
     "url": "https://511ga.org/map/Cctv/21110",
