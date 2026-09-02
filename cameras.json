@@ -388384,22 +388384,6 @@
     }
   },
   {
-    "id": "ga-14293-sr400s",
-    "name": "GDOT-0823: SR400/US19 S past I-285 MM 5.9 (Fulton)",
-    "url": "https://511ga.org/map/Cctv/21703",
-    "category": "highway",
-    "location": "Fulton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Fulton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.89906,
-      "lng": -84.36221
-    }
-  },
-  {
     "id": "ga-14294-sr400s",
     "name": "GDOT-0826: SR400/US19 S at MtVernonHwy MM 0 (Fulton)",
     "url": "https://511ga.org/map/Cctv/21704",
@@ -388797,22 +388781,6 @@
     "coordinates": {
       "lat": 33.811717,
       "lng": -84.497429
-    }
-  },
-  {
-    "id": "ga-14325-i-285u",
-    "name": "GDOT-0961: I-285 CW at SR280 MM 16.5 (Cobb)",
-    "url": "https://511ga.org/map/Cctv/21735",
-    "category": "highway",
-    "location": "Cobb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Cobb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.825319,
-      "lng": -84.489082
     }
   },
   {
@@ -450686,24 +450654,6 @@
     "coordinates": {
       "lat": 44.984426,
       "lng": -93.41139
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C1686",
-    "name": "T.H.61 SB @ Warner Rd",
-    "url": "https://public.carsprogram.org/cameras/MN/C1686",
-    "city": "Saint Paul",
-    "country": "US",
-    "location": "US 61, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.946983,
-      "lng": -93.040183
     },
     "verified": true,
     "auth": {
