@@ -326608,22 +326608,6 @@
     }
   },
   {
-    "id": "ut-123560",
-    "name": "SR-30 RWIS WB @ Curlew Junction / MP 72.36, BE",
-    "url": "https://udottraffic.utah.gov/map/Cctv/123560",
-    "category": "city",
-    "location": "Pleasant Grove, Utah, USA",
-    "timezone": "America/Denver",
-    "country": "US",
-    "city": "Pleasant Grove",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 41.9379,
-      "lng": -113.0858
-    }
-  },
-  {
     "id": "ut-123565",
     "name": "2100 N / SR-194 EB @ Redwood Rd, LHI",
     "url": "https://udottraffic.utah.gov/map/Cctv/123565",
@@ -451590,24 +451574,6 @@
     "coordinates": {
       "lat": 44.872342,
       "lng": -93.167438
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
-    "id": "us-minnesota-mndot-C30003",
-    "name": "T.H.210 WB @ Gillis Ave SB",
-    "url": "https://public.carsprogram.org/cameras/MN/C30003",
-    "city": "Brainerd",
-    "country": "US",
-    "location": "MN 210, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 46.359748,
-      "lng": -94.189625
     },
     "verified": true,
     "auth": {
