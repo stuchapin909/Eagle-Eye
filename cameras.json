@@ -455271,24 +455271,6 @@
     }
   },
   {
-    "id": "us-minnesota-mndot-C30107",
-    "name": "T.H.52 NB N of C.S.A.H.7 (MP 82)",
-    "url": "https://public.carsprogram.org/cameras/MN/C30107",
-    "city": "4 miles north of Zumbrota",
-    "country": "US",
-    "location": "US 52, Minnesota",
-    "category": "highway",
-    "timezone": "America/Chicago",
-    "coordinates": {
-      "lat": 44.331381,
-      "lng": -92.730084
-    },
-    "verified": true,
-    "auth": {
-      "required": false
-    }
-  },
-  {
     "id": "us-minnesota-mndot-C060",
     "name": "I-35 NB @ U.S.8",
     "url": "https://public.carsprogram.org/cameras/MN/C060",
