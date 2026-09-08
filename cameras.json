@@ -375936,22 +375936,6 @@
     }
   },
   {
-    "id": "ga-13406-i-285u",
-    "name": "GDOT-0238: I-285 CCW past NorthlakePkwy MM 36.8 (DeKalb)",
-    "url": "https://511ga.org/map/Cctv/20816",
-    "category": "highway",
-    "location": "DeKalb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "DeKalb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.86387,
-      "lng": -84.24825
-    }
-  },
-  {
     "id": "ga-13407-i-285u",
     "name": "GDOT-0241: I-285 CW at SR236 MM 38 (DeKalb)",
     "url": "https://511ga.org/map/Cctv/20817",
@@ -376061,22 +376045,6 @@
     "coordinates": {
       "lat": 33.7268,
       "lng": -84.23262
-    }
-  },
-  {
-    "id": "ga-13414-i-285u",
-    "name": "GDOT-0263: I-285 CW at RainbowDr MM 48 (DeKalb)",
-    "url": "https://511ga.org/map/Cctv/20824",
-    "category": "highway",
-    "location": "DeKalb, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "DeKalb",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.709447,
-      "lng": -84.24644
     }
   },
   {
@@ -377789,22 +377757,6 @@
     "coordinates": {
       "lat": 33.55627,
       "lng": -84.305004
-    }
-  },
-  {
-    "id": "ga-13543-i-75n",
-    "name": "GDOT-0719: I-75 N at HudsonBridgeRd MM 224.2 (Henry)",
-    "url": "https://511ga.org/map/Cctv/20953",
-    "category": "highway",
-    "location": "Henry, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Henry",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.505678,
-      "lng": -84.230352
     }
   },
   {
@@ -387901,22 +387853,6 @@
     "coordinates": {
       "lat": 34.064309,
       "lng": -84.614435
-    }
-  },
-  {
-    "id": "ga-14260-i-75n",
-    "name": "GDOT-0701: I-75 N at US41 MM 234.6 (Clayton)",
-    "url": "https://511ga.org/map/Cctv/21670",
-    "category": "highway",
-    "location": "Clayton, Georgia, USA",
-    "timezone": "America/New_York",
-    "country": "US",
-    "city": "Clayton",
-    "verified": true,
-    "auth": false,
-    "coordinates": {
-      "lat": 33.58555,
-      "lng": -84.377929
     }
   },
   {
